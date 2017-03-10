@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:abstractions="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="Jaktloggen.Views.JaktPage">
+
+    <TableView HasUnevenRows="True">
+        <TableRoot>
+            <TableSection Title="">
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" IsVisible="False">
+                        <abstractions:CircleImage BorderColor="White" BorderThickness="2"
+                                        HeightRequest="100" WidthRequest="100"
+                                        Aspect="AspectFill" HorizontalOptions="Center" Margin="10"
+                                        Source="{Binding CurrentJakt.Image}"></abstractions:CircleImage>
+
+                        <Label Text="{Binding CurrentJakt.Title}" HorizontalTextAlignment="Center"></Label>
+
+                        <StackLayout Margin="10" VerticalOptions="CenterAndExpand">
+                            <StackLayout Orientation="Horizontal" x:Name="HuntersStackLayout"></StackLayout>
+                            <StackLayout Orientation="Horizontal" x:Name="DogsStackLayout"></StackLayout>
+                        </StackLayout>
+
+                    </StackLayout>
+                </ViewCell>
+
+                <EntryCell Text="{Binding CurrentJakt.Sted}" Label="Sted" HorizontalTextAlignment="End" Completed="EntryCell_OnCompleted" />
+
+                <ViewCell>
+                    <Button Text="Ny loggføring" x:Name="ButtonNewLog" Clicked="ButtonNewLog_OnClicked"></Button>
+                </ViewCell>
+
+                <ViewCell Tapped="ItemLoggsCell_OnTapped">
+                    <StackLayout Orientation="Horizontal" Padding="10">
+                        <Label Text="Loggføringer" VerticalOptions="CenterAndExpand" />
+                        <Label Text="{Binding LogCountLabel}" HorizontalOptions="EndAndExpand" />
+                    </StackLayout>
+                </ViewCell>
+
+                <ViewCell x:Name="ItemImageCell" Tapped="ItemImageCell_OnTapped">
+                    <StackLayout Orientation="Horizontal" Padding="10">
+                        <Label Text="Jaktbilde" VerticalOptions="CenterAndExpand" />
+                        <abstractions:CircleImage Source="{Binding CurrentJakt.Image}" BorderThickness="1" BorderColor="White" HeightRequest="40" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+                </ViewCell>
+
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="10">
+                        <Label Text="Dato fra" VerticalOptions="CenterAndExpand"/>
+                        <DatePicker Date="{Binding CurrentLogg.DatoFra}" HorizontalOptions="EndAndExpand" />
+                    </StackLayout>
+                </ViewCell>
+
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="10">
+                        <Label Text="Dato til" VerticalOptions="CenterAndExpand" />
+                        <DatePicker Date="{Binding CurrentLogg.DatoTil}" HorizontalOptions="EndAndExpand" />
+                    </StackLayout>
+                </ViewCell>
+
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="10">
+                        <maps:Map WidthRequest="320" HeightRequest="200"
+                    x:Name="MyMap"
+                    IsShowingUser="true"
+                    MapType="Hybrid"
+                />
+
+                    </StackLayout>
+                </ViewCell>
+                <ViewCell x:Name="ViewCellLocation" Tapped="ViewCellLocation_OnTapped">
+                    <Label Text="Lokasjon" />
+                    <Label Text="{Binding CurrentLogg.Latitude}" HorizontalOptions="End" />
+                    <Label Text=", " />
+                    <Label Text="{Binding CurrentLogg.Longitude}" HorizontalOptions="End" />
+                </ViewCell>
+                <!--<EntryCell Text="{Binding CurrentJakt.Notes}" Label="Notater" HorizontalTextAlignment="End" Completed="EntryCell_OnCompleted" />-->
+
+                <ViewCell>
+                    <StackLayout Padding="10">
+                        <Label Text="Notater" />
+                        <!--<Editor Text="{Binding CurrentJakt.Notes}" Completed="EntryCell_OnCompleted"></Editor>-->
+                    </StackLayout>
+
+                </ViewCell>
+
+                <ViewCell>
+                    <Button x:Name="ButtonDelete" Text="Slett" IsVisible="{Binding JegerExists}" Clicked="ButtonDelete_OnClicked"></Button>
+                </ViewCell>
+
+            </TableSection>
+
+        </TableRoot>
+    </TableView>
+
+
+
+
+
+</ContentPage>
