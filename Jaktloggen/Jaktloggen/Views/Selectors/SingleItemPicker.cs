@@ -12,7 +12,7 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.Views
 {
-    public class SingleItemPicker : ContentPage
+    public class SingleItemPicker : Base.ContentPageJL
     {
         public List<string> ItemCollection;
         private Action<SingleItemPicker> _callback;

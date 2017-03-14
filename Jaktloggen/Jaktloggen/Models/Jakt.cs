@@ -9,7 +9,7 @@ using Xamarin.Forms;
 namespace Jaktloggen.Models
 {
     [ImplementPropertyChanged]
-    public class Jakt : EntityBase
+    public class Jakt : EntityBase, IPosition
     {
         public int ID { get; set; }
         public string Sted { get; set; }
@@ -62,7 +62,7 @@ namespace Jaktloggen.Models
         [XmlIgnore] [JsonIgnore]
         public string Position
         {
-            get { return string.IsNullOrWhiteSpace(Latitude) ? "Posisjon ikke satt" : Latitude + ", " + Longitude; }
+            get { return string.IsNullOrWhiteSpace(Latitude) ? "Ikke satt" : "Vis posisjon"; }
         }
         
         [XmlIgnore] [JsonIgnore]

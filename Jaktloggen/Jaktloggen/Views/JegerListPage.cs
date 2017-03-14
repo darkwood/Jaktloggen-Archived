@@ -12,7 +12,7 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.Views
 {
-    public class JegerListPage : ContentPage
+    public class JegerListPage : Base.ContentPageJL
     {
         private JegerListVM VM;
         public JegerListPage()

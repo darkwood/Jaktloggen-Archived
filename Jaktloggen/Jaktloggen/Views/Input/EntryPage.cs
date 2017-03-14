@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.Views.Input
 {
-    public class EntryPage : ContentPage
+    public class EntryPage : Base.ContentPageJL
     {
         private string _value;
 

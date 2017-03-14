@@ -11,7 +11,7 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.Views
 {
-    public class ArtPage : ContentPage
+    public class ArtPage : Base.ContentPageJL
     {
         private ArtVM VM;
         public ArtPage(Art art)

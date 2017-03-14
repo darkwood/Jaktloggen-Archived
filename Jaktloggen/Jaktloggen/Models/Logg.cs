@@ -9,11 +9,12 @@ using System.Xml.Serialization;
 using Newtonsoft.Json;
 using PropertyChanged;
 using Xamarin.Forms;
+using Xamarin.Forms.Maps;
 
 namespace Jaktloggen.Models
 {
     [ImplementPropertyChanged]
-    public class Logg : EntityBase
+    public class Logg : EntityBase, IPosition
     {
         public int ID { get; set; }
         public int Treff { get; set; }
@@ -58,11 +59,11 @@ namespace Jaktloggen.Models
                 }
                 else
                 {
-                    details += Dato.ToString("dd MMM kl. hh:mm", new CultureInfo("nb-NO"));
+                    details += Dato.ToString("dd.MM, hh:mm", new CultureInfo("nb-NO"));
                 }
                 if (JegerId > 0)
                 {
-                    details += " - " + Jeger.Navn;
+                    details += " - " + Jeger.Firstname;
                 }
 
                 return details;
@@ -160,5 +161,18 @@ namespace Jaktloggen.Models
             }
         }
 
+        [XmlIgnore]
+        [JsonIgnore]
+        public string Coordinates
+        {
+            get
+            {
+                if (string.IsNullOrWhiteSpace(Latitude))
+                {
+                    return "Ikke satt";
+                }
+                return "Vis";
+            }
+        }
     }
 }

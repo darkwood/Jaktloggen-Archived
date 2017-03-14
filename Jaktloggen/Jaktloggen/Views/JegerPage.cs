@@ -11,7 +11,7 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.Views
 {
-    public class JegerPage : ContentPage
+    public class JegerPage : Base.ContentPageJL
     {
         private JegerVM VM;
         public JegerPage(Jeger jeger)

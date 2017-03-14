@@ -13,7 +13,7 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.Views
 {
-    public class StatsDetailsPage : ContentPage
+    public class StatsDetailsPage : Base.ContentPageJL
     {
         public StatsDetailsVM VM;
         public StatsDetailsPage(StatItem item)
@@ -26,7 +26,7 @@ namespace Jaktloggen.Views
             base.OnAppearing();
             Init();
         }
-
+        
         public void Init()
         {
             ListView lv = new ListView();

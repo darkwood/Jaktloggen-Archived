@@ -80,16 +80,14 @@ namespace Jaktloggen.Views.Cells
                 Orientation = StackOrientation.Horizontal,
                 VerticalOptions = LayoutOptions.FillAndExpand,
                 HorizontalOptions = LayoutOptions.FillAndExpand,
-                Padding = 5,
-                Children =
-                {
-                    CircleImage,
-                    TitleLabel,
-                    DetailsLabel,
-                    SecondaryImage
-                }
+                Padding = 10,
             };
-
+            
+            //stackLayout.Children.Add(CircleImage);
+            stackLayout.Children.Add(TitleLabel);
+            stackLayout.Children.Add(DetailsLabel);
+            //stackLayout.Children.Add(SecondaryImage);
+            
             View = stackLayout;
         }
 
@@ -103,11 +101,8 @@ namespace Jaktloggen.Views.Cells
             {
                 TitleLabel.Text = Text;
                 DetailsLabel.Text = Detail;
-                CircleImage.Source = ImageSource;
-                SecondaryImage.Source = SecondaryImageSource;
-
-                DetailsLabel.FontSize = Detail.Length < 10 ? 14 : 10;
-
+                //CircleImage.Source = ImageSource;
+                //SecondaryImage.Source = SecondaryImageSource;
             }
         }
     }

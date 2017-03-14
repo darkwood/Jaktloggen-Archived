@@ -27,33 +27,42 @@ namespace Jaktloggen.ViewModels
         private IEnumerable<Art> _arter;
         private IEnumerable<Logg> _loggs;
 
+        private List<StatItem> _settList;
+        private List<StatItem> _shotList;
+        private List<StatItem> _hitList;
         public StatsListVM()
         {
+            _jegere = App.Database.GetJegere();
+            _loggs = App.Database.GetLoggs();
+            _arter = App.Database.GetArter();
+
             ItemCollection = new ObservableRangeCollection<StatItem>();
         }
 
         public void BindData()
         {
+            SetStatCollections();
+
             ItemCollection = new ObservableRangeCollection<StatItem>();
-            _jegere = App.Database.GetJegere();
-            _loggs = App.Database.GetLoggs();
-            _arter = App.Database.GetArter();
+            
 
             ItemCollection.Add(new StatItem()
             {
                 Title = "Felt vilt",
                 Details = _loggs.Sum(s => s.Treff).ToString(),
-                Items = GetArterHitStats()
+                Items = _hitList
             });
             ItemCollection.Add(new StatItem()
             {
                 Title = "Observervasjoner",
                 Details = _loggs.Sum(s => s.Sett).ToString(),
+                Items = _settList
             });
             ItemCollection.Add(new StatItem()
             {
                 Title = "Skudd",
-                Details = _loggs.Sum(s => s.Skudd).ToString()
+                Details = _loggs.Sum(s => s.Skudd).ToString(),
+                Items = _shotList
             });
 
             if (_jegere.Any())
@@ -92,6 +101,8 @@ namespace Jaktloggen.ViewModels
             });
         }
 
+        
+
         private Dictionary<Jeger, decimal> GetJegereHitRate()
         {
             var result = new Dictionary<Jeger, decimal>();
@@ -103,7 +114,7 @@ namespace Jaktloggen.ViewModels
                 var rate = shots > 0 ? Math.Round((decimal)hits * 100 / shots) : 0;
                 result.Add(jeger, rate);
             }
-            return result;
+            return result.OrderByDescending(o => o.Value).ToDictionary(o => o.Key, o => o.Value);
         }
         private Dictionary<Jeger, int> GetJegereHitCount()
         {
@@ -114,27 +125,51 @@ namespace Jaktloggen.ViewModels
                 var hits = mylogs.Sum(m => m.Treff);
                 result.Add(jeger, hits);
             }
-            return result;
+            return result.OrderByDescending(o => o.Value).ToDictionary(o => o.Key, o => o.Value);
         }
-        private List<StatItem> GetArterHitStats()
+        private void SetStatCollections()
         {
-            var result = new List<StatItem>();
+            _settList = new List<StatItem>();
+            _shotList = new List<StatItem>();
+            _hitList = new List<StatItem>();
+
             foreach (var art in _arter)
             {
                 var mylogs = _loggs.Where(l => l.ArtId == art.ID);
+                var sett = mylogs.Sum(m => m.Sett);
+                var shots = mylogs.Sum(m => m.Skudd);
                 var hits = mylogs.Sum(m => m.Treff);
-                if (hits > 0)
+                if (sett > 0)
                 {
-                    result.Add(new StatItem
+                    _settList.Add(new StatItem
                     {
                         Title = art.Navn,
-                        Details = hits.ToString(),
+                        Count = sett,
+                        Image = art.Image
+                    });
+                }
+                if (shots > 0)
+                {
+                    _shotList.Add(new StatItem
+                    {
+                        Title = art.Navn,
+                        Count = shots,
+                        Image = art.Image
+                    });
+                }
+                if (hits > 0)
+                {
+                    _hitList.Add(new StatItem
+                    {
+                        Title = art.Navn,
+                        Count = hits,
                         Image = art.Image
                     });
                 }
             }
-
-            return result;
+            _settList = _settList.OrderByDescending(o => o.Count).ToList();
+            _shotList = _shotList.OrderByDescending(o => o.Count).ToList();
+            _hitList = _hitList.OrderByDescending(o => o.Count).ToList();
         }
     }
 }

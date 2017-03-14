@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.Views.Input
 {
-    public class DatePage : ContentPage
+    public class DatePage : Base.ContentPageJL
     {
         private bool _useTime;
         public DateTime DateFrom;

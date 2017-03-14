@@ -96,9 +96,10 @@ namespace Jaktloggen.ViewModels
             if (CurrentJakt.JegerIds.Count == 1)
             {
                 logg.JegerId = CurrentJakt.JegerIds.First();
+            } else if (App.Database.GetJegere().Count() == 1)
+            {
+                logg.JegerId = App.Database.GetJegere().Single().ID;
             }
-            //TODO: Add location based on current location
-
             return logg;
         }
     }

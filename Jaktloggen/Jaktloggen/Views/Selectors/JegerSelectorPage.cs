@@ -12,7 +12,7 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.Views
 {
-    public class JegerSelectorPage : ContentPage
+    public class JegerSelectorPage : Base.ContentPageJL
     {
         private JegerSelectorVM VM;
         public JegerSelectorPage(Logg currentLogg)

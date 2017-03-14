@@ -13,7 +13,7 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.Views
 {
-    public class JaktPage : ContentPage
+    public class JaktPage : Base.ContentPageJL
     {
         private JaktVM VM;
         public JaktPage(Jakt jakt)
@@ -36,8 +36,9 @@ namespace Jaktloggen.Views
             tableSection.Add(new JL_TextCell("Sted", VM.CurrentJakt.Title, StedCell_OnTapped));
             tableSection.Add(new JL_ImageCell("Jaktbilde", VM.CurrentJakt.Image, ImageCell_OnTapped));
             tableSection.Add(new JL_TextCell("Dato", VM.CurrentJakt.DatoFraTil, DateCell_OnTapped));
-            tableSection.Add(new JL_TextCell("Posisjon", VM.CurrentJakt.Position));
+            tableSection.Add(new JL_TextCell("Posisjon", VM.CurrentJakt.Position, Posisjon_OnTapped));
             tableSection.Add(new JL_TextCell("Notater", VM.CurrentJakt.Notes, NoteCell_OnTapped));
+            tableSection.Add(new JL_TextCell("Se alle loggføringer på kartet", ">>", ViewLogsOnMap_OnTapped));
 
             Content = new TableViewJL
             {
@@ -52,7 +53,23 @@ namespace Jaktloggen.Views
                 },
             };
         }
-        
+
+        private async void ViewLogsOnMap_OnTapped(object sender, EventArgs eventArgs)
+        {
+            await Navigation.PushAsync(new PositionLogsPage(VM.ItemCollection));
+        }
+
+        private async void Posisjon_OnTapped(object sender, EventArgs eventArgs)
+        {
+            await Navigation.PushModalAsync(
+                new PositionPage(VM.CurrentJakt, delegate(PositionPage page)
+                {
+                    VM.CurrentJakt.Latitude = page.Position.Latitude.ToString();
+                    VM.CurrentJakt.Longitude = page.Position.Longitude.ToString();
+                    VM.Save();
+                }));
+        }
+
         private async void StedCell_OnTapped(object sender = null, EventArgs e = null)
         {
             await Navigation.PushAsync(

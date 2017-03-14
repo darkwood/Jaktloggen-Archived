@@ -4,6 +4,8 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
+using System.Threading.Tasks;
+using Jaktloggen.Helpers;
 using Jaktloggen.Models;
 using Jaktloggen.ViewModels;
 using Jaktloggen.Views.Base;
@@ -13,14 +15,15 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.Views
 {
-    public class LoggPage : ContentPage
+    public class LoggPage : Base.ContentPageJL
     {
         private LoggVM VM;
+        private ActivityIndicator PositionActivityIndicator;
 
         public LoggPage(Logg logg)
         {
+            PositionActivityIndicator = new ActivityIndicator();
             BindingContext = VM = new LoggVM(logg);
-
         }
 
         protected override void OnAppearing()
@@ -34,8 +37,19 @@ namespace Jaktloggen.Views
             VM.BindData();
             Title = VM.CurrentLogg.Title;
 
+            PositionActivityIndicator.SetBinding(ActivityIndicator.IsVisibleProperty, new Binding("IsLoadingPosition"));
+            
             var tableSection = new TableSection();
 
+            tableSection.Add(new JL_TextCell("Posisjon", VM.CurrentLogg.Coordinates, delegate (object sender, EventArgs args)
+            {
+                Navigation.PushModalAsync(new PositionPage(VM.CurrentLogg, delegate(PositionPage page)
+                {
+                    VM.CurrentLogg.Latitude = page.Position.Latitude.ToString();
+                    VM.CurrentLogg.Longitude = page.Position.Longitude.ToString();
+                    VM.Save();
+                }));
+            }));
             tableSection.Add(new JL_TextCell("Art", VM.CurrentLogg.Art.Navn, delegate (object sender, EventArgs args)
             {
                 Navigation.PushAsync(new ArtSelectorPage(VM.CurrentLogg));
@@ -162,7 +176,7 @@ namespace Jaktloggen.Views
         private static int GetNumericValue(string value)
         {
             var i = 0;
-            if(int.TryParse(value, out i))
+            if (int.TryParse(value, out i))
             {
                 return i;
             }
@@ -171,7 +185,7 @@ namespace Jaktloggen.Views
 
         private JL_TextCell CreateNumericTextCell(string label, string value, Action<EntryPage> callback)
         {
-            return new JL_TextCell(label, value, delegate(object sender, EventArgs args)
+            return new JL_TextCell(label, value, delegate (object sender, EventArgs args)
             {
                 Navigation.PushAsync(
                     new EntryPage(

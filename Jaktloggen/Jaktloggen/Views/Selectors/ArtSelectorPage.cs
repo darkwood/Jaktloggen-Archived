@@ -12,7 +12,7 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.Views
 {
-    public class ArtSelectorPage : ContentPage
+    public class ArtSelectorPage : Base.ContentPageJL
     {
         private ArtSelectorVM VM;
         public ArtSelectorPage(Logg currentLogg)

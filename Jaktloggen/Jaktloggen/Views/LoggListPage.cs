@@ -16,7 +16,7 @@ using Xamarin.Forms.Maps;
 
 namespace Jaktloggen.Views
 {
-    public class LoggListPage : ContentPage
+    public class LoggListPage : Base.ContentPageJL
     {
         private JaktVM VM;
         private ActivityIndicator PositionActivityIndicator;
@@ -58,23 +58,24 @@ namespace Jaktloggen.Views
             if (acceptUseGps)
             {
                 ToggleLoadPosition();
-                await FindPositionAndStoreData();
-                ToggleLoadPosition();
-            }
-        }
-        private async Task FindPositionAndStoreData()
-        {
-            var position = await XLabsHelper.GetPosition();
-            if (position != null)
-            {
-                VM.CurrentJakt.Latitude = position.Latitude.ToString();
-                VM.CurrentJakt.Longitude = position.Longitude.ToString();
-                var sted = await XLabsHelper.GetLocationNameForPosition(position.Latitude, position.Longitude);
-                if (!string.IsNullOrWhiteSpace(sted))
+
+                var position = await XLabsHelper.GetPosition();
+                if (position != null)
                 {
-                    VM.CurrentJakt.Sted = sted;
+                    VM.CurrentJakt.Latitude = position.Latitude.ToString();
+                    VM.CurrentJakt.Longitude = position.Longitude.ToString();
+
+                    var sted = await XLabsHelper.GetLocationNameForPosition(position.Latitude, position.Longitude);
+                    
+                    if (!string.IsNullOrWhiteSpace(sted))
+                    {
+                        VM.CurrentJakt.Sted = sted;
+                    }
+
+                    VM.Save();
                 }
-                VM.Save();
+
+                ToggleLoadPosition();
             }
         }
         

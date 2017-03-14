@@ -38,6 +38,7 @@
     <Compile Include="App.cs" />
     <Compile Include="Data\FileRepository.cs" />
     <Compile Include="Helpers\Converters.cs" />
+    <Compile Include="Helpers\MapHelper.cs" />
     <Compile Include="Helpers\Utils.cs" />
     <Compile Include="Helpers\XlabsHelper.cs" />
     <Compile Include="Interfaces\IDataRepository.cs" />
@@ -46,6 +47,7 @@
     <Compile Include="MainPage.cs" />
     <Compile Include="Models\EntityBase.cs" />
     <Compile Include="Models\Extensions\EntityExtensions.cs" />
+    <Compile Include="Models\IPosition.cs" />
     <Compile Include="Models\IEntity.cs" />
     <Compile Include="Models\StatItem.cs" />
     <Compile Include="Models\Art.cs" />
@@ -72,6 +74,11 @@
     <Compile Include="ViewModels\Selectors\DogSelectorVM.cs" />
     <Compile Include="ViewModels\Selectors\JegerSelectorVM.cs" />
     <Compile Include="ViewModels\Stats\StatsDetailsVM.cs" />
+    <Compile Include="Views\Base\ContentPageJL.cs" />
+    <Compile Include="Views\Cells\JL_LocationCell.cs" />
+    <Compile Include="Views\Extended\ExtendedMap.cs" />
+    <Compile Include="Views\Input\PositionLogsPage.cs" />
+    <Compile Include="Views\Input\PositionPage.cs" />
     <Compile Include="Views\JegerPage.cs" />
     <Compile Include="Views\Selectors\ArtSelectorPage.cs" />
     <Compile Include="Views\Selectors\DogSelectorPage.cs" />

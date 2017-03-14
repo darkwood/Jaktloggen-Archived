@@ -11,7 +11,7 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.Views
 {
-    public class DogPage : ContentPage
+    public class DogPage : Base.ContentPageJL
     {
         private DogVM VM;
         public DogPage(Dog dog)
