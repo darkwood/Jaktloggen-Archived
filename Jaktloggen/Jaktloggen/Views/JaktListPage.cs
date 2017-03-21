@@ -17,8 +17,9 @@ namespace Jaktloggen.Views
         private JaktListVM VM;
         public JaktListPage()
         {
+            Title = "Jaktloggen";
             BindingContext = VM = new JaktListVM();
-            ToolbarItems.Add(new ToolbarItem("+", "add.png", CreateNewItem, ToolbarItemOrder.Primary));
+            ToolbarItems.Add(new ToolbarItem("Ny jakt", null, CreateNewItem, ToolbarItemOrder.Primary));
         }
 
         private async void CreateNewItem()

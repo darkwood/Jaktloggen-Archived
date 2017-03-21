@@ -69,7 +69,7 @@ namespace Jaktloggen.Data
             {
                 LocalFileStorage.CopyToAppFolder(FILE_LOGGTYPER);
             }
-
+            
             GetJegere();
             GetArter();
             GetDogs();

@@ -17,6 +17,7 @@ namespace Jaktloggen.Views
         private StatsListVM VM;
         public StatsListPage()
         {
+            Title = "Statistikk";
             BindingContext = VM = new StatsListVM();
         }
 

@@ -18,14 +18,9 @@ namespace Jaktloggen.Views.Input
     {
         public Position Position { get; set; }
         public string Status { get; set; } = "Sett posisjon";
-        public PositionPageVM(Position position)
-        {
-            Position = position;
-        }
     }
     public class PositionPage : Base.ContentPageJL
     {
-        public Position Position { get; set; }
         private Action<PositionPage> _callback;
         private IPosition _page;
 
@@ -34,19 +29,30 @@ namespace Jaktloggen.Views.Input
         public PositionPage(IPosition page, Action<PositionPage> callback)
         {
             _page = page;
+            BindingContext = VM = new PositionPageVM();
+
             double lat, lon;
             if (double.TryParse(page.Latitude, out lat) && double.TryParse(page.Longitude, out lon))
             {
-                Position = new Position(lat, lon);
+                VM.Position = new Position(lat, lon); ;
             }
-
-            BindingContext = VM = new PositionPageVM(Position);
-
+            else
+            {
+                MoveToCurrentPosition();
+            }
             _callback = callback;
             InitMap();
         }
 
-        
+        private async void MoveToCurrentPosition()
+        {
+            VM.Status = "Henter GPS-posisjon...";
+            var pos = await Helpers.XLabsHelper.GetPosition();
+            VM.Position = new Position(pos.Latitude, pos.Longitude);
+            VM.Status = "Posisjon funnet";
+            SetPinAtPosition();
+        }
+
         private void InitMap()
         {
             
@@ -103,12 +109,8 @@ namespace Jaktloggen.Views.Input
         
         private async void MapOnTap(object sender, TapEventArgs tapEventArgs)
         {
-            //var ok = await DisplayAlert("Flyttet markør", "Ønsker du å flytte markøren hit?", "OK", "Avbryt");
-            //if (ok)
-            //{
-                Position = tapEventArgs.Position;
-                SetPinAtPosition();
-            //}
+            VM.Position = tapEventArgs.Position;
+            SetPinAtPosition();
         }
 
         //todo: make MapOnZoom event and store radius value (distance)
@@ -125,12 +127,10 @@ namespace Jaktloggen.Views.Input
 
             CurrentMap.MoveToRegion(
                 MapSpan.FromCenterAndRadius(
-                    Position,
+                    VM.Position,
                     Distance.FromKilometers(2)
                 )
             );
-            
-            VM.Position = Position;
         }
 
         private Pin CreatePin()
@@ -138,7 +138,7 @@ namespace Jaktloggen.Views.Input
             return new Pin
             {
                 Type = PinType.Place,
-                Position = Position,
+                Position = VM.Position,
                 Label = "Valgt posisjon"
             };
         }

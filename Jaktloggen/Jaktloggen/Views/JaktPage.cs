@@ -23,6 +23,7 @@ namespace Jaktloggen.Views
 
         protected override void OnAppearing()
         {
+            Title = "Rediger jakt";
             base.OnAppearing();
             Init();
         }
@@ -30,7 +31,7 @@ namespace Jaktloggen.Views
         public void Init()
         {
             VM.BindData();
-            Title = VM.CurrentJakt.Title;
+            
             
             var tableSection = new TableSection("Rediger detaljer om jaktturen");
             tableSection.Add(new JL_TextCell("Sted", VM.CurrentJakt.Title, StedCell_OnTapped));
@@ -64,8 +65,8 @@ namespace Jaktloggen.Views
             await Navigation.PushModalAsync(
                 new PositionPage(VM.CurrentJakt, delegate(PositionPage page)
                 {
-                    VM.CurrentJakt.Latitude = page.Position.Latitude.ToString();
-                    VM.CurrentJakt.Longitude = page.Position.Longitude.ToString();
+                    VM.CurrentJakt.Latitude = page.VM.Position.Latitude.ToString();
+                    VM.CurrentJakt.Longitude = page.VM.Position.Longitude.ToString();
                     VM.Save();
                 }));
         }

@@ -45,8 +45,8 @@ namespace Jaktloggen.Views
             {
                 Navigation.PushModalAsync(new PositionPage(VM.CurrentLogg, delegate(PositionPage page)
                 {
-                    VM.CurrentLogg.Latitude = page.Position.Latitude.ToString();
-                    VM.CurrentLogg.Longitude = page.Position.Longitude.ToString();
+                    VM.CurrentLogg.Latitude = page.VM.Position.Latitude.ToString();
+                    VM.CurrentLogg.Longitude = page.VM.Position.Longitude.ToString();
                     VM.Save();
                 }));
             }));

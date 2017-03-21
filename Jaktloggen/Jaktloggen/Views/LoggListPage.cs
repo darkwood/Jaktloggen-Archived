@@ -23,9 +23,10 @@ namespace Jaktloggen.Views
 
         public LoggListPage(Jakt jakt)
         {
+            Title = "Loggføringer";
             PositionActivityIndicator = new ActivityIndicator();
             BindingContext = VM = new JaktVM(jakt);
-            ToolbarItems.Add(new ToolbarItem("+", "add.png", () =>
+            ToolbarItems.Add(new ToolbarItem("Ny logg", null, () =>
             {
                 var logg = VM.CreateLogg();
                 Navigation.PushAsync(new LoggPage(logg), true);
@@ -82,7 +83,6 @@ namespace Jaktloggen.Views
         public void Init()
         {
             VM.BindData();
-            Title = VM.CurrentJakt.Title;
 
             var editJaktBtn = new Image() {Source = "more.png", HeightRequest = 40, WidthRequest = 40, HorizontalOptions = LayoutOptions.EndAndExpand};
             var dateLabel = new Label() {FontSize = 12};
@@ -158,7 +158,6 @@ namespace Jaktloggen.Views
                     Children =
                     {
                         jaktSummary,
-                        new Label() { Text = "Loggføringer"},
                         lv
                     }
                 };

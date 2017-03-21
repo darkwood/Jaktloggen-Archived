@@ -76,15 +76,18 @@ namespace Jaktloggen.Views.Input
                 }
             }
 
-            double lowestLat = latitudes.Min();
-            double highestLat = latitudes.Max();
-            double lowestLong = longitudes.Min();
-            double highestLong = longitudes.Max();
-            double finalLat = (lowestLat + highestLat) / 2;
-            double finalLong = (lowestLong + highestLong) / 2;
-            double distance = MapHelper.GeoCodeCalc.CalcDistance(lowestLat, lowestLong, highestLat, highestLong, MapHelper.GeoCodeCalcMeasurement.Kilometers);
+            if (latitudes.Any() && longitudes.Any())
+            {
+                double lowestLat = latitudes.Min();
+                double highestLat = latitudes.Max();
+                double lowestLong = longitudes.Min();
+                double highestLong = longitudes.Max();
+                double finalLat = (lowestLat + highestLat) / 2;
+                double finalLong = (lowestLong + highestLong) / 2;
+                double distance = MapHelper.GeoCodeCalc.CalcDistance(lowestLat, lowestLong, highestLat, highestLong, MapHelper.GeoCodeCalcMeasurement.Kilometers);
 
-            CurrentMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(finalLat, finalLong), Distance.FromKilometers(distance)));
+                CurrentMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(finalLat, finalLong), Distance.FromKilometers(distance)));
+            }
         }
 
         private Pin CreatePin(Logg logg)

@@ -48,7 +48,7 @@ namespace Jaktloggen.Helpers
         public static void LogError(Exception ex)
         {
             //DependencyService.Get<IFileUtility>().LogError(ex.Message + "; " + ex.StackTrace);
-            throw new Exception(ex.Message, ex);
+            //throw new Exception(ex.Message, ex);
         }
     }
 }
