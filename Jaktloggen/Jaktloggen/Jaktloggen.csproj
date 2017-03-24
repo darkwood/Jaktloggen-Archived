@@ -77,6 +77,7 @@
     <Compile Include="Views\Base\ContentPageJL.cs" />
     <Compile Include="Views\Cells\JL_LocationCell.cs" />
     <Compile Include="Views\Extended\ExtendedMap.cs" />
+    <Compile Include="Views\Extended\JEntry.cs" />
     <Compile Include="Views\Input\PositionLogsPage.cs" />
     <Compile Include="Views\Input\PositionPage.cs" />
     <Compile Include="Views\JegerPage.cs" />

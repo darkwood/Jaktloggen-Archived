@@ -17,10 +17,11 @@ namespace Jaktloggen.Models
         public string Wikinavn { get; set; }
         public int GroupId { get; set; }
         public string ImagePath { get; set; }
-        [XmlIgnore][JsonIgnore]
+
+        [XmlIgnore, JsonIgnore]
         public bool Selected { get; set; }
 
-        [XmlIgnore] [JsonIgnore]
+        [XmlIgnore, JsonIgnore]
         public ImageSource IconSource {
             get
             {
@@ -29,7 +30,7 @@ namespace Jaktloggen.Models
             }
         }
         
-        [XmlIgnore] [JsonIgnore]
+        [XmlIgnore, JsonIgnore]
         public ImageSource Image
         {
             get

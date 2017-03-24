@@ -15,12 +15,13 @@ namespace Jaktloggen.Models
     public class Jeger : EntityBase
     {
         public int ID { get; set; }
-        public string Firstname { get; set; }
-        public string Lastname { get; set; }
+        public string Fornavn { get; set; }
+        public string Etternavn { get; set; }
         public string Email { get; set; } 
         public string Phone { get; set; }
         public string ImagePath { get; set; }
         public bool IsMe { get; set; }
+        [XmlIgnore, JsonIgnore]
         public bool Selected { get; set; }
 
         [XmlIgnore] [JsonIgnore]
@@ -28,15 +29,15 @@ namespace Jaktloggen.Models
         {
             get
             {
-                if (Firstname == null && Lastname == null)
+                if (Fornavn == null && Etternavn == null)
                 {
                     return "Velg jeger";
                 }
-                return Firstname;
+                return Fornavn;
             }
         }
         [XmlIgnore] [JsonIgnore]
-        public string Navn => Firstname + " " + Lastname;
+        public string Navn => Fornavn + " " + Etternavn;
 
         [XmlIgnore] [JsonIgnore]
         public ImageSource IconSource

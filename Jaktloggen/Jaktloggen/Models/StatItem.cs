@@ -29,7 +29,15 @@ namespace Jaktloggen.Models
         }
 
         public double Count { get; set; }
-        public ImageSource Image { get; set; }
+        public string ImagePath { get; set; }
+        public ImageSource Image
+        {
+            get
+            {
+                return ImageSource.FromFile(string.IsNullOrWhiteSpace(ImagePath) ? "linechart.png" : ImagePath);
+            }
+
+        }
         public List<StatItem> Items { get; set; }
     }
 }

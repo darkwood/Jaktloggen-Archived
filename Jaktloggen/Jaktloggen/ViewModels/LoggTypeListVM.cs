@@ -47,16 +47,18 @@ namespace Jaktloggen.ViewModels
 
             var loggTypeGroups = App.Database.GetLoggTypeGroups();
             var loggTyper = App.Database.GetLoggTyper();
+            var selectedLoggTyper = App.Database.GetSelectedLoggTyper();
             foreach (var g in loggTypeGroups)
             {
                 var loggTyperInGroup = loggTyper.Where(a => a.GroupId == g.ID);
 
                 if (loggTyperInGroup.Any())
                 {
-                    var ag = new LoggTypeGrouping(g.Navn, g.Navn.Substring(0, 3));
+                    var ag = new LoggTypeGrouping(g.Navn, "");
 
                     foreach (var loggType in loggTyperInGroup)
                     {
+                        loggType.Selected = selectedLoggTyper.Select(s => s.Key).Contains(loggType.Key);
                         ag.Add(loggType);
                     }
 
@@ -68,7 +70,15 @@ namespace Jaktloggen.ViewModels
         public void LoggTypeSelected(LoggType loggType)
         {
             loggType.Selected = !loggType.Selected;
-            App.Database.SaveLoggType(loggType);
+            if (loggType.Selected)
+            {
+                App.Database.AddSelectedLoggType(loggType);
+            }
+            else
+            {
+                App.Database.RemoveSelectedLoggType(loggType.Key);
+            }
+            
             BindData();
         }
     }

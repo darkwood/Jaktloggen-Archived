@@ -19,6 +19,8 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.ViewModels
 {
+    using System.IO;
+
     public class JegerSelectorGroup : ObservableRangeCollection<Jeger>
     {
         public String Name { get; private set; }
@@ -36,13 +38,15 @@ namespace Jaktloggen.ViewModels
     [ImplementPropertyChanged]
     public class JegerSelectorVM
     {
+        public int JaktId { get; set; }
+        public List<int> JegerIds { get; set; }
         public Logg CurrentLogg { get; set; }
-        public Jakt CurrentJakt { get; set; }
         public ObservableRangeCollection<JegerSelectorGroup> GroupedItems { get; set; }
         public List<Jeger> Jegere = new List<Jeger>();
-        public JegerSelectorVM(Logg currentLogg)
+        public JegerSelectorVM(int jaktId, List<int> jegerIds, Logg currentLogg = null)
         {
-
+            JaktId = jaktId;
+            JegerIds = jegerIds;
             CurrentLogg = currentLogg;
             GroupedItems = new ObservableRangeCollection<JegerSelectorGroup>();
         }
@@ -50,44 +54,81 @@ namespace Jaktloggen.ViewModels
         public void BindData()
         {
             GroupedItems.Clear();
-            CurrentJakt = App.Database.GetJakt(CurrentLogg.JaktId);
             Jegere = App.Database.GetJegere().ToList();
-            if (CurrentLogg.JegerId > 0)
+
+            foreach (var jeger in Jegere)
             {
-                Jegere.Single(j => j.ID == CurrentLogg.JegerId).Selected = true;
+                if (CurrentLogg != null)
+                {
+                    jeger.Selected = jeger.ID == CurrentLogg.JegerId;
+                }
+                else
+                {
+                    jeger.Selected = JegerIds.Contains(jeger.ID);
+                }
             }
 
-            var jegereInJakt = new JegerSelectorGroup("Velg en jeger fra jaktlaget", "");
-            jegereInJakt.AddRange(Jegere.Where(j => CurrentJakt.JegerIds.Contains(j.ID)));
-            
-            if (jegereInJakt.Count > 0)
+            var currentJegereHeader = "Jegere fra denne jakta";
+            var otherJegereHeader = "Flere jegere";
+            var allJegereHeader = "Velg jeger";
+
+            var jegereInJakt = Jegere.Where(j => JegerIds.Contains(j.ID));
+            if (jegereInJakt.Any()){
+                var jegereInJaktGroup = new JegerSelectorGroup(currentJegereHeader, "");
+                jegereInJaktGroup.AddRange(jegereInJakt);
+                GroupedItems.Add(jegereInJaktGroup);
+            }
+
+            var otherJegerList = Jegere.Where(j => !JegerIds.Contains(j.ID));
+            if (otherJegerList.Any())
             {
-                GroupedItems.Add(jegereInJakt);
+                var otherJegere = new JegerSelectorGroup(jegereInJakt.Any() ? otherJegereHeader : allJegereHeader, "");
+                otherJegere.AddRange(otherJegerList);
+                GroupedItems.Add(otherJegere);
             }
             
-
-            var otherJegere = new JegerSelectorGroup("Legg til og velg annen jeger", "");
-            otherJegere.AddRange(Jegere.Where(j => !CurrentJakt.JegerIds.Contains(j.ID)));
-            GroupedItems.Add(otherJegere);
         }
-
         
-
-        public void SetJeger(Jeger selectedJeger)
+        public void AddJeger(Jeger selectedJeger)
         {
-            if (!CurrentJakt.JegerIds.Contains(selectedJeger.ID))
+            if (!JegerIds.Contains(selectedJeger.ID))
             {
-                App.Database.AddJegerToJakt(CurrentLogg.JaktId, selectedJeger.ID);
+                JegerIds = App.Database.AddJegerToJakt(JaktId, selectedJeger.ID);
             }
-            CurrentLogg.JegerId = selectedJeger.ID;
-            App.Database.SaveLogg(CurrentLogg);
+
+            if (CurrentLogg != null)
+            {
+                CurrentLogg.JegerId = selectedJeger.ID;
+                App.Database.SaveLogg(CurrentLogg);
+            }
         }
 
-
-        public void RemoveJeger()
+        public void RemoveJeger(Jeger selectedJeger)
         {
-            CurrentLogg.JegerId = 0;
-            App.Database.SaveLogg(CurrentLogg);
+            selectedJeger.Selected = false;
+
+            if (CurrentLogg != null)
+            {
+                CurrentLogg.Jeger = new Jeger();
+                App.Database.SaveLogg(CurrentLogg);
+            }
+
+            if (JegerIds.Contains(selectedJeger.ID))
+            {
+                JegerIds = App.Database.RemoveJegerFromJakt(JaktId, selectedJeger.ID);
+            }
+        }
+
+        public void UpdateJegerIds(Jeger selectedJeger)
+        {
+            if (JegerIds.Contains(selectedJeger.ID))
+            {
+                RemoveJeger(selectedJeger);
+            }
+            else
+            {
+                AddJeger(selectedJeger);
+            }
         }
     }
 }

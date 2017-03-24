@@ -19,6 +19,8 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.ViewModels
 {
+    using System.IO;
+
     public class DogSelectorGroup : ObservableRangeCollection<Dog>
     {
         public String Name { get; private set; }
@@ -36,12 +38,15 @@ namespace Jaktloggen.ViewModels
     [ImplementPropertyChanged]
     public class DogSelectorVM
     {
+        public int JaktId { get; set; }
+        public List<int> DogIds { get; set; }
         public Logg CurrentLogg { get; set; }
-        public Jakt CurrentJakt { get; set; }
         public ObservableRangeCollection<DogSelectorGroup> GroupedItems { get; set; }
-        public DogSelectorVM(Logg currentLogg)
+        public List<Dog> Dogs = new List<Dog>();
+        public DogSelectorVM(int jaktId, List<int> dogIds, Logg currentLogg = null)
         {
-
+            JaktId = jaktId;
+            DogIds = dogIds;
             CurrentLogg = currentLogg;
             GroupedItems = new ObservableRangeCollection<DogSelectorGroup>();
         }
@@ -49,39 +54,82 @@ namespace Jaktloggen.ViewModels
         public void BindData()
         {
             GroupedItems.Clear();
-            CurrentJakt = App.Database.GetJakt(CurrentLogg.JaktId);
-            var hunder = App.Database.GetDogs().ToList();
-            if (CurrentLogg.DogId > 0)
+            Dogs = App.Database.GetDogs().ToList();
+            
+            foreach (var dog in Dogs)
             {
-                hunder.Single(j => j.ID == CurrentLogg.DogId).Selected = true;
+                if (CurrentLogg != null)
+                {
+                    dog.Selected = dog.ID == CurrentLogg.DogId;
+                }
+                else
+                {
+                    dog.Selected = DogIds.Contains(dog.ID);
+                }
             }
-            var hunderInJakt = new DogSelectorGroup("Velg en hund fra jaktlaget", "");
-            hunderInJakt.AddRange(hunder.Where(j => CurrentJakt.DogIds.Contains(j.ID)));
-            if (hunderInJakt.Count > 0)
+         
+            var currentDogsHeader = "Dogs fra denne jakta";
+            var otherDogsHeader = "Flere dogs";
+            var allDogsHeader = "Velg dog";
+
+            var dogsInJakt = Dogs.Where(j => DogIds.Contains(j.ID));
+            if (dogsInJakt.Any())
             {
-                GroupedItems.Add(hunderInJakt);
+                var dogsInJaktGroup = new DogSelectorGroup(currentDogsHeader, "");
+                dogsInJaktGroup.AddRange(dogsInJakt);
+                GroupedItems.Add(dogsInJaktGroup);
             }
 
-            var otherDogs = new DogSelectorGroup("Legg til og velg annen hund", "");
-            otherDogs.AddRange(hunder.Where(j => !CurrentJakt.DogIds.Contains(j.ID)));
-            GroupedItems.Add(otherDogs);
+            var otherDogList = Dogs.Where(j => !DogIds.Contains(j.ID));
+            if (otherDogList.Any())
+            {
+                var otherDogs = new DogSelectorGroup(dogsInJakt.Any() ? otherDogsHeader : allDogsHeader, "");
+                otherDogs.AddRange(otherDogList);
+                GroupedItems.Add(otherDogs);
+            }
+
         }
 
-        public void SetDog(Dog selectedDog)
+        public void AddDog(Dog selectedDog)
         {
-            if (!CurrentJakt.DogIds.Contains(selectedDog.ID))
+            if (!DogIds.Contains(selectedDog.ID))
             {
-                App.Database.AddDogToJakt(CurrentLogg.JaktId, selectedDog.ID);
+                DogIds = App.Database.AddDogToJakt(JaktId, selectedDog.ID);
             }
-            CurrentLogg.DogId = selectedDog.ID;
-            App.Database.SaveLogg(CurrentLogg);
+
+            if (CurrentLogg != null)
+            {
+                CurrentLogg.DogId = selectedDog.ID;
+                App.Database.SaveLogg(CurrentLogg);
+            }
         }
 
-
-        public void RemoveDog()
+        public void RemoveDog(Dog selectedDog)
         {
-            CurrentLogg.DogId = 0;
-            App.Database.SaveLogg(CurrentLogg);
+            selectedDog.Selected = false;
+
+            if (CurrentLogg != null)
+            {
+                CurrentLogg.Dog = new Dog();
+                App.Database.SaveLogg(CurrentLogg);
+            }
+
+            if (DogIds.Contains(selectedDog.ID))
+            {
+                DogIds = App.Database.RemoveDogFromJakt(JaktId, selectedDog.ID);
+            }
+        }
+
+        public void UpdateDogIds(Dog selectedDog)
+        {
+            if (DogIds.Contains(selectedDog.ID))
+            {
+                RemoveDog(selectedDog);
+            }
+            else
+            {
+                AddDog(selectedDog);
+            }
         }
     }
 }

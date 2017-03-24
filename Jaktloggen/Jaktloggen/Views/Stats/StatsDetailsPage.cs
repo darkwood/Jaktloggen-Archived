@@ -41,12 +41,30 @@ namespace Jaktloggen.Views
                     DisplayAlert(statItem.Title, statItem.Details, "OK");
                     ((ListView)sender).SelectedItem = null;
                 }
-            }; //TODO Remember to remove this event handler on dispoing of the page;
+            };
             DataTemplate dt = new DataTemplate(typeof(CircleImageCell));
             dt.SetBinding(CircleImageCell.TextProperty, "Title");
             dt.SetBinding(CircleImageCell.DetailProperty, "Details");
             lv.ItemTemplate = dt;
+
+            var filterView = new StackLayout()
+                             {
+                                 Orientation = StackOrientation.Horizontal,
+                                 Padding = 5
+                             };
+            var dateFrom = new DatePicker();
+            var dateTo = new DatePicker();
+            dateFrom.SetBinding(DatePicker.DateProperty, "DateFrom");
+            dateTo.SetBinding(DatePicker.DateProperty, "DateTo");
+            dateFrom.DateSelected += OnDateSelected;
+            dateTo.DateSelected += OnDateSelected;
+
             Content = lv;
+        }
+
+        private void OnDateSelected(object sender, DateChangedEventArgs dateChangedEventArgs)
+        {
+
         }
     }
 }

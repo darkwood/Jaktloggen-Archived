@@ -73,13 +73,13 @@ namespace Jaktloggen.ViewModels
                 {
                     Title = "Beste treffprosent",
                     Details = $"{ bestHunter.Key.Navn} ({bestHunter.Value}%)",
-                    Image = bestHunter.Key.Image
+                    ImagePath = bestHunter.Key.ImagePath
                 });
                 ItemCollection.Add(new StatItem()
                 {
                     Title = "Flest treff",
                     Details = $"{mostHitsHunter.Key.Navn} ({mostHitsHunter.Value})",
-                    Image = mostHitsHunter.Key.Image
+                    ImagePath = mostHitsHunter.Key.ImagePath
                 });
             }
 
@@ -145,7 +145,7 @@ namespace Jaktloggen.ViewModels
                     {
                         Title = art.Navn,
                         Count = sett,
-                        Image = art.Image
+                        ImagePath = art.ImagePath
                     });
                 }
                 if (shots > 0)
@@ -154,7 +154,7 @@ namespace Jaktloggen.ViewModels
                     {
                         Title = art.Navn,
                         Count = shots,
-                        Image = art.Image
+                        ImagePath = art.ImagePath
                     });
                 }
                 if (hits > 0)
@@ -163,7 +163,7 @@ namespace Jaktloggen.ViewModels
                     {
                         Title = art.Navn,
                         Count = hits,
-                        Image = art.Image
+                        ImagePath = art.ImagePath
                     });
                 }
             }

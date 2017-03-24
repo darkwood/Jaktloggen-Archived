@@ -16,7 +16,7 @@ namespace Jaktloggen.Views.Cells
             {
                 Orientation = StackOrientation.Horizontal,
                 Padding = 10,
-                HeightRequest = 60,
+                HeightRequest = 40,
                 Children =
                 {
                     new Label()

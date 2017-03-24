@@ -436,17 +436,34 @@ namespace Jaktloggen.Data
 
 
         /* MISC */
-        public void AddJegerToJakt(int jaktId, int jegerId)
+        public List<int> AddJegerToJakt(int jaktId, int jegerId)
         {
-            JaktList.Single(j => j.ID == jaktId).JegerIds.Add(jegerId);
+            var jegerIds = JaktList.Single(j => j.ID == jaktId).JegerIds;
+            jegerIds.Add(jegerId);
             JaktList.Save(FILE_JAKT);
+            return jegerIds;
         }
-        public void AddDogToJakt(int jaktId, int id)
+        public List<int> RemoveJegerFromJakt(int jaktId, int jegerId)
         {
-            JaktList.Single(j => j.ID == jaktId).DogIds.Add(id);
+            var jegerIds = JaktList.Single(j => j.ID == jaktId).JegerIds;
+            jegerIds.Remove(jegerId);
             JaktList.Save(FILE_JAKT);
+            return jegerIds;
         }
-
+        public List<int> AddDogToJakt(int jaktId, int id)
+        {
+            var dogIds = JaktList.Single(j => j.ID == jaktId).DogIds;
+            dogIds.Add(id);
+            JaktList.Save(FILE_JAKT);
+            return dogIds;
+        }
+        public List<int> RemoveDogFromJakt(int jaktId, int id)
+        {
+            var dogIds = JaktList.Single(j => j.ID == jaktId).DogIds;
+            dogIds.Remove(id);
+            JaktList.Save(FILE_JAKT);
+            return dogIds;
+        }
         public void AddSelectedArt(Art art)
         {
             if (SelectedArtList.All(a => a.ID != art.ID))
@@ -460,7 +477,7 @@ namespace Jaktloggen.Data
             SelectedArtList.Remove(art);
             SelectedArtList.Save(FILE_SELECTED_ARTIDS);
         }
-        public void AddSelectedLoggType(LoggType loggType)
+        public void AddSelectedLoggType(LoggType loggType)//todo change to store only key
         {
             if (SelectedLoggTypeList.All(l => l.Key != loggType.Key))
             {
@@ -468,11 +485,14 @@ namespace Jaktloggen.Data
                 SelectedLoggTypeList.Save(FILE_SELECTED_LOGGTYPEIDS);
             }
         }
-        public void RemoveSelectedLoggType(LoggType loggType)
+        public void RemoveSelectedLoggType(string loggTypeKey)
         {
-            SelectedLoggTypeList.Remove(loggType);
-            SelectedLoggTypeList.Save(FILE_SELECTED_LOGGTYPEIDS);
+            var itemToRemove = SelectedLoggTypeList.SingleOrDefault(l => l.Key == loggTypeKey);
+            if (itemToRemove != null)
+            {
+                SelectedLoggTypeList.Remove(itemToRemove);
+                SelectedLoggTypeList.Save(FILE_SELECTED_LOGGTYPEIDS);
+            }
         }
-
     }
 }

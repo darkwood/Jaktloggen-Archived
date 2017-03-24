@@ -15,16 +15,17 @@ namespace Jaktloggen.Views
     public class JegerSelectorPage : Base.ContentPageJL
     {
         private JegerSelectorVM VM;
-        public JegerSelectorPage(Logg currentLogg)
+
+        public JegerSelectorPage(int jaktId, List<int> jegerIds, Logg currentLogg = null)
         {
-            BindingContext = VM = new JegerSelectorVM(currentLogg);
+            BindingContext = VM = new JegerSelectorVM(jaktId, jegerIds, currentLogg);
             ToolbarItems.Add(new ToolbarItem("+", "add.png", () =>
             {
                 Navigation.PushAsync(new JegerPage(new Jeger()), true);
             }, ToolbarItemOrder.Primary));
         }
-
-        protected override void OnAppearing()
+            
+        protected async override void OnAppearing()
         {
             base.OnAppearing();
             Init();
@@ -34,39 +35,43 @@ namespace Jaktloggen.Views
         {
             VM.BindData();
 
-            ListView lv = new ListView();
+            ListView lv = new ListView(ListViewCachingStrategy.RecycleElement);
+            
             lv.HorizontalOptions = LayoutOptions.FillAndExpand;
             lv.VerticalOptions = LayoutOptions.FillAndExpand;
             lv.SetBinding(ListView.ItemsSourceProperty, new Binding("GroupedItems"));
             lv.IsGroupingEnabled = true;
             lv.GroupDisplayBinding = new Binding("Name");
             lv.GroupShortNameBinding = new Binding("ShortName");
-            lv.ItemSelected += (sender, e) =>
-            {
-                if (e.SelectedItem != null)
-                {
-                    var selectedJeger = ((Jeger)e.SelectedItem);
-
-                    if (VM.CurrentLogg.JegerId == selectedJeger.ID)
-                    {
-                        VM.RemoveJeger();
-                    }
-                    else
-                    {
-                        VM.SetJeger(selectedJeger);
-                    }
-                    
-                    Navigation.PopAsync(true);
-                    ((ListView)sender).SelectedItem = null;
-                }
-            };
+            lv.ItemSelected += OnLvOnItemSelected;
             DataTemplate dt = new DataTemplate(typeof(ImageCell));
             dt.SetBinding(ImageCell.TextProperty, "Navn");
             dt.SetBinding(ImageCell.ImageSourceProperty, "IconSource");
             lv.ItemTemplate = dt;
             if (VM.Jegere.Any())
             {
-                Content = lv;
+                if (VM.CurrentLogg != null && VM.CurrentLogg.JegerId > 0)
+                {
+                    var btnClear = new Button();
+                    btnClear.Text = "Fjern valgt jeger";
+                    btnClear.Clicked += delegate (object sender, EventArgs args)
+                    {
+                        VM.RemoveJeger(VM.CurrentLogg.Jeger);
+                        Navigation.PopAsync(true);
+                    };
+                    Content = new StackLayout()
+                    {
+                        Children =
+                    {
+                        btnClear,
+                        lv
+                    }
+                    };
+                }
+                else
+                {
+                    Content = lv;
+                }
             }
             else
             {
@@ -85,6 +90,28 @@ namespace Jaktloggen.Views
                         btn
                     }
                 };
+            }
+        }
+
+        private async void OnLvOnItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            if (e.SelectedItem != null)
+            {
+                var selectedJeger = ((Jeger)e.SelectedItem);
+
+                if (VM.CurrentLogg == null) // multiple picker
+                {
+                    VM.UpdateJegerIds(selectedJeger);
+                    VM.BindData();
+                }
+                else
+                {
+                    VM.AddJeger(selectedJeger);
+                    await Navigation.PopAsync(true);
+                }
+
+                
+                ((ListView)sender).SelectedItem = null;
             }
         }
     }

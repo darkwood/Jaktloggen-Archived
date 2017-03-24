@@ -18,11 +18,29 @@ namespace Jaktloggen.Views.Input
     {
         public Position Position { get; set; }
         public string Status { get; set; } = "Sett posisjon";
+
+        public string LatitudeString
+        {
+            get
+            {
+                return Position.Latitude != 0.0f ? Position.Latitude.ToString() : string.Empty;
+            }
+        }
+
+        public string LongitudeString
+        {
+            get
+            {
+                return Position.Longitude != 0.0f ? Position.Longitude.ToString() : string.Empty;
+            }
+        }
     }
     public class PositionPage : Base.ContentPageJL
     {
         private Action<PositionPage> _callback;
+
         private IPosition _page;
+        private bool PositionIsSet { get; set; }
 
         public ExtendedMap CurrentMap { get; set; }
         public PositionPageVM VM { get; set; }
@@ -34,7 +52,8 @@ namespace Jaktloggen.Views.Input
             double lat, lon;
             if (double.TryParse(page.Latitude, out lat) && double.TryParse(page.Longitude, out lon))
             {
-                VM.Position = new Position(lat, lon); ;
+                PositionIsSet = true;
+                VM.Position = new Position(lat, lon);
             }
             else
             {
@@ -43,6 +62,8 @@ namespace Jaktloggen.Views.Input
             _callback = callback;
             InitMap();
         }
+
+        
 
         private async void MoveToCurrentPosition()
         {
@@ -78,6 +99,14 @@ namespace Jaktloggen.Views.Input
                 Navigation.PopModalAsync(true);
             };
 
+            var btnRemove = new Button() { Text = "Slett" };
+            btnRemove.Clicked += delegate (object sender, EventArgs args)
+            {
+                VM.Position = new Position();
+                _callback(this);
+                Navigation.PopModalAsync(true);
+            };
+
             var lblStatus = new Label()
             {
                 FontSize = 12,
@@ -96,6 +125,7 @@ namespace Jaktloggen.Views.Input
                         Children =
                         {
                             btnCancel,
+                            btnRemove,
                             lblStatus,
                             btnSave
                         }

@@ -33,11 +33,13 @@ namespace Jaktloggen.Views
             VM.BindData();
             
             
-            var tableSection = new TableSection("Rediger detaljer om jaktturen");
+            var tableSection = new TableSection("");
             tableSection.Add(new JL_TextCell("Sted", VM.CurrentJakt.Title, StedCell_OnTapped));
             tableSection.Add(new JL_ImageCell("Jaktbilde", VM.CurrentJakt.Image, ImageCell_OnTapped));
             tableSection.Add(new JL_TextCell("Dato", VM.CurrentJakt.DatoFraTil, DateCell_OnTapped));
             tableSection.Add(new JL_TextCell("Posisjon", VM.CurrentJakt.Position, Posisjon_OnTapped));
+            tableSection.Add(new JL_TextCell("Jegere på jaktlaget", VM.CurrentJakt.JegereInJakt, Jegere_OnTapped));
+            tableSection.Add(new JL_TextCell("Hunder på jaktlaget", VM.CurrentJakt.DogsInJakt, Dogs_OnTapped));
             tableSection.Add(new JL_TextCell("Notater", VM.CurrentJakt.Notes, NoteCell_OnTapped));
             tableSection.Add(new JL_TextCell("Se alle loggføringer på kartet", ">>", ViewLogsOnMap_OnTapped));
 
@@ -55,6 +57,16 @@ namespace Jaktloggen.Views
             };
         }
 
+        private void Dogs_OnTapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DogSelectorPage(VM.CurrentJakt.ID, VM.CurrentJakt.DogIds));
+        }
+
+        private void Jegere_OnTapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new JegerSelectorPage(VM.CurrentJakt.ID, VM.CurrentJakt.JegerIds));
+        }
+
         private async void ViewLogsOnMap_OnTapped(object sender, EventArgs eventArgs)
         {
             await Navigation.PushAsync(new PositionLogsPage(VM.ItemCollection));
@@ -65,25 +77,26 @@ namespace Jaktloggen.Views
             await Navigation.PushModalAsync(
                 new PositionPage(VM.CurrentJakt, delegate(PositionPage page)
                 {
-                    VM.CurrentJakt.Latitude = page.VM.Position.Latitude.ToString();
-                    VM.CurrentJakt.Longitude = page.VM.Position.Longitude.ToString();
+                    VM.CurrentJakt.Latitude = page.VM.LatitudeString;
+                    VM.CurrentJakt.Longitude = page.VM.LongitudeString;
                     VM.Save();
                 }));
         }
 
         private async void StedCell_OnTapped(object sender = null, EventArgs e = null)
         {
+            var autoEntries = VM.AllJaktNames.Where(a => !a.Equals(VM.CurrentJakt.Sted, StringComparison.CurrentCultureIgnoreCase));
             await Navigation.PushAsync(
                 new EntryPage(
                     "Sted", 
-                    VM.CurrentJakt.Sted)
+                    VM.CurrentJakt.Sted,
+                    autoCompleteEntries: autoEntries)
                     {
                         Callback = delegate (EntryPage entryPage)
                         {
                             VM.CurrentJakt.Sted = entryPage.Value;
                             VM.Save();
-                        },
-                        AutoCompleteEntries = VM.AllJaktNames.Where(a => !a.Equals(VM.CurrentJakt.Sted, StringComparison.CurrentCultureIgnoreCase))
+                        }
                     });
 
         }

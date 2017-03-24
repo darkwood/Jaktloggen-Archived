@@ -45,8 +45,8 @@ namespace Jaktloggen.Views
             {
                 Navigation.PushModalAsync(new PositionPage(VM.CurrentLogg, delegate(PositionPage page)
                 {
-                    VM.CurrentLogg.Latitude = page.VM.Position.Latitude.ToString();
-                    VM.CurrentLogg.Longitude = page.VM.Position.Longitude.ToString();
+                    VM.CurrentLogg.Latitude = page.VM.LatitudeString;
+                    VM.CurrentLogg.Longitude = page.VM.LongitudeString;
                     VM.Save();
                 }));
             }));
@@ -54,29 +54,44 @@ namespace Jaktloggen.Views
             {
                 Navigation.PushAsync(new ArtSelectorPage(VM.CurrentLogg));
             }));
-            tableSection.Add(CreateNumericTextCell("Antall observert", VM.CurrentLogg.Sett.ToString(), delegate (EntryPage entryPage)
+            tableSection.Add(CreateNumericTextCell("Antall treff", VM.CurrentLogg.Treff.ToString(), delegate (EntryPage entryPage)
             {
-                VM.CurrentLogg.Sett = GetNumericValue(entryPage.Value);
+                VM.CurrentLogg.Treff = GetNumericValue(entryPage.Value);
+                if (VM.CurrentLogg.Treff > VM.CurrentLogg.Skudd)
+                {
+                    VM.CurrentLogg.Skudd = VM.CurrentLogg.Treff;
+                }
+                if (VM.CurrentLogg.Skudd > VM.CurrentLogg.Sett)
+                {
+                    VM.CurrentLogg.Sett = VM.CurrentLogg.Skudd;
+                }
+
                 VM.Save();
             }));
             tableSection.Add(CreateNumericTextCell("Antall skudd", VM.CurrentLogg.Skudd.ToString(), delegate (EntryPage entryPage)
             {
                 VM.CurrentLogg.Skudd = GetNumericValue(entryPage.Value);
+                if (VM.CurrentLogg.Skudd > VM.CurrentLogg.Sett)
+                {
+                    VM.CurrentLogg.Sett = VM.CurrentLogg.Skudd;
+                }
                 VM.Save();
             }));
-            tableSection.Add(CreateNumericTextCell("Antall treff", VM.CurrentLogg.Treff.ToString(), delegate (EntryPage entryPage)
+            tableSection.Add(CreateNumericTextCell("Antall observert", VM.CurrentLogg.Sett.ToString(), delegate (EntryPage entryPage)
             {
-                VM.CurrentLogg.Treff = GetNumericValue(entryPage.Value);
+                VM.CurrentLogg.Sett = GetNumericValue(entryPage.Value);
                 VM.Save();
             }));
 
             tableSection.Add(new JL_TextCell("Jeger", VM.CurrentLogg.Jeger.Navn, delegate (object sender, EventArgs args)
             {
-                Navigation.PushAsync(new JegerSelectorPage(VM.CurrentLogg));
+                var jakt = App.Database.GetJakt(VM.CurrentLogg.JaktId);
+                Navigation.PushAsync(new JegerSelectorPage(jakt.ID, jakt.JegerIds, VM.CurrentLogg));
             }));
             tableSection.Add(new JL_TextCell("Hund", VM.CurrentLogg.Dog.Navn, delegate (object sender, EventArgs args)
             {
-                Navigation.PushAsync(new DogSelectorPage(VM.CurrentLogg));
+                var jakt = App.Database.GetJakt(VM.CurrentLogg.JaktId);
+                Navigation.PushAsync(new DogSelectorPage(jakt.ID, jakt.DogIds, VM.CurrentLogg));
             }));
             tableSection.Add(new JL_ImageCell("Bilde", VM.CurrentLogg.Image, ImageCell_OnTapped));
             tableSection.Add(new JL_TextCell("Tidspunkt", VM.CurrentLogg.DateFormatted,
@@ -87,7 +102,7 @@ namespace Jaktloggen.Views
 
 
             var customFieldsSection = new TableSection("Ekstra felter");
-            foreach (var item in App.Database.GetLoggTyper().Where(l => l.Selected))
+            foreach (var item in App.Database.GetSelectedLoggTyper())
             {
                 switch (item.Key)
                 {

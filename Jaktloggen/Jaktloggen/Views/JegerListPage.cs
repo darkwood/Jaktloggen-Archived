@@ -60,6 +60,7 @@ namespace Jaktloggen.Views
                 {
                     HorizontalOptions = LayoutOptions.CenterAndExpand,
                     Text = "Opprett første jeger",
+                    BackgroundColor = Color.FromHex("#74B058")
                 };
                 btn.Clicked += delegate(object sender, EventArgs args)
                 {

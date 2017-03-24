@@ -83,7 +83,7 @@ namespace Jaktloggen.Views.Cells
                 Padding = 10,
             };
             
-            //stackLayout.Children.Add(CircleImage);
+            stackLayout.Children.Add(CircleImage);
             stackLayout.Children.Add(TitleLabel);
             stackLayout.Children.Add(DetailsLabel);
             //stackLayout.Children.Add(SecondaryImage);
@@ -101,7 +101,8 @@ namespace Jaktloggen.Views.Cells
             {
                 TitleLabel.Text = Text;
                 DetailsLabel.Text = Detail;
-                //CircleImage.Source = ImageSource;
+                CircleImage.Source = ImageSource;
+                CircleImage.IsVisible = ImageSource != null;
                 //SecondaryImage.Source = SecondaryImageSource;
             }
         }

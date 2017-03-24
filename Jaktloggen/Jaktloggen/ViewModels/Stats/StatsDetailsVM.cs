@@ -24,6 +24,8 @@ namespace Jaktloggen.ViewModels.Stats
     {
         public StatItem StatItem { get; set; }
         public ObservableRangeCollection<StatItem> ItemCollection { get; set; }
+        public DateTime DateFrom { get; set; } = DateTime.Now.AddYears(-1);
+        public DateTime DateTo { get; set; } = DateTime.Now;
 
         public StatsDetailsVM(StatItem statItem)
         {

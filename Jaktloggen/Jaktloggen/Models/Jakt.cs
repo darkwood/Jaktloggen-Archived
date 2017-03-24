@@ -8,6 +8,8 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.Models
 {
+    using System.Linq;
+
     [ImplementPropertyChanged]
     public class Jakt : EntityBase, IPosition
     {
@@ -74,5 +76,30 @@ namespace Jaktloggen.Models
             }
         }
 
+        public string JegereInJakt
+        {
+            get
+            {
+                if (JegerIds.Any())
+                {
+                    var jegere = App.Database.GetJegere().Where(j => JegerIds.Contains(j.ID));
+                    return string.Join(", ", jegere.Select(s => s.Fornavn));
+                }
+                return string.Empty;
+            }
+        }
+
+        public string DogsInJakt
+        {
+            get
+            {
+                if (DogIds.Any())
+                {
+                    var dogs = App.Database.GetDogs().Where(j => DogIds.Contains(j.ID));
+                    return string.Join(", ", dogs.Select(s => s.Navn));
+                }
+                return string.Empty;
+            }
+        }
     }
 }

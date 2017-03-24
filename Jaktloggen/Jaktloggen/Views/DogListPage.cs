@@ -60,7 +60,7 @@ namespace Jaktloggen.Views
                 {
                     Text = "Opprett første hund",
                 };
-                btn.Clicked += delegate (object sender, EventArgs args) { CreateNewItem(); };
+                btn.Clicked += delegate     { CreateNewItem(); };
 
                 var myImage = new CircleImage()
                 {

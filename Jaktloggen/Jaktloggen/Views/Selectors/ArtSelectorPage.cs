@@ -65,7 +65,6 @@ namespace Jaktloggen.Views
                 btnClear.Text = "Fjern valg";
                 btnClear.Clicked += delegate(object sender, EventArgs args)
                 {
-                    VM.CurrentLogg.Art = new Art();
                     VM.RemoveArt();
                     Navigation.PopAsync(true);  
                 };

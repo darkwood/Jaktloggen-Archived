@@ -8,6 +8,8 @@ using Xamarin.Forms;
 
 namespace Jaktloggen.Views.Input
 {
+    using Jaktloggen.Views.Extended;
+
     public class EntryPage : Base.ContentPageJL
     {
         private string _value;
@@ -28,17 +30,16 @@ namespace Jaktloggen.Views.Input
             set { _value = value; }
         }
         public bool Multiline { get; set; }
-        public Entry entry = new Entry();
+        public JEntry entry = new JEntry();
         public Editor editor = new Editor();
         public Action<EntryPage> Callback;
         public IEnumerable<string> AutoCompleteEntries;
-        public EntryPage(string title, string value, bool isNumeric = false)
+        public EntryPage(string title, string value, bool isNumeric = false, IEnumerable<string> autoCompleteEntries = null)
         {
             Title = title;
-            ToolbarItems.Add(new ToolbarItem("Ferdig", null, () =>
-            {
-                Navigation.PopAsync(true);
-            }, ToolbarItemOrder.Default));
+            AutoCompleteEntries = autoCompleteEntries;
+
+            ToolbarItems.Add(new ToolbarItem("Ferdig", null, SaveEntryAndExit));
 
             var layout = new StackLayout
             {
@@ -52,6 +53,7 @@ namespace Jaktloggen.Views.Input
             {
                 editor.Text = value;
                 editor.Completed += EntryOnCompleted;
+                editor.Focused += EditorOnFocused;
                 layout.Children.Add(editor);
             }
             else
@@ -94,6 +96,11 @@ namespace Jaktloggen.Views.Input
         }
 
         
+
+        private void EditorOnFocused(object sender, FocusEventArgs focusEventArgs)
+        {
+            
+        }
 
         protected override void OnAppearing()
         {

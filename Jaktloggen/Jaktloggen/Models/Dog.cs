@@ -19,6 +19,7 @@ namespace Jaktloggen.Models
         public string Rase { get; set; }
         public string Lisensnummer { get; set; }
         public string ImagePath { get; set; }
+        [XmlIgnore, JsonIgnore]
         public bool Selected { get; set; }
 
         [XmlIgnore] [JsonIgnore]

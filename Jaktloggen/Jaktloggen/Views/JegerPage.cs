@@ -25,8 +25,8 @@ namespace Jaktloggen.Views
             Title = VM.CurrentJeger.Navn;
 
             var tableSection = new TableSection();
-            tableSection.Add(new JL_EntryCell("Fornavn", VM.CurrentJeger.Firstname, "CurrentJeger.Firstname", EntryComplete));
-            tableSection.Add(new JL_EntryCell("Etternavn", VM.CurrentJeger.Lastname, "CurrentJeger.Lastname", EntryComplete));
+            tableSection.Add(new JL_EntryCell("Fornavn", VM.CurrentJeger.Fornavn, "CurrentJeger.Fornavn", EntryComplete));
+            tableSection.Add(new JL_EntryCell("Etternavn", VM.CurrentJeger.Etternavn, "CurrentJeger.Etternavn", EntryComplete));
             tableSection.Add(new JL_EntryCell("E-post", VM.CurrentJeger.Email, "CurrentJeger.Email", EntryComplete)
             {
                 Keyboard = Keyboard.Email

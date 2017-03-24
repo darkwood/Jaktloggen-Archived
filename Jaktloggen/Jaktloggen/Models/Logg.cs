@@ -63,7 +63,7 @@ namespace Jaktloggen.Models
                 }
                 if (JegerId > 0)
                 {
-                    details += " - " + Jeger.Firstname;
+                    details += " - " + Jeger.Fornavn;
                 }
 
                 return details;
@@ -109,7 +109,7 @@ namespace Jaktloggen.Models
 
                 if (Jeger.ID > 0)
                 {
-                    lbl += " av " + Jeger.Firstname;
+                    lbl += " av " + Jeger.Fornavn;
                 }
 
                 return lbl;
@@ -118,17 +118,21 @@ namespace Jaktloggen.Models
         }
 
 
-        [XmlIgnore] [JsonIgnore]
+        [XmlIgnore, JsonIgnore]
+        private Jeger _jeger;
+        [XmlIgnore]
+        [JsonIgnore]
         public Jeger Jeger
         {
             get
             {
-                if (JegerId == 0)
-                {
-                    return new Jeger();
-                }
-
-                return App.Database.GetJeger(JegerId);
+                _jeger = JegerId == 0 ? new Jeger() : App.Database.GetJeger(JegerId);
+                return _jeger;
+            }
+            set
+            {
+                _jeger = value;
+                JegerId = _jeger.ID;
             }
         }
 
@@ -147,17 +151,22 @@ namespace Jaktloggen.Models
                 ArtId = _art.ID;
             }
         }
-        [XmlIgnore] [JsonIgnore]
+        [XmlIgnore]
+        [JsonIgnore]
+        private Dog _dog;
+        [XmlIgnore]
+        [JsonIgnore]
         public Dog Dog
         {
             get
             {
-                if (DogId == 0)
-                {
-                    return new Dog();
-                }
-
-                return App.Database.GetDog(DogId);
+                _dog = DogId == 0 ? new Dog() : App.Database.GetDog(DogId);
+                return _dog;
+            }
+            set
+            {
+                _dog = value;
+                DogId = _dog.ID;
             }
         }
 

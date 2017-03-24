@@ -13,7 +13,7 @@ namespace Jaktloggen
         public static bool SyncWithServer { get; set; }
         public App()
         {
-            SyncWithServer = false;
+            SyncWithServer = true;
             Database.Init();
             MainPage = new MainPage();
             
