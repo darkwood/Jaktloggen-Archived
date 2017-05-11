@@ -49,6 +49,7 @@
     <Compile Include="Models\Extensions\EntityExtensions.cs" />
     <Compile Include="Models\IPosition.cs" />
     <Compile Include="Models\IEntity.cs" />
+    <Compile Include="Models\StatsTableItem.cs" />
     <Compile Include="Models\StatItem.cs" />
     <Compile Include="Models\Art.cs" />
     <Compile Include="Models\ArtGroup.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="ViewModels\Selectors\ArtSelectorVM.cs" />
     <Compile Include="ViewModels\Selectors\DogSelectorVM.cs" />
     <Compile Include="ViewModels\Selectors\JegerSelectorVM.cs" />
+    <Compile Include="ViewModels\Stats\StatsTableVM.cs" />
     <Compile Include="ViewModels\Stats\StatsDetailsVM.cs" />
     <Compile Include="Views\Base\ContentPageJL.cs" />
     <Compile Include="Views\Cells\JL_LocationCell.cs" />
@@ -85,6 +87,7 @@
     <Compile Include="Views\Selectors\DogSelectorPage.cs" />
     <Compile Include="Views\Selectors\JegerSelectorPage.cs" />
     <Compile Include="Views\Selectors\SingleItemPicker.cs" />
+    <Compile Include="Views\AboutPage.cs" />
     <Compile Include="Views\StatsListPage.cs" />
     <Compile Include="Views\LoggTypeListPage.cs" />
     <Compile Include="Views\Base\TableViewJL.cs" />
@@ -109,6 +112,7 @@
     <Compile Include="Views\SettingsPage.cs" />
     <Compile Include="Views\LoggListPage.cs" />
     <Compile Include="Views\Stats\StatsDetailsPage.cs" />
+    <Compile Include="Views\Stats\StatsTablePage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="ExifLib, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">

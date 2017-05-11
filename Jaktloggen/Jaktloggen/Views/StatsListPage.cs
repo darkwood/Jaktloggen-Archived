@@ -8,6 +8,8 @@ using Jaktloggen.Models;
 using Jaktloggen.ViewModels;
 using Jaktloggen.Views.Cells;
 using Jaktloggen.Views.Input;
+using Jaktloggen.Views.Stats;
+
 using Xamarin.Forms;
 
 namespace Jaktloggen.Views

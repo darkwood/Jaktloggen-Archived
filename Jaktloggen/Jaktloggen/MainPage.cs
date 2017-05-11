@@ -19,8 +19,7 @@ namespace Jaktloggen
             Children.Add(new NavigationPage(new ArtListPage()) { Title = "Arter" });
             Children.Add(new NavigationPage(new JegerListPage()) { Title = "Jegere" });
             Children.Add(new NavigationPage(new DogListPage()) { Title = "Hunder" });
-            Children.Add(new NavigationPage(new SettingsPage()) { Title = "Verktøy" });
-
+            Children.Add(new NavigationPage(new SettingsPage()) { Title = "Innstillinger" });
         }
     }
 }

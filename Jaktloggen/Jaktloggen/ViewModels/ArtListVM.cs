@@ -47,6 +47,7 @@ namespace Jaktloggen.ViewModels
 
             var artGroups = App.Database.GetArtGroups();
             var arter = App.Database.GetArter();
+            var selectedArtIds = App.Database.GetSelectedArter().Select(s => s.ID);
             foreach (var g in artGroups)
             {
                 var arterInGroup = arter.Where(a => a.GroupId == g.ID);
@@ -57,6 +58,7 @@ namespace Jaktloggen.ViewModels
 
                     foreach (var art in arterInGroup)
                     {
+                        art.Selected = selectedArtIds.Any(s => s == art.ID);
                         ag.Add(art);
                     }
 

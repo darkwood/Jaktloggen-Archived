@@ -50,9 +50,9 @@ namespace Jaktloggen.Views
                     ((ListView)sender).SelectedItem = null;
                 }
             }; //Remember to remove this event handler on dispoing of the page;
-            DataTemplate dt = new DataTemplate(typeof(CircleImageCell));
-            dt.SetBinding(CircleImageCell.TextProperty, "Navn");
-            dt.SetBinding(CircleImageCell.SecondaryImageSourceProperty, "IconSource");
+            DataTemplate dt = new DataTemplate(typeof(ImageCell));
+            dt.SetBinding(ImageCell.TextProperty, "Navn");
+            dt.SetBinding(ImageCell.ImageSourceProperty, "IconSource");
             lv.ItemTemplate = dt;
             Content = lv;
         }

@@ -11,7 +11,7 @@ using Jaktloggen.Views.Cells;
 using Jaktloggen.Views.Input;
 using Xamarin.Forms;
 
-namespace Jaktloggen.Views
+namespace Jaktloggen.Views.Stats
 {
     public class StatsDetailsPage : Base.ContentPageJL
     {

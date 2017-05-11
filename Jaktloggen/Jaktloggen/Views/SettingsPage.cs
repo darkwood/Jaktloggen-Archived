@@ -38,33 +38,35 @@ namespace Jaktloggen.Views
                 {
                     new TableSection()
                     {
-                        new JL_ButtonCell("Sikkerhetskopier data", ButtonExport_OnClicked),
-                        new JL_ButtonCell("Erstatt data fra sikkerhetskopi", ButtonImport_OnClicked),
-                        new JL_TextCell("Se alle loggføringer på kartet", ">>", ViewLogsOnMap_OnTapped)
-        },
+                        new JL_ButtonCell("Om Jaktloggen", AboutJaktloggen_OnClicked),
+                        //new JL_ButtonCell("Sikkerhetskopier data", ButtonExport_OnClicked),
+                        //new JL_ButtonCell("Erstatt data fra sikkerhetskopi", ButtonImport_OnClicked),
+                    },
                 },
             };
         }
 
-        private async void ViewLogsOnMap_OnTapped(object sender, EventArgs eventArgs)
-{
-    await Navigation.PushAsync(new PositionLogsPage(App.Database.GetLoggs()));
-}
-private async void ButtonExport_OnClicked(object sender, EventArgs e)
+        private void AboutJaktloggen_OnClicked(object sender, EventArgs e)
         {
-            var ok = await DisplayAlert("Bekreft eksport", "All data blir lastet ned på disk", "OK", "Avbryt");
-            if (ok)
-            {
-                await VM.Export();
-            }
+            Navigation.PushAsync(new AboutPage());
         }
-        private async void ButtonImport_OnClicked(object sender, EventArgs e)
-        {
-            var ok = await DisplayAlert("Bekreft import", "All data blir erstattet av importdata.", "OK", "Avbryt");
-            if (ok)
-            {
-                await VM.Import();
-            }
-        }
+
+        //private async void ButtonExport_OnClicked(object sender, EventArgs e)
+        //{
+        //    var ok = await DisplayAlert("Bekreft eksport", "All data blir lastet ned på disk", "OK", "Avbryt");
+        //    if (ok)
+        //    {
+        //        await VM.Export();
+        //    }
+        //}
+
+        //private async void ButtonImport_OnClicked(object sender, EventArgs e)
+        //{
+        //    var ok = await DisplayAlert("Bekreft import", "All data blir erstattet av importdata.", "OK", "Avbryt");
+        //    if (ok)
+        //    {
+        //        await VM.Import();
+        //    }
+        //}
     }
 }

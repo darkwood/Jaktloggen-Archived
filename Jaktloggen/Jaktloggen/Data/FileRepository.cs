@@ -474,8 +474,13 @@ namespace Jaktloggen.Data
         }
         public void RemoveSelectedArt(Art art)
         {
-            SelectedArtList.Remove(art);
-            SelectedArtList.Save(FILE_SELECTED_ARTIDS);
+            var artToRemove = SelectedArtList.SingleOrDefault(a => a.ID == art.ID);
+            if (artToRemove != null)
+            {
+                SelectedArtList.Remove(artToRemove);
+                SelectedArtList.Save(FILE_SELECTED_ARTIDS);
+            }
+            
         }
         public void AddSelectedLoggType(LoggType loggType)//todo change to store only key
         {
