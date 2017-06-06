@@ -8,7 +8,7 @@ using Jaktloggen.Helpers;
 using Jaktloggen.Models;
 using Jaktloggen.Views.Extended;
 using MvvmHelpers;
-using PropertyChanged;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 

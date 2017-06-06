@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Linq;
-using System.Threading.Tasks;
+
 using Jaktloggen.Models;
 using MvvmHelpers;
-using PropertyChanged;
-
 
 namespace Jaktloggen.ViewModels
 {
@@ -19,8 +17,7 @@ namespace Jaktloggen.ViewModels
             this.ShortName = ShortName;
         }
     }
-
-    [ImplementPropertyChanged]
+    
     public class JaktListVM
     {
         public ObservableRangeCollection<JaktGroup> GroupedItems { get; set; }

@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using Jaktloggen.IO;
+
+using MvvmHelpers;
 
 namespace Jaktloggen.ViewModels
 {
-    public class SettingsVM
+    public class SettingsVM : ObservableObject
     {
         public string Title = "Verktøy";
 

@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 using Newtonsoft.Json;
-using PropertyChanged;
+
 using Xamarin.Forms;
 
 namespace Jaktloggen.Models
 {
-    [ImplementPropertyChanged]
+    
     public class LoggType : EntityBase
     {
         public string Key { get; set; }

@@ -1,11 +1,11 @@
 ﻿using System.Linq;
 using Jaktloggen.Models;
 using MvvmHelpers;
-using PropertyChanged;
+
 
 namespace Jaktloggen.ViewModels.Stats
 {
-    [ImplementPropertyChanged]
+    
     public class StatsTableVM
     {
         public ObservableRangeCollection<StatsTableItem> ItemCollection { get; set; }

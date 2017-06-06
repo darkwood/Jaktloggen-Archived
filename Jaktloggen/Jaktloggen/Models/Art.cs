@@ -5,12 +5,12 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Xml.Serialization;
 using Newtonsoft.Json;
-using PropertyChanged;
+
 using Xamarin.Forms;
 
 namespace Jaktloggen.Models
 {
-    [ImplementPropertyChanged]
+    
     public class Art : EntityBase
     {
         public string Navn { get; set; }

@@ -1,35 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
-using Jaktloggen.Annotations;
-using Jaktloggen.Data;
+﻿using System.Threading.Tasks;
 using Jaktloggen.Helpers;
-using Jaktloggen.IO;
 using Jaktloggen.Models;
-
 using MvvmHelpers;
-using PropertyChanged;
-using Xamarin.Forms;
 
 namespace Jaktloggen.ViewModels
 {
-    [ImplementPropertyChanged]
-    public class ArtVM
+    
+    public class ArtVM : ObservableObject
     {
-
-        public bool ArtExists
-        {
-            get { return CurrentArt.ID > 0; }
-        }
+        public bool ArtExists => CurrentArt.ID > 0;
 
         public Art CurrentArt { get; set; }
+
         public ArtVM(Art currentArt)
         {
             if (currentArt.ID == 0)

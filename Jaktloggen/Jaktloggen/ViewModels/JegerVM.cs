@@ -1,35 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Input;
-using Jaktloggen.Annotations;
-using Jaktloggen.Data;
+
 using Jaktloggen.Helpers;
-using Jaktloggen.IO;
 using Jaktloggen.Models;
 
 using MvvmHelpers;
-using PropertyChanged;
-using Xamarin.Forms;
 
 namespace Jaktloggen.ViewModels
 {
-    [ImplementPropertyChanged]
-    public class JegerVM
+    public class JegerVM :ObservableObject
     {
-
-        public bool JegerExists
-        {
-            get { return CurrentJeger.ID > 0; }
-        }
+        public bool JegerExists => CurrentJeger.ID > 0;
 
         public Jeger CurrentJeger { get; set; }
+
         public JegerVM(Jeger currentJeger)
         {
             if (currentJeger.ID == 0)
@@ -55,9 +39,7 @@ namespace Jaktloggen.ViewModels
         {
             App.Database.DeleteJeger(CurrentJeger);
         }
-
-        public event Action ShouldTakePicture = () => { };
-
+        
         public async Task SelectPicture()
         {
             var mediaFile = await XLabsHelper.SelectPicture();

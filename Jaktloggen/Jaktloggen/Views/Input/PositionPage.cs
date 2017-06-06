@@ -7,13 +7,13 @@ using System.Text;
 using Jaktloggen.Models;
 using Jaktloggen.Views.Extended;
 using MvvmHelpers;
-using PropertyChanged;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 
 namespace Jaktloggen.Views.Input
 {
-    [ImplementPropertyChanged]
+    
     public class PositionPageVM
     {
         public Position Position { get; set; }

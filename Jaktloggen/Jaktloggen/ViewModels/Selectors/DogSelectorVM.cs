@@ -1,26 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Diagnostics;
 using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
-using Jaktloggen.Annotations;
-using Jaktloggen.Data;
-using Jaktloggen.IO;
+
 using Jaktloggen.Models;
 
 using MvvmHelpers;
-using PropertyChanged;
-using Xamarin.Forms;
 
 namespace Jaktloggen.ViewModels
 {
-    using System.IO;
-
     public class DogSelectorGroup : ObservableRangeCollection<Dog>
     {
         public String Name { get; private set; }
@@ -31,12 +18,9 @@ namespace Jaktloggen.ViewModels
             this.Name = Name;
             this.ShortName = ShortName;
         }
-
-        // Whatever other properties
     }
-
-    [ImplementPropertyChanged]
-    public class DogSelectorVM
+    
+    public class DogSelectorVM : ObservableObject
     {
         public int JaktId { get; set; }
         public List<int> DogIds { get; set; }

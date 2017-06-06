@@ -1,35 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
-using Jaktloggen.Annotations;
-using Jaktloggen.Data;
+﻿using System.Threading.Tasks;
+
 using Jaktloggen.Helpers;
-using Jaktloggen.IO;
 using Jaktloggen.Models;
 
 using MvvmHelpers;
-using PropertyChanged;
-using Xamarin.Forms;
 
 namespace Jaktloggen.ViewModels
 {
-    [ImplementPropertyChanged]
-    public class DogVM
+    
+    public class DogVM : ObservableObject
     {
 
-        public bool DogExists
-        {
-            get { return CurrentDog.ID > 0; }
-        }
+        public bool DogExists => CurrentDog.ID > 0;
 
         public Dog CurrentDog { get; set; }
+
         public DogVM(Dog currentDog)
         {
             if (currentDog.ID == 0)

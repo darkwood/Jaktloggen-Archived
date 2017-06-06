@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Xml.Serialization;
 using Newtonsoft.Json;
-using PropertyChanged;
+
 using Xamarin.Forms;
 
 namespace Jaktloggen.Models
 {
     using System.Linq;
 
-    [ImplementPropertyChanged]
+    
     public class Jakt : EntityBase, IPosition
     {
         public int ID { get; set; }

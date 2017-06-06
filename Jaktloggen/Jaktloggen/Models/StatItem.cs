@@ -4,12 +4,12 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Xml.Serialization;
-using PropertyChanged;
+
 using Xamarin.Forms;
 
 namespace Jaktloggen.Models
 {
-    [ImplementPropertyChanged]
+    
     public class StatItem
     {
         private string _details;

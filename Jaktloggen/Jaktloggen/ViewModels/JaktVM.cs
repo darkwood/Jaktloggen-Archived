@@ -1,27 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Diagnostics;
 using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Input;
-using Jaktloggen.Annotations;
-using Jaktloggen.Data;
 using Jaktloggen.Helpers;
-using Jaktloggen.IO;
 using Jaktloggen.Models;
 
 using MvvmHelpers;
-using PropertyChanged;
-using Xamarin.Forms;
 
 namespace Jaktloggen.ViewModels
 {
-    [ImplementPropertyChanged]
-    public class JaktVM
+    public class JaktVM : ObservableObject
     {
         private int jaktId;
         public Jakt CurrentJakt { get; set; }
@@ -43,9 +31,7 @@ namespace Jaktloggen.ViewModels
             jaktId = jakt.ID;
             CurrentJakt = jakt;
         }
-
         
-
         public void BindData()
         {
             AllJaktNames = App.Database.GetJakts().Select(j => j.Sted).Distinct().Where(s => !string.IsNullOrWhiteSpace(s));
@@ -70,7 +56,6 @@ namespace Jaktloggen.ViewModels
         public void Save()
         {
             App.Database.SaveJakt(CurrentJakt);
-            
         }
 
         public void Delete()
@@ -86,7 +71,6 @@ namespace Jaktloggen.ViewModels
                 Save();
             }
         }
-
         public Logg CreateLogg()
         {
             var logg = new Logg { JaktId = CurrentJakt.ID };
@@ -96,7 +80,8 @@ namespace Jaktloggen.ViewModels
             if (CurrentJakt.JegerIds.Count == 1)
             {
                 logg.JegerId = CurrentJakt.JegerIds.First();
-            } else if (App.Database.GetJegere().Count() == 1)
+            }
+            else if (App.Database.GetJegere().Count() == 1)
             {
                 logg.JegerId = App.Database.GetJegere().Single().ID;
             }

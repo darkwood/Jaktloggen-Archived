@@ -7,13 +7,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 using Newtonsoft.Json;
-using PropertyChanged;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 
 namespace Jaktloggen.Models
 {
-    [ImplementPropertyChanged]
+    
     public class Logg : EntityBase, IPosition
     {
         public int ID { get; set; }
