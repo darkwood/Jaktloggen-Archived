@@ -116,8 +116,19 @@ namespace Jaktloggen.Views
         }
         private async void ImageCell_OnTapped(object sender, EventArgs e)
         {
-            await VM.SelectPicture();
-            Init();
+            if (string.IsNullOrEmpty(VM.CurrentJakt.ImagePath))
+            {
+                await VM.SelectPicture();
+            }
+            else
+            {
+                await Navigation.PushAsync(new MediaPage(VM.CurrentJakt.ImagePath, delegate (MediaPage mediaPage)
+                {
+                    VM.CurrentJakt.ImagePath = mediaPage.ImageSource;
+                    VM.Save();
+                    Init();
+                }), true);
+            }
         }
 
         private async void DateCell_OnTapped(object sender, EventArgs e)
