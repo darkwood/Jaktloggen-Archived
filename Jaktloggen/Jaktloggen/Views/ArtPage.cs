@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
+
 using Jaktloggen.Models;
 using Jaktloggen.ViewModels;
 using Jaktloggen.Views.Base;
@@ -49,15 +46,15 @@ namespace Jaktloggen.Views
         }
         private async void ImageCell_OnTapped(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(VM.CurrentArte.ImagePath))
+            if (string.IsNullOrEmpty(VM.CurrentArt.ImagePath))
             {
                 await VM.SelectPicture();
             }
             else
             {
-                await Navigation.PushAsync(new MediaPage(VM.CurrentJakt.ImagePath, delegate (MediaPage mediaPage)
+                await Navigation.PushAsync(new MediaPage(VM.CurrentArt.ImagePath, delegate (MediaPage mediaPage)
                 {
-                    VM.CurrentJakt.ImagePath = mediaPage.ImageSource;
+                    VM.CurrentArt.ImagePath = mediaPage.ImageSource;
                     VM.Save();
                     Init();
                 }), true);
