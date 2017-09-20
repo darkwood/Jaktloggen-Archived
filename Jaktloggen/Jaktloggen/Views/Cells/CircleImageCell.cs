@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using ImageCircle.Forms.Plugin.Abstractions;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace Jaktloggen.Views.Cells
 {
@@ -12,7 +6,7 @@ namespace Jaktloggen.Views.Cells
     {
         private Label TitleLabel = new Label();
         private Label DetailsLabel = new Label();
-        private CircleImage CircleImage;
+        private Image CircleImage;
         private Image SecondaryImage { get; set; }
         public static readonly BindableProperty TextProperty =
         BindableProperty.Create("Text", typeof(string), typeof(CircleImageCell), "");
@@ -45,13 +39,13 @@ namespace Jaktloggen.Views.Cells
         }
         public CircleImageCell()
         {
-            CircleImage = new CircleImage()
+            CircleImage = new Image()
             {
 
                 HorizontalOptions = LayoutOptions.Start,
                 VerticalOptions = LayoutOptions.CenterAndExpand,
-                BorderThickness = 1,
-                BorderColor = Color.White,
+                //BorderThickness = 1,
+                //BorderColor = Color.White,
                 HeightRequest = 40,
                 WidthRequest = 40,
                 Aspect = Aspect.AspectFill

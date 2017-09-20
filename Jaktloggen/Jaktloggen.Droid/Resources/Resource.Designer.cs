@@ -27,1432 +27,6 @@ namespace Jaktloggen.Droid
 		public static void UpdateIdValues()
 		{
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Jaktloggen.Droid.Resource.Attribute.actionBarSize;
-			global::XLabs.Forms.Resource.Animation.abc_fade_in = global::Jaktloggen.Droid.Resource.Animation.abc_fade_in;
-			global::XLabs.Forms.Resource.Animation.abc_fade_out = global::Jaktloggen.Droid.Resource.Animation.abc_fade_out;
-			global::XLabs.Forms.Resource.Animation.abc_grow_fade_in_from_bottom = global::Jaktloggen.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::XLabs.Forms.Resource.Animation.abc_popup_enter = global::Jaktloggen.Droid.Resource.Animation.abc_popup_enter;
-			global::XLabs.Forms.Resource.Animation.abc_popup_exit = global::Jaktloggen.Droid.Resource.Animation.abc_popup_exit;
-			global::XLabs.Forms.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Jaktloggen.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::XLabs.Forms.Resource.Animation.abc_slide_in_bottom = global::Jaktloggen.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::XLabs.Forms.Resource.Animation.abc_slide_in_top = global::Jaktloggen.Droid.Resource.Animation.abc_slide_in_top;
-			global::XLabs.Forms.Resource.Animation.abc_slide_out_bottom = global::Jaktloggen.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::XLabs.Forms.Resource.Animation.abc_slide_out_top = global::Jaktloggen.Droid.Resource.Animation.abc_slide_out_top;
-			global::XLabs.Forms.Resource.Animation.design_fab_in = global::Jaktloggen.Droid.Resource.Animation.design_fab_in;
-			global::XLabs.Forms.Resource.Animation.design_fab_out = global::Jaktloggen.Droid.Resource.Animation.design_fab_out;
-			global::XLabs.Forms.Resource.Animation.design_snackbar_in = global::Jaktloggen.Droid.Resource.Animation.design_snackbar_in;
-			global::XLabs.Forms.Resource.Animation.design_snackbar_out = global::Jaktloggen.Droid.Resource.Animation.design_snackbar_out;
-			global::XLabs.Forms.Resource.Attribute.actionBarDivider = global::Jaktloggen.Droid.Resource.Attribute.actionBarDivider;
-			global::XLabs.Forms.Resource.Attribute.actionBarItemBackground = global::Jaktloggen.Droid.Resource.Attribute.actionBarItemBackground;
-			global::XLabs.Forms.Resource.Attribute.actionBarPopupTheme = global::Jaktloggen.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::XLabs.Forms.Resource.Attribute.actionBarSize = global::Jaktloggen.Droid.Resource.Attribute.actionBarSize;
-			global::XLabs.Forms.Resource.Attribute.actionBarSplitStyle = global::Jaktloggen.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::XLabs.Forms.Resource.Attribute.actionBarStyle = global::Jaktloggen.Droid.Resource.Attribute.actionBarStyle;
-			global::XLabs.Forms.Resource.Attribute.actionBarTabBarStyle = global::Jaktloggen.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::XLabs.Forms.Resource.Attribute.actionBarTabStyle = global::Jaktloggen.Droid.Resource.Attribute.actionBarTabStyle;
-			global::XLabs.Forms.Resource.Attribute.actionBarTabTextStyle = global::Jaktloggen.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::XLabs.Forms.Resource.Attribute.actionBarTheme = global::Jaktloggen.Droid.Resource.Attribute.actionBarTheme;
-			global::XLabs.Forms.Resource.Attribute.actionBarWidgetTheme = global::Jaktloggen.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::XLabs.Forms.Resource.Attribute.actionButtonStyle = global::Jaktloggen.Droid.Resource.Attribute.actionButtonStyle;
-			global::XLabs.Forms.Resource.Attribute.actionDropDownStyle = global::Jaktloggen.Droid.Resource.Attribute.actionDropDownStyle;
-			global::XLabs.Forms.Resource.Attribute.actionLayout = global::Jaktloggen.Droid.Resource.Attribute.actionLayout;
-			global::XLabs.Forms.Resource.Attribute.actionMenuTextAppearance = global::Jaktloggen.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::XLabs.Forms.Resource.Attribute.actionMenuTextColor = global::Jaktloggen.Droid.Resource.Attribute.actionMenuTextColor;
-			global::XLabs.Forms.Resource.Attribute.actionModeBackground = global::Jaktloggen.Droid.Resource.Attribute.actionModeBackground;
-			global::XLabs.Forms.Resource.Attribute.actionModeCloseButtonStyle = global::Jaktloggen.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::XLabs.Forms.Resource.Attribute.actionModeCloseDrawable = global::Jaktloggen.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::XLabs.Forms.Resource.Attribute.actionModeCopyDrawable = global::Jaktloggen.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::XLabs.Forms.Resource.Attribute.actionModeCutDrawable = global::Jaktloggen.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::XLabs.Forms.Resource.Attribute.actionModeFindDrawable = global::Jaktloggen.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::XLabs.Forms.Resource.Attribute.actionModePasteDrawable = global::Jaktloggen.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::XLabs.Forms.Resource.Attribute.actionModePopupWindowStyle = global::Jaktloggen.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::XLabs.Forms.Resource.Attribute.actionModeSelectAllDrawable = global::Jaktloggen.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::XLabs.Forms.Resource.Attribute.actionModeShareDrawable = global::Jaktloggen.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::XLabs.Forms.Resource.Attribute.actionModeSplitBackground = global::Jaktloggen.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::XLabs.Forms.Resource.Attribute.actionModeStyle = global::Jaktloggen.Droid.Resource.Attribute.actionModeStyle;
-			global::XLabs.Forms.Resource.Attribute.actionModeWebSearchDrawable = global::Jaktloggen.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::XLabs.Forms.Resource.Attribute.actionOverflowButtonStyle = global::Jaktloggen.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::XLabs.Forms.Resource.Attribute.actionOverflowMenuStyle = global::Jaktloggen.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::XLabs.Forms.Resource.Attribute.actionProviderClass = global::Jaktloggen.Droid.Resource.Attribute.actionProviderClass;
-			global::XLabs.Forms.Resource.Attribute.actionViewClass = global::Jaktloggen.Droid.Resource.Attribute.actionViewClass;
-			global::XLabs.Forms.Resource.Attribute.activityChooserViewStyle = global::Jaktloggen.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::XLabs.Forms.Resource.Attribute.alertDialogButtonGroupStyle = global::Jaktloggen.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::XLabs.Forms.Resource.Attribute.alertDialogCenterButtons = global::Jaktloggen.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::XLabs.Forms.Resource.Attribute.alertDialogStyle = global::Jaktloggen.Droid.Resource.Attribute.alertDialogStyle;
-			global::XLabs.Forms.Resource.Attribute.alertDialogTheme = global::Jaktloggen.Droid.Resource.Attribute.alertDialogTheme;
-			global::XLabs.Forms.Resource.Attribute.arrowHeadLength = global::Jaktloggen.Droid.Resource.Attribute.arrowHeadLength;
-			global::XLabs.Forms.Resource.Attribute.arrowShaftLength = global::Jaktloggen.Droid.Resource.Attribute.arrowShaftLength;
-			global::XLabs.Forms.Resource.Attribute.autoCompleteTextViewStyle = global::Jaktloggen.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::XLabs.Forms.Resource.Attribute.background = global::Jaktloggen.Droid.Resource.Attribute.background;
-			global::XLabs.Forms.Resource.Attribute.backgroundSplit = global::Jaktloggen.Droid.Resource.Attribute.backgroundSplit;
-			global::XLabs.Forms.Resource.Attribute.backgroundStacked = global::Jaktloggen.Droid.Resource.Attribute.backgroundStacked;
-			global::XLabs.Forms.Resource.Attribute.backgroundTint = global::Jaktloggen.Droid.Resource.Attribute.backgroundTint;
-			global::XLabs.Forms.Resource.Attribute.backgroundTintMode = global::Jaktloggen.Droid.Resource.Attribute.backgroundTintMode;
-			global::XLabs.Forms.Resource.Attribute.barLength = global::Jaktloggen.Droid.Resource.Attribute.barLength;
-			global::XLabs.Forms.Resource.Attribute.behavior_overlapTop = global::Jaktloggen.Droid.Resource.Attribute.behavior_overlapTop;
-			global::XLabs.Forms.Resource.Attribute.borderWidth = global::Jaktloggen.Droid.Resource.Attribute.borderWidth;
-			global::XLabs.Forms.Resource.Attribute.borderlessButtonStyle = global::Jaktloggen.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::XLabs.Forms.Resource.Attribute.buttonBarButtonStyle = global::Jaktloggen.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::XLabs.Forms.Resource.Attribute.buttonBarNegativeButtonStyle = global::Jaktloggen.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::XLabs.Forms.Resource.Attribute.buttonBarNeutralButtonStyle = global::Jaktloggen.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::XLabs.Forms.Resource.Attribute.buttonBarPositiveButtonStyle = global::Jaktloggen.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::XLabs.Forms.Resource.Attribute.buttonBarStyle = global::Jaktloggen.Droid.Resource.Attribute.buttonBarStyle;
-			global::XLabs.Forms.Resource.Attribute.buttonPanelSideLayout = global::Jaktloggen.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::XLabs.Forms.Resource.Attribute.buttonStyle = global::Jaktloggen.Droid.Resource.Attribute.buttonStyle;
-			global::XLabs.Forms.Resource.Attribute.buttonStyleSmall = global::Jaktloggen.Droid.Resource.Attribute.buttonStyleSmall;
-			global::XLabs.Forms.Resource.Attribute.buttonTint = global::Jaktloggen.Droid.Resource.Attribute.buttonTint;
-			global::XLabs.Forms.Resource.Attribute.buttonTintMode = global::Jaktloggen.Droid.Resource.Attribute.buttonTintMode;
-			global::XLabs.Forms.Resource.Attribute.cardBackgroundColor = global::Jaktloggen.Droid.Resource.Attribute.cardBackgroundColor;
-			global::XLabs.Forms.Resource.Attribute.cardCornerRadius = global::Jaktloggen.Droid.Resource.Attribute.cardCornerRadius;
-			global::XLabs.Forms.Resource.Attribute.cardElevation = global::Jaktloggen.Droid.Resource.Attribute.cardElevation;
-			global::XLabs.Forms.Resource.Attribute.cardMaxElevation = global::Jaktloggen.Droid.Resource.Attribute.cardMaxElevation;
-			global::XLabs.Forms.Resource.Attribute.cardPreventCornerOverlap = global::Jaktloggen.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::XLabs.Forms.Resource.Attribute.cardUseCompatPadding = global::Jaktloggen.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::XLabs.Forms.Resource.Attribute.checkboxStyle = global::Jaktloggen.Droid.Resource.Attribute.checkboxStyle;
-			global::XLabs.Forms.Resource.Attribute.checkedTextViewStyle = global::Jaktloggen.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::XLabs.Forms.Resource.Attribute.closeIcon = global::Jaktloggen.Droid.Resource.Attribute.closeIcon;
-			global::XLabs.Forms.Resource.Attribute.closeItemLayout = global::Jaktloggen.Droid.Resource.Attribute.closeItemLayout;
-			global::XLabs.Forms.Resource.Attribute.collapseContentDescription = global::Jaktloggen.Droid.Resource.Attribute.collapseContentDescription;
-			global::XLabs.Forms.Resource.Attribute.collapseIcon = global::Jaktloggen.Droid.Resource.Attribute.collapseIcon;
-			global::XLabs.Forms.Resource.Attribute.collapsedTitleGravity = global::Jaktloggen.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::XLabs.Forms.Resource.Attribute.collapsedTitleTextAppearance = global::Jaktloggen.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::XLabs.Forms.Resource.Attribute.color = global::Jaktloggen.Droid.Resource.Attribute.color;
-			global::XLabs.Forms.Resource.Attribute.colorAccent = global::Jaktloggen.Droid.Resource.Attribute.colorAccent;
-			global::XLabs.Forms.Resource.Attribute.colorButtonNormal = global::Jaktloggen.Droid.Resource.Attribute.colorButtonNormal;
-			global::XLabs.Forms.Resource.Attribute.colorControlActivated = global::Jaktloggen.Droid.Resource.Attribute.colorControlActivated;
-			global::XLabs.Forms.Resource.Attribute.colorControlHighlight = global::Jaktloggen.Droid.Resource.Attribute.colorControlHighlight;
-			global::XLabs.Forms.Resource.Attribute.colorControlNormal = global::Jaktloggen.Droid.Resource.Attribute.colorControlNormal;
-			global::XLabs.Forms.Resource.Attribute.colorPrimary = global::Jaktloggen.Droid.Resource.Attribute.colorPrimary;
-			global::XLabs.Forms.Resource.Attribute.colorPrimaryDark = global::Jaktloggen.Droid.Resource.Attribute.colorPrimaryDark;
-			global::XLabs.Forms.Resource.Attribute.colorSwitchThumbNormal = global::Jaktloggen.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::XLabs.Forms.Resource.Attribute.commitIcon = global::Jaktloggen.Droid.Resource.Attribute.commitIcon;
-			global::XLabs.Forms.Resource.Attribute.contentInsetEnd = global::Jaktloggen.Droid.Resource.Attribute.contentInsetEnd;
-			global::XLabs.Forms.Resource.Attribute.contentInsetLeft = global::Jaktloggen.Droid.Resource.Attribute.contentInsetLeft;
-			global::XLabs.Forms.Resource.Attribute.contentInsetRight = global::Jaktloggen.Droid.Resource.Attribute.contentInsetRight;
-			global::XLabs.Forms.Resource.Attribute.contentInsetStart = global::Jaktloggen.Droid.Resource.Attribute.contentInsetStart;
-			global::XLabs.Forms.Resource.Attribute.contentPadding = global::Jaktloggen.Droid.Resource.Attribute.contentPadding;
-			global::XLabs.Forms.Resource.Attribute.contentPaddingBottom = global::Jaktloggen.Droid.Resource.Attribute.contentPaddingBottom;
-			global::XLabs.Forms.Resource.Attribute.contentPaddingLeft = global::Jaktloggen.Droid.Resource.Attribute.contentPaddingLeft;
-			global::XLabs.Forms.Resource.Attribute.contentPaddingRight = global::Jaktloggen.Droid.Resource.Attribute.contentPaddingRight;
-			global::XLabs.Forms.Resource.Attribute.contentPaddingTop = global::Jaktloggen.Droid.Resource.Attribute.contentPaddingTop;
-			global::XLabs.Forms.Resource.Attribute.contentScrim = global::Jaktloggen.Droid.Resource.Attribute.contentScrim;
-			global::XLabs.Forms.Resource.Attribute.controlBackground = global::Jaktloggen.Droid.Resource.Attribute.controlBackground;
-			global::XLabs.Forms.Resource.Attribute.customNavigationLayout = global::Jaktloggen.Droid.Resource.Attribute.customNavigationLayout;
-			global::XLabs.Forms.Resource.Attribute.defaultQueryHint = global::Jaktloggen.Droid.Resource.Attribute.defaultQueryHint;
-			global::XLabs.Forms.Resource.Attribute.dialogPreferredPadding = global::Jaktloggen.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::XLabs.Forms.Resource.Attribute.dialogTheme = global::Jaktloggen.Droid.Resource.Attribute.dialogTheme;
-			global::XLabs.Forms.Resource.Attribute.displayOptions = global::Jaktloggen.Droid.Resource.Attribute.displayOptions;
-			global::XLabs.Forms.Resource.Attribute.divider = global::Jaktloggen.Droid.Resource.Attribute.divider;
-			global::XLabs.Forms.Resource.Attribute.dividerHorizontal = global::Jaktloggen.Droid.Resource.Attribute.dividerHorizontal;
-			global::XLabs.Forms.Resource.Attribute.dividerPadding = global::Jaktloggen.Droid.Resource.Attribute.dividerPadding;
-			global::XLabs.Forms.Resource.Attribute.dividerVertical = global::Jaktloggen.Droid.Resource.Attribute.dividerVertical;
-			global::XLabs.Forms.Resource.Attribute.drawableSize = global::Jaktloggen.Droid.Resource.Attribute.drawableSize;
-			global::XLabs.Forms.Resource.Attribute.drawerArrowStyle = global::Jaktloggen.Droid.Resource.Attribute.drawerArrowStyle;
-			global::XLabs.Forms.Resource.Attribute.dropDownListViewStyle = global::Jaktloggen.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::XLabs.Forms.Resource.Attribute.dropdownListPreferredItemHeight = global::Jaktloggen.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::XLabs.Forms.Resource.Attribute.editTextBackground = global::Jaktloggen.Droid.Resource.Attribute.editTextBackground;
-			global::XLabs.Forms.Resource.Attribute.editTextColor = global::Jaktloggen.Droid.Resource.Attribute.editTextColor;
-			global::XLabs.Forms.Resource.Attribute.editTextStyle = global::Jaktloggen.Droid.Resource.Attribute.editTextStyle;
-			global::XLabs.Forms.Resource.Attribute.elevation = global::Jaktloggen.Droid.Resource.Attribute.elevation;
-			global::XLabs.Forms.Resource.Attribute.errorEnabled = global::Jaktloggen.Droid.Resource.Attribute.errorEnabled;
-			global::XLabs.Forms.Resource.Attribute.errorTextAppearance = global::Jaktloggen.Droid.Resource.Attribute.errorTextAppearance;
-			global::XLabs.Forms.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Jaktloggen.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::XLabs.Forms.Resource.Attribute.expanded = global::Jaktloggen.Droid.Resource.Attribute.expanded;
-			global::XLabs.Forms.Resource.Attribute.expandedTitleGravity = global::Jaktloggen.Droid.Resource.Attribute.expandedTitleGravity;
-			global::XLabs.Forms.Resource.Attribute.expandedTitleMargin = global::Jaktloggen.Droid.Resource.Attribute.expandedTitleMargin;
-			global::XLabs.Forms.Resource.Attribute.expandedTitleMarginBottom = global::Jaktloggen.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::XLabs.Forms.Resource.Attribute.expandedTitleMarginEnd = global::Jaktloggen.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::XLabs.Forms.Resource.Attribute.expandedTitleMarginStart = global::Jaktloggen.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::XLabs.Forms.Resource.Attribute.expandedTitleMarginTop = global::Jaktloggen.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::XLabs.Forms.Resource.Attribute.expandedTitleTextAppearance = global::Jaktloggen.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::XLabs.Forms.Resource.Attribute.externalRouteEnabledDrawable = global::Jaktloggen.Droid.Resource.Attribute.externalRouteEnabledDrawable;
-			global::XLabs.Forms.Resource.Attribute.fabSize = global::Jaktloggen.Droid.Resource.Attribute.fabSize;
-			global::XLabs.Forms.Resource.Attribute.gapBetweenBars = global::Jaktloggen.Droid.Resource.Attribute.gapBetweenBars;
-			global::XLabs.Forms.Resource.Attribute.goIcon = global::Jaktloggen.Droid.Resource.Attribute.goIcon;
-			global::XLabs.Forms.Resource.Attribute.headerLayout = global::Jaktloggen.Droid.Resource.Attribute.headerLayout;
-			global::XLabs.Forms.Resource.Attribute.height = global::Jaktloggen.Droid.Resource.Attribute.height;
-			global::XLabs.Forms.Resource.Attribute.hideOnContentScroll = global::Jaktloggen.Droid.Resource.Attribute.hideOnContentScroll;
-			global::XLabs.Forms.Resource.Attribute.hintAnimationEnabled = global::Jaktloggen.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::XLabs.Forms.Resource.Attribute.hintTextAppearance = global::Jaktloggen.Droid.Resource.Attribute.hintTextAppearance;
-			global::XLabs.Forms.Resource.Attribute.homeAsUpIndicator = global::Jaktloggen.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::XLabs.Forms.Resource.Attribute.homeLayout = global::Jaktloggen.Droid.Resource.Attribute.homeLayout;
-			global::XLabs.Forms.Resource.Attribute.icon = global::Jaktloggen.Droid.Resource.Attribute.icon;
-			global::XLabs.Forms.Resource.Attribute.iconifiedByDefault = global::Jaktloggen.Droid.Resource.Attribute.iconifiedByDefault;
-			global::XLabs.Forms.Resource.Attribute.indeterminateProgressStyle = global::Jaktloggen.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::XLabs.Forms.Resource.Attribute.initialActivityCount = global::Jaktloggen.Droid.Resource.Attribute.initialActivityCount;
-			global::XLabs.Forms.Resource.Attribute.insetForeground = global::Jaktloggen.Droid.Resource.Attribute.insetForeground;
-			global::XLabs.Forms.Resource.Attribute.isLightTheme = global::Jaktloggen.Droid.Resource.Attribute.isLightTheme;
-			global::XLabs.Forms.Resource.Attribute.itemBackground = global::Jaktloggen.Droid.Resource.Attribute.itemBackground;
-			global::XLabs.Forms.Resource.Attribute.itemIconTint = global::Jaktloggen.Droid.Resource.Attribute.itemIconTint;
-			global::XLabs.Forms.Resource.Attribute.itemPadding = global::Jaktloggen.Droid.Resource.Attribute.itemPadding;
-			global::XLabs.Forms.Resource.Attribute.itemTextAppearance = global::Jaktloggen.Droid.Resource.Attribute.itemTextAppearance;
-			global::XLabs.Forms.Resource.Attribute.itemTextColor = global::Jaktloggen.Droid.Resource.Attribute.itemTextColor;
-			global::XLabs.Forms.Resource.Attribute.keylines = global::Jaktloggen.Droid.Resource.Attribute.keylines;
-			global::XLabs.Forms.Resource.Attribute.layout = global::Jaktloggen.Droid.Resource.Attribute.layout;
-			global::XLabs.Forms.Resource.Attribute.layout_anchor = global::Jaktloggen.Droid.Resource.Attribute.layout_anchor;
-			global::XLabs.Forms.Resource.Attribute.layout_anchorGravity = global::Jaktloggen.Droid.Resource.Attribute.layout_anchorGravity;
-			global::XLabs.Forms.Resource.Attribute.layout_behavior = global::Jaktloggen.Droid.Resource.Attribute.layout_behavior;
-			global::XLabs.Forms.Resource.Attribute.layout_collapseMode = global::Jaktloggen.Droid.Resource.Attribute.layout_collapseMode;
-			global::XLabs.Forms.Resource.Attribute.layout_collapseParallaxMultiplier = global::Jaktloggen.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::XLabs.Forms.Resource.Attribute.layout_keyline = global::Jaktloggen.Droid.Resource.Attribute.layout_keyline;
-			global::XLabs.Forms.Resource.Attribute.layout_scrollFlags = global::Jaktloggen.Droid.Resource.Attribute.layout_scrollFlags;
-			global::XLabs.Forms.Resource.Attribute.layout_scrollInterpolator = global::Jaktloggen.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::XLabs.Forms.Resource.Attribute.listChoiceBackgroundIndicator = global::Jaktloggen.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::XLabs.Forms.Resource.Attribute.listDividerAlertDialog = global::Jaktloggen.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::XLabs.Forms.Resource.Attribute.listItemLayout = global::Jaktloggen.Droid.Resource.Attribute.listItemLayout;
-			global::XLabs.Forms.Resource.Attribute.listLayout = global::Jaktloggen.Droid.Resource.Attribute.listLayout;
-			global::XLabs.Forms.Resource.Attribute.listPopupWindowStyle = global::Jaktloggen.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::XLabs.Forms.Resource.Attribute.listPreferredItemHeight = global::Jaktloggen.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::XLabs.Forms.Resource.Attribute.listPreferredItemHeightLarge = global::Jaktloggen.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::XLabs.Forms.Resource.Attribute.listPreferredItemHeightSmall = global::Jaktloggen.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::XLabs.Forms.Resource.Attribute.listPreferredItemPaddingLeft = global::Jaktloggen.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::XLabs.Forms.Resource.Attribute.listPreferredItemPaddingRight = global::Jaktloggen.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::XLabs.Forms.Resource.Attribute.logo = global::Jaktloggen.Droid.Resource.Attribute.logo;
-			global::XLabs.Forms.Resource.Attribute.logoDescription = global::Jaktloggen.Droid.Resource.Attribute.logoDescription;
-			global::XLabs.Forms.Resource.Attribute.maxActionInlineWidth = global::Jaktloggen.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::XLabs.Forms.Resource.Attribute.maxButtonHeight = global::Jaktloggen.Droid.Resource.Attribute.maxButtonHeight;
-			global::XLabs.Forms.Resource.Attribute.measureWithLargestChild = global::Jaktloggen.Droid.Resource.Attribute.measureWithLargestChild;
-			global::XLabs.Forms.Resource.Attribute.mediaRouteButtonStyle = global::Jaktloggen.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::XLabs.Forms.Resource.Attribute.mediaRouteCastDrawable = global::Jaktloggen.Droid.Resource.Attribute.mediaRouteCastDrawable;
-			global::XLabs.Forms.Resource.Attribute.mediaRouteConnectingDrawable = global::Jaktloggen.Droid.Resource.Attribute.mediaRouteConnectingDrawable;
-			global::XLabs.Forms.Resource.Attribute.mediaRouteOffDrawable = global::Jaktloggen.Droid.Resource.Attribute.mediaRouteOffDrawable;
-			global::XLabs.Forms.Resource.Attribute.mediaRouteOnDrawable = global::Jaktloggen.Droid.Resource.Attribute.mediaRouteOnDrawable;
-			global::XLabs.Forms.Resource.Attribute.mediaRoutePauseDrawable = global::Jaktloggen.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::XLabs.Forms.Resource.Attribute.mediaRoutePlayDrawable = global::Jaktloggen.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::XLabs.Forms.Resource.Attribute.menu = global::Jaktloggen.Droid.Resource.Attribute.menu;
-			global::XLabs.Forms.Resource.Attribute.multiChoiceItemLayout = global::Jaktloggen.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::XLabs.Forms.Resource.Attribute.navigationContentDescription = global::Jaktloggen.Droid.Resource.Attribute.navigationContentDescription;
-			global::XLabs.Forms.Resource.Attribute.navigationIcon = global::Jaktloggen.Droid.Resource.Attribute.navigationIcon;
-			global::XLabs.Forms.Resource.Attribute.navigationMode = global::Jaktloggen.Droid.Resource.Attribute.navigationMode;
-			global::XLabs.Forms.Resource.Attribute.overlapAnchor = global::Jaktloggen.Droid.Resource.Attribute.overlapAnchor;
-			global::XLabs.Forms.Resource.Attribute.paddingEnd = global::Jaktloggen.Droid.Resource.Attribute.paddingEnd;
-			global::XLabs.Forms.Resource.Attribute.paddingStart = global::Jaktloggen.Droid.Resource.Attribute.paddingStart;
-			global::XLabs.Forms.Resource.Attribute.panelBackground = global::Jaktloggen.Droid.Resource.Attribute.panelBackground;
-			global::XLabs.Forms.Resource.Attribute.panelMenuListTheme = global::Jaktloggen.Droid.Resource.Attribute.panelMenuListTheme;
-			global::XLabs.Forms.Resource.Attribute.panelMenuListWidth = global::Jaktloggen.Droid.Resource.Attribute.panelMenuListWidth;
-			global::XLabs.Forms.Resource.Attribute.popupMenuStyle = global::Jaktloggen.Droid.Resource.Attribute.popupMenuStyle;
-			global::XLabs.Forms.Resource.Attribute.popupTheme = global::Jaktloggen.Droid.Resource.Attribute.popupTheme;
-			global::XLabs.Forms.Resource.Attribute.popupWindowStyle = global::Jaktloggen.Droid.Resource.Attribute.popupWindowStyle;
-			global::XLabs.Forms.Resource.Attribute.preserveIconSpacing = global::Jaktloggen.Droid.Resource.Attribute.preserveIconSpacing;
-			global::XLabs.Forms.Resource.Attribute.pressedTranslationZ = global::Jaktloggen.Droid.Resource.Attribute.pressedTranslationZ;
-			global::XLabs.Forms.Resource.Attribute.progressBarPadding = global::Jaktloggen.Droid.Resource.Attribute.progressBarPadding;
-			global::XLabs.Forms.Resource.Attribute.progressBarStyle = global::Jaktloggen.Droid.Resource.Attribute.progressBarStyle;
-			global::XLabs.Forms.Resource.Attribute.queryBackground = global::Jaktloggen.Droid.Resource.Attribute.queryBackground;
-			global::XLabs.Forms.Resource.Attribute.queryHint = global::Jaktloggen.Droid.Resource.Attribute.queryHint;
-			global::XLabs.Forms.Resource.Attribute.radioButtonStyle = global::Jaktloggen.Droid.Resource.Attribute.radioButtonStyle;
-			global::XLabs.Forms.Resource.Attribute.ratingBarStyle = global::Jaktloggen.Droid.Resource.Attribute.ratingBarStyle;
-			global::XLabs.Forms.Resource.Attribute.rippleColor = global::Jaktloggen.Droid.Resource.Attribute.rippleColor;
-			global::XLabs.Forms.Resource.Attribute.searchHintIcon = global::Jaktloggen.Droid.Resource.Attribute.searchHintIcon;
-			global::XLabs.Forms.Resource.Attribute.searchIcon = global::Jaktloggen.Droid.Resource.Attribute.searchIcon;
-			global::XLabs.Forms.Resource.Attribute.searchViewStyle = global::Jaktloggen.Droid.Resource.Attribute.searchViewStyle;
-			global::XLabs.Forms.Resource.Attribute.selectableItemBackground = global::Jaktloggen.Droid.Resource.Attribute.selectableItemBackground;
-			global::XLabs.Forms.Resource.Attribute.selectableItemBackgroundBorderless = global::Jaktloggen.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::XLabs.Forms.Resource.Attribute.showAsAction = global::Jaktloggen.Droid.Resource.Attribute.showAsAction;
-			global::XLabs.Forms.Resource.Attribute.showDividers = global::Jaktloggen.Droid.Resource.Attribute.showDividers;
-			global::XLabs.Forms.Resource.Attribute.showText = global::Jaktloggen.Droid.Resource.Attribute.showText;
-			global::XLabs.Forms.Resource.Attribute.singleChoiceItemLayout = global::Jaktloggen.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::XLabs.Forms.Resource.Attribute.spinBars = global::Jaktloggen.Droid.Resource.Attribute.spinBars;
-			global::XLabs.Forms.Resource.Attribute.spinnerDropDownItemStyle = global::Jaktloggen.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::XLabs.Forms.Resource.Attribute.spinnerStyle = global::Jaktloggen.Droid.Resource.Attribute.spinnerStyle;
-			global::XLabs.Forms.Resource.Attribute.splitTrack = global::Jaktloggen.Droid.Resource.Attribute.splitTrack;
-			global::XLabs.Forms.Resource.Attribute.state_above_anchor = global::Jaktloggen.Droid.Resource.Attribute.state_above_anchor;
-			global::XLabs.Forms.Resource.Attribute.statusBarBackground = global::Jaktloggen.Droid.Resource.Attribute.statusBarBackground;
-			global::XLabs.Forms.Resource.Attribute.statusBarScrim = global::Jaktloggen.Droid.Resource.Attribute.statusBarScrim;
-			global::XLabs.Forms.Resource.Attribute.submitBackground = global::Jaktloggen.Droid.Resource.Attribute.submitBackground;
-			global::XLabs.Forms.Resource.Attribute.subtitle = global::Jaktloggen.Droid.Resource.Attribute.subtitle;
-			global::XLabs.Forms.Resource.Attribute.subtitleTextAppearance = global::Jaktloggen.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::XLabs.Forms.Resource.Attribute.subtitleTextColor = global::Jaktloggen.Droid.Resource.Attribute.subtitleTextColor;
-			global::XLabs.Forms.Resource.Attribute.subtitleTextStyle = global::Jaktloggen.Droid.Resource.Attribute.subtitleTextStyle;
-			global::XLabs.Forms.Resource.Attribute.suggestionRowLayout = global::Jaktloggen.Droid.Resource.Attribute.suggestionRowLayout;
-			global::XLabs.Forms.Resource.Attribute.switchMinWidth = global::Jaktloggen.Droid.Resource.Attribute.switchMinWidth;
-			global::XLabs.Forms.Resource.Attribute.switchPadding = global::Jaktloggen.Droid.Resource.Attribute.switchPadding;
-			global::XLabs.Forms.Resource.Attribute.switchStyle = global::Jaktloggen.Droid.Resource.Attribute.switchStyle;
-			global::XLabs.Forms.Resource.Attribute.switchTextAppearance = global::Jaktloggen.Droid.Resource.Attribute.switchTextAppearance;
-			global::XLabs.Forms.Resource.Attribute.tabBackground = global::Jaktloggen.Droid.Resource.Attribute.tabBackground;
-			global::XLabs.Forms.Resource.Attribute.tabContentStart = global::Jaktloggen.Droid.Resource.Attribute.tabContentStart;
-			global::XLabs.Forms.Resource.Attribute.tabGravity = global::Jaktloggen.Droid.Resource.Attribute.tabGravity;
-			global::XLabs.Forms.Resource.Attribute.tabIndicatorColor = global::Jaktloggen.Droid.Resource.Attribute.tabIndicatorColor;
-			global::XLabs.Forms.Resource.Attribute.tabIndicatorHeight = global::Jaktloggen.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::XLabs.Forms.Resource.Attribute.tabMaxWidth = global::Jaktloggen.Droid.Resource.Attribute.tabMaxWidth;
-			global::XLabs.Forms.Resource.Attribute.tabMinWidth = global::Jaktloggen.Droid.Resource.Attribute.tabMinWidth;
-			global::XLabs.Forms.Resource.Attribute.tabMode = global::Jaktloggen.Droid.Resource.Attribute.tabMode;
-			global::XLabs.Forms.Resource.Attribute.tabPadding = global::Jaktloggen.Droid.Resource.Attribute.tabPadding;
-			global::XLabs.Forms.Resource.Attribute.tabPaddingBottom = global::Jaktloggen.Droid.Resource.Attribute.tabPaddingBottom;
-			global::XLabs.Forms.Resource.Attribute.tabPaddingEnd = global::Jaktloggen.Droid.Resource.Attribute.tabPaddingEnd;
-			global::XLabs.Forms.Resource.Attribute.tabPaddingStart = global::Jaktloggen.Droid.Resource.Attribute.tabPaddingStart;
-			global::XLabs.Forms.Resource.Attribute.tabPaddingTop = global::Jaktloggen.Droid.Resource.Attribute.tabPaddingTop;
-			global::XLabs.Forms.Resource.Attribute.tabSelectedTextColor = global::Jaktloggen.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::XLabs.Forms.Resource.Attribute.tabTextAppearance = global::Jaktloggen.Droid.Resource.Attribute.tabTextAppearance;
-			global::XLabs.Forms.Resource.Attribute.tabTextColor = global::Jaktloggen.Droid.Resource.Attribute.tabTextColor;
-			global::XLabs.Forms.Resource.Attribute.textAllCaps = global::Jaktloggen.Droid.Resource.Attribute.textAllCaps;
-			global::XLabs.Forms.Resource.Attribute.textAppearanceLargePopupMenu = global::Jaktloggen.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::XLabs.Forms.Resource.Attribute.textAppearanceListItem = global::Jaktloggen.Droid.Resource.Attribute.textAppearanceListItem;
-			global::XLabs.Forms.Resource.Attribute.textAppearanceListItemSmall = global::Jaktloggen.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::XLabs.Forms.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Jaktloggen.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::XLabs.Forms.Resource.Attribute.textAppearanceSearchResultTitle = global::Jaktloggen.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::XLabs.Forms.Resource.Attribute.textAppearanceSmallPopupMenu = global::Jaktloggen.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::XLabs.Forms.Resource.Attribute.textColorAlertDialogListItem = global::Jaktloggen.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::XLabs.Forms.Resource.Attribute.textColorSearchUrl = global::Jaktloggen.Droid.Resource.Attribute.textColorSearchUrl;
-			global::XLabs.Forms.Resource.Attribute.theme = global::Jaktloggen.Droid.Resource.Attribute.theme;
-			global::XLabs.Forms.Resource.Attribute.thickness = global::Jaktloggen.Droid.Resource.Attribute.thickness;
-			global::XLabs.Forms.Resource.Attribute.thumbTextPadding = global::Jaktloggen.Droid.Resource.Attribute.thumbTextPadding;
-			global::XLabs.Forms.Resource.Attribute.title = global::Jaktloggen.Droid.Resource.Attribute.title;
-			global::XLabs.Forms.Resource.Attribute.titleEnabled = global::Jaktloggen.Droid.Resource.Attribute.titleEnabled;
-			global::XLabs.Forms.Resource.Attribute.titleMarginBottom = global::Jaktloggen.Droid.Resource.Attribute.titleMarginBottom;
-			global::XLabs.Forms.Resource.Attribute.titleMarginEnd = global::Jaktloggen.Droid.Resource.Attribute.titleMarginEnd;
-			global::XLabs.Forms.Resource.Attribute.titleMarginStart = global::Jaktloggen.Droid.Resource.Attribute.titleMarginStart;
-			global::XLabs.Forms.Resource.Attribute.titleMarginTop = global::Jaktloggen.Droid.Resource.Attribute.titleMarginTop;
-			global::XLabs.Forms.Resource.Attribute.titleMargins = global::Jaktloggen.Droid.Resource.Attribute.titleMargins;
-			global::XLabs.Forms.Resource.Attribute.titleTextAppearance = global::Jaktloggen.Droid.Resource.Attribute.titleTextAppearance;
-			global::XLabs.Forms.Resource.Attribute.titleTextColor = global::Jaktloggen.Droid.Resource.Attribute.titleTextColor;
-			global::XLabs.Forms.Resource.Attribute.titleTextStyle = global::Jaktloggen.Droid.Resource.Attribute.titleTextStyle;
-			global::XLabs.Forms.Resource.Attribute.toolbarId = global::Jaktloggen.Droid.Resource.Attribute.toolbarId;
-			global::XLabs.Forms.Resource.Attribute.toolbarNavigationButtonStyle = global::Jaktloggen.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::XLabs.Forms.Resource.Attribute.toolbarStyle = global::Jaktloggen.Droid.Resource.Attribute.toolbarStyle;
-			global::XLabs.Forms.Resource.Attribute.track = global::Jaktloggen.Droid.Resource.Attribute.track;
-			global::XLabs.Forms.Resource.Attribute.voiceIcon = global::Jaktloggen.Droid.Resource.Attribute.voiceIcon;
-			global::XLabs.Forms.Resource.Attribute.windowActionBar = global::Jaktloggen.Droid.Resource.Attribute.windowActionBar;
-			global::XLabs.Forms.Resource.Attribute.windowActionBarOverlay = global::Jaktloggen.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::XLabs.Forms.Resource.Attribute.windowActionModeOverlay = global::Jaktloggen.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::XLabs.Forms.Resource.Attribute.windowFixedHeightMajor = global::Jaktloggen.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::XLabs.Forms.Resource.Attribute.windowFixedHeightMinor = global::Jaktloggen.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::XLabs.Forms.Resource.Attribute.windowFixedWidthMajor = global::Jaktloggen.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::XLabs.Forms.Resource.Attribute.windowFixedWidthMinor = global::Jaktloggen.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::XLabs.Forms.Resource.Attribute.windowMinWidthMajor = global::Jaktloggen.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::XLabs.Forms.Resource.Attribute.windowMinWidthMinor = global::Jaktloggen.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::XLabs.Forms.Resource.Attribute.windowNoTitle = global::Jaktloggen.Droid.Resource.Attribute.windowNoTitle;
-			global::XLabs.Forms.Resource.Boolean.abc_action_bar_embed_tabs = global::Jaktloggen.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::XLabs.Forms.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::Jaktloggen.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
-			global::XLabs.Forms.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::Jaktloggen.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
-			global::XLabs.Forms.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Jaktloggen.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::XLabs.Forms.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::Jaktloggen.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
-			global::XLabs.Forms.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::Jaktloggen.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::XLabs.Forms.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::Jaktloggen.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::XLabs.Forms.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Jaktloggen.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::XLabs.Forms.Resource.Color.abc_background_cache_hint_selector_material_light = global::Jaktloggen.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::XLabs.Forms.Resource.Color.abc_color_highlight_material = global::Jaktloggen.Droid.Resource.Color.abc_color_highlight_material;
-			global::XLabs.Forms.Resource.Color.abc_input_method_navigation_guard = global::Jaktloggen.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::XLabs.Forms.Resource.Color.abc_primary_text_disable_only_material_dark = global::Jaktloggen.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::XLabs.Forms.Resource.Color.abc_primary_text_disable_only_material_light = global::Jaktloggen.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::XLabs.Forms.Resource.Color.abc_primary_text_material_dark = global::Jaktloggen.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::XLabs.Forms.Resource.Color.abc_primary_text_material_light = global::Jaktloggen.Droid.Resource.Color.abc_primary_text_material_light;
-			global::XLabs.Forms.Resource.Color.abc_search_url_text = global::Jaktloggen.Droid.Resource.Color.abc_search_url_text;
-			global::XLabs.Forms.Resource.Color.abc_search_url_text_normal = global::Jaktloggen.Droid.Resource.Color.abc_search_url_text_normal;
-			global::XLabs.Forms.Resource.Color.abc_search_url_text_pressed = global::Jaktloggen.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::XLabs.Forms.Resource.Color.abc_search_url_text_selected = global::Jaktloggen.Droid.Resource.Color.abc_search_url_text_selected;
-			global::XLabs.Forms.Resource.Color.abc_secondary_text_material_dark = global::Jaktloggen.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::XLabs.Forms.Resource.Color.abc_secondary_text_material_light = global::Jaktloggen.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::XLabs.Forms.Resource.Color.accent_material_dark = global::Jaktloggen.Droid.Resource.Color.accent_material_dark;
-			global::XLabs.Forms.Resource.Color.accent_material_light = global::Jaktloggen.Droid.Resource.Color.accent_material_light;
-			global::XLabs.Forms.Resource.Color.background_floating_material_dark = global::Jaktloggen.Droid.Resource.Color.background_floating_material_dark;
-			global::XLabs.Forms.Resource.Color.background_floating_material_light = global::Jaktloggen.Droid.Resource.Color.background_floating_material_light;
-			global::XLabs.Forms.Resource.Color.background_material_dark = global::Jaktloggen.Droid.Resource.Color.background_material_dark;
-			global::XLabs.Forms.Resource.Color.background_material_light = global::Jaktloggen.Droid.Resource.Color.background_material_light;
-			global::XLabs.Forms.Resource.Color.bright_foreground_disabled_material_dark = global::Jaktloggen.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::XLabs.Forms.Resource.Color.bright_foreground_disabled_material_light = global::Jaktloggen.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::XLabs.Forms.Resource.Color.bright_foreground_inverse_material_dark = global::Jaktloggen.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::XLabs.Forms.Resource.Color.bright_foreground_inverse_material_light = global::Jaktloggen.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::XLabs.Forms.Resource.Color.bright_foreground_material_dark = global::Jaktloggen.Droid.Resource.Color.bright_foreground_material_dark;
-			global::XLabs.Forms.Resource.Color.bright_foreground_material_light = global::Jaktloggen.Droid.Resource.Color.bright_foreground_material_light;
-			global::XLabs.Forms.Resource.Color.button_material_dark = global::Jaktloggen.Droid.Resource.Color.button_material_dark;
-			global::XLabs.Forms.Resource.Color.button_material_light = global::Jaktloggen.Droid.Resource.Color.button_material_light;
-			global::XLabs.Forms.Resource.Color.calendar_active_month_bg = global::Jaktloggen.Droid.Resource.Color.calendar_active_month_bg;
-			global::XLabs.Forms.Resource.Color.calendar_bg = global::Jaktloggen.Droid.Resource.Color.calendar_bg;
-			global::XLabs.Forms.Resource.Color.calendar_divider = global::Jaktloggen.Droid.Resource.Color.calendar_divider;
-			global::XLabs.Forms.Resource.Color.calendar_highlighted_day_bg = global::Jaktloggen.Droid.Resource.Color.calendar_highlighted_day_bg;
-			global::XLabs.Forms.Resource.Color.calendar_inactive_month_bg = global::Jaktloggen.Droid.Resource.Color.calendar_inactive_month_bg;
-			global::XLabs.Forms.Resource.Color.calendar_selected_day_bg = global::Jaktloggen.Droid.Resource.Color.calendar_selected_day_bg;
-			global::XLabs.Forms.Resource.Color.calendar_selected_range_bg = global::Jaktloggen.Droid.Resource.Color.calendar_selected_range_bg;
-			global::XLabs.Forms.Resource.Color.calendar_text_active = global::Jaktloggen.Droid.Resource.Color.calendar_text_active;
-			global::XLabs.Forms.Resource.Color.calendar_text_inactive = global::Jaktloggen.Droid.Resource.Color.calendar_text_inactive;
-			global::XLabs.Forms.Resource.Color.calendar_text_selected = global::Jaktloggen.Droid.Resource.Color.calendar_text_selected;
-			global::XLabs.Forms.Resource.Color.calendar_text_selector = global::Jaktloggen.Droid.Resource.Color.calendar_text_selector;
-			global::XLabs.Forms.Resource.Color.calendar_text_unselectable = global::Jaktloggen.Droid.Resource.Color.calendar_text_unselectable;
-			global::XLabs.Forms.Resource.Color.cardview_dark_background = global::Jaktloggen.Droid.Resource.Color.cardview_dark_background;
-			global::XLabs.Forms.Resource.Color.cardview_light_background = global::Jaktloggen.Droid.Resource.Color.cardview_light_background;
-			global::XLabs.Forms.Resource.Color.cardview_shadow_end_color = global::Jaktloggen.Droid.Resource.Color.cardview_shadow_end_color;
-			global::XLabs.Forms.Resource.Color.cardview_shadow_start_color = global::Jaktloggen.Droid.Resource.Color.cardview_shadow_start_color;
-			global::XLabs.Forms.Resource.Color.design_fab_shadow_end_color = global::Jaktloggen.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::XLabs.Forms.Resource.Color.design_fab_shadow_mid_color = global::Jaktloggen.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::XLabs.Forms.Resource.Color.design_fab_shadow_start_color = global::Jaktloggen.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::XLabs.Forms.Resource.Color.design_fab_stroke_end_inner_color = global::Jaktloggen.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::XLabs.Forms.Resource.Color.design_fab_stroke_end_outer_color = global::Jaktloggen.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::XLabs.Forms.Resource.Color.design_fab_stroke_top_inner_color = global::Jaktloggen.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::XLabs.Forms.Resource.Color.design_fab_stroke_top_outer_color = global::Jaktloggen.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::XLabs.Forms.Resource.Color.design_snackbar_background_color = global::Jaktloggen.Droid.Resource.Color.design_snackbar_background_color;
-			global::XLabs.Forms.Resource.Color.dim_foreground_disabled_material_dark = global::Jaktloggen.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::XLabs.Forms.Resource.Color.dim_foreground_disabled_material_light = global::Jaktloggen.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::XLabs.Forms.Resource.Color.dim_foreground_material_dark = global::Jaktloggen.Droid.Resource.Color.dim_foreground_material_dark;
-			global::XLabs.Forms.Resource.Color.dim_foreground_material_light = global::Jaktloggen.Droid.Resource.Color.dim_foreground_material_light;
-			global::XLabs.Forms.Resource.Color.foreground_material_dark = global::Jaktloggen.Droid.Resource.Color.foreground_material_dark;
-			global::XLabs.Forms.Resource.Color.foreground_material_light = global::Jaktloggen.Droid.Resource.Color.foreground_material_light;
-			global::XLabs.Forms.Resource.Color.highlighted_text_material_dark = global::Jaktloggen.Droid.Resource.Color.highlighted_text_material_dark;
-			global::XLabs.Forms.Resource.Color.highlighted_text_material_light = global::Jaktloggen.Droid.Resource.Color.highlighted_text_material_light;
-			global::XLabs.Forms.Resource.Color.hint_foreground_material_dark = global::Jaktloggen.Droid.Resource.Color.hint_foreground_material_dark;
-			global::XLabs.Forms.Resource.Color.hint_foreground_material_light = global::Jaktloggen.Droid.Resource.Color.hint_foreground_material_light;
-			global::XLabs.Forms.Resource.Color.material_blue_grey_800 = global::Jaktloggen.Droid.Resource.Color.material_blue_grey_800;
-			global::XLabs.Forms.Resource.Color.material_blue_grey_900 = global::Jaktloggen.Droid.Resource.Color.material_blue_grey_900;
-			global::XLabs.Forms.Resource.Color.material_blue_grey_950 = global::Jaktloggen.Droid.Resource.Color.material_blue_grey_950;
-			global::XLabs.Forms.Resource.Color.material_deep_teal_200 = global::Jaktloggen.Droid.Resource.Color.material_deep_teal_200;
-			global::XLabs.Forms.Resource.Color.material_deep_teal_500 = global::Jaktloggen.Droid.Resource.Color.material_deep_teal_500;
-			global::XLabs.Forms.Resource.Color.material_grey_100 = global::Jaktloggen.Droid.Resource.Color.material_grey_100;
-			global::XLabs.Forms.Resource.Color.material_grey_300 = global::Jaktloggen.Droid.Resource.Color.material_grey_300;
-			global::XLabs.Forms.Resource.Color.material_grey_50 = global::Jaktloggen.Droid.Resource.Color.material_grey_50;
-			global::XLabs.Forms.Resource.Color.material_grey_600 = global::Jaktloggen.Droid.Resource.Color.material_grey_600;
-			global::XLabs.Forms.Resource.Color.material_grey_800 = global::Jaktloggen.Droid.Resource.Color.material_grey_800;
-			global::XLabs.Forms.Resource.Color.material_grey_850 = global::Jaktloggen.Droid.Resource.Color.material_grey_850;
-			global::XLabs.Forms.Resource.Color.material_grey_900 = global::Jaktloggen.Droid.Resource.Color.material_grey_900;
-			global::XLabs.Forms.Resource.Color.primary_dark_material_dark = global::Jaktloggen.Droid.Resource.Color.primary_dark_material_dark;
-			global::XLabs.Forms.Resource.Color.primary_dark_material_light = global::Jaktloggen.Droid.Resource.Color.primary_dark_material_light;
-			global::XLabs.Forms.Resource.Color.primary_material_dark = global::Jaktloggen.Droid.Resource.Color.primary_material_dark;
-			global::XLabs.Forms.Resource.Color.primary_material_light = global::Jaktloggen.Droid.Resource.Color.primary_material_light;
-			global::XLabs.Forms.Resource.Color.primary_text_default_material_dark = global::Jaktloggen.Droid.Resource.Color.primary_text_default_material_dark;
-			global::XLabs.Forms.Resource.Color.primary_text_default_material_light = global::Jaktloggen.Droid.Resource.Color.primary_text_default_material_light;
-			global::XLabs.Forms.Resource.Color.primary_text_disabled_material_dark = global::Jaktloggen.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::XLabs.Forms.Resource.Color.primary_text_disabled_material_light = global::Jaktloggen.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::XLabs.Forms.Resource.Color.ripple_material_dark = global::Jaktloggen.Droid.Resource.Color.ripple_material_dark;
-			global::XLabs.Forms.Resource.Color.ripple_material_light = global::Jaktloggen.Droid.Resource.Color.ripple_material_light;
-			global::XLabs.Forms.Resource.Color.secondary_text_default_material_dark = global::Jaktloggen.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::XLabs.Forms.Resource.Color.secondary_text_default_material_light = global::Jaktloggen.Droid.Resource.Color.secondary_text_default_material_light;
-			global::XLabs.Forms.Resource.Color.secondary_text_disabled_material_dark = global::Jaktloggen.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::XLabs.Forms.Resource.Color.secondary_text_disabled_material_light = global::Jaktloggen.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::XLabs.Forms.Resource.Color.switch_thumb_disabled_material_dark = global::Jaktloggen.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::XLabs.Forms.Resource.Color.switch_thumb_disabled_material_light = global::Jaktloggen.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::XLabs.Forms.Resource.Color.switch_thumb_material_dark = global::Jaktloggen.Droid.Resource.Color.switch_thumb_material_dark;
-			global::XLabs.Forms.Resource.Color.switch_thumb_material_light = global::Jaktloggen.Droid.Resource.Color.switch_thumb_material_light;
-			global::XLabs.Forms.Resource.Color.switch_thumb_normal_material_dark = global::Jaktloggen.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::XLabs.Forms.Resource.Color.switch_thumb_normal_material_light = global::Jaktloggen.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::XLabs.Forms.Resource.Dimension.abc_action_bar_content_inset_material = global::Jaktloggen.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::XLabs.Forms.Resource.Dimension.abc_action_bar_default_height_material = global::Jaktloggen.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::XLabs.Forms.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Jaktloggen.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::XLabs.Forms.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Jaktloggen.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::XLabs.Forms.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Jaktloggen.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::XLabs.Forms.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Jaktloggen.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::XLabs.Forms.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Jaktloggen.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::XLabs.Forms.Resource.Dimension.abc_action_bar_progress_bar_size = global::Jaktloggen.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::XLabs.Forms.Resource.Dimension.abc_action_bar_stacked_max_height = global::Jaktloggen.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::XLabs.Forms.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Jaktloggen.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::XLabs.Forms.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Jaktloggen.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::XLabs.Forms.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Jaktloggen.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::XLabs.Forms.Resource.Dimension.abc_action_button_min_height_material = global::Jaktloggen.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::XLabs.Forms.Resource.Dimension.abc_action_button_min_width_material = global::Jaktloggen.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::XLabs.Forms.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Jaktloggen.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::XLabs.Forms.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Jaktloggen.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::XLabs.Forms.Resource.Dimension.abc_button_inset_horizontal_material = global::Jaktloggen.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::XLabs.Forms.Resource.Dimension.abc_button_inset_vertical_material = global::Jaktloggen.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::XLabs.Forms.Resource.Dimension.abc_button_padding_horizontal_material = global::Jaktloggen.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::XLabs.Forms.Resource.Dimension.abc_button_padding_vertical_material = global::Jaktloggen.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::XLabs.Forms.Resource.Dimension.abc_config_prefDialogWidth = global::Jaktloggen.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::XLabs.Forms.Resource.Dimension.abc_control_corner_material = global::Jaktloggen.Droid.Resource.Dimension.abc_control_corner_material;
-			global::XLabs.Forms.Resource.Dimension.abc_control_inset_material = global::Jaktloggen.Droid.Resource.Dimension.abc_control_inset_material;
-			global::XLabs.Forms.Resource.Dimension.abc_control_padding_material = global::Jaktloggen.Droid.Resource.Dimension.abc_control_padding_material;
-			global::XLabs.Forms.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::Jaktloggen.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
-			global::XLabs.Forms.Resource.Dimension.abc_dialog_min_width_major = global::Jaktloggen.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::XLabs.Forms.Resource.Dimension.abc_dialog_min_width_minor = global::Jaktloggen.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::XLabs.Forms.Resource.Dimension.abc_dialog_padding_material = global::Jaktloggen.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::XLabs.Forms.Resource.Dimension.abc_dialog_padding_top_material = global::Jaktloggen.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::XLabs.Forms.Resource.Dimension.abc_disabled_alpha_material_dark = global::Jaktloggen.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::XLabs.Forms.Resource.Dimension.abc_disabled_alpha_material_light = global::Jaktloggen.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::XLabs.Forms.Resource.Dimension.abc_dropdownitem_icon_width = global::Jaktloggen.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::XLabs.Forms.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Jaktloggen.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::XLabs.Forms.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Jaktloggen.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::XLabs.Forms.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Jaktloggen.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::XLabs.Forms.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Jaktloggen.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::XLabs.Forms.Resource.Dimension.abc_edit_text_inset_top_material = global::Jaktloggen.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::XLabs.Forms.Resource.Dimension.abc_floating_window_z = global::Jaktloggen.Droid.Resource.Dimension.abc_floating_window_z;
-			global::XLabs.Forms.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Jaktloggen.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::XLabs.Forms.Resource.Dimension.abc_panel_menu_list_width = global::Jaktloggen.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::XLabs.Forms.Resource.Dimension.abc_search_view_preferred_width = global::Jaktloggen.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::XLabs.Forms.Resource.Dimension.abc_search_view_text_min_width = global::Jaktloggen.Droid.Resource.Dimension.abc_search_view_text_min_width;
-			global::XLabs.Forms.Resource.Dimension.abc_switch_padding = global::Jaktloggen.Droid.Resource.Dimension.abc_switch_padding;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_body_1_material = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_body_2_material = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_button_material = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_caption_material = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_display_1_material = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_display_2_material = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_display_3_material = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_display_4_material = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_headline_material = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_large_material = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_medium_material = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_menu_material = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_small_material = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_subhead_material = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_title_material = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::XLabs.Forms.Resource.Dimension.abc_text_size_title_material_toolbar = global::Jaktloggen.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::XLabs.Forms.Resource.Dimension.calendar_day_headers_paddingbottom = global::Jaktloggen.Droid.Resource.Dimension.calendar_day_headers_paddingbottom;
-			global::XLabs.Forms.Resource.Dimension.calendar_month_title_bottommargin = global::Jaktloggen.Droid.Resource.Dimension.calendar_month_title_bottommargin;
-			global::XLabs.Forms.Resource.Dimension.calendar_month_topmargin = global::Jaktloggen.Droid.Resource.Dimension.calendar_month_topmargin;
-			global::XLabs.Forms.Resource.Dimension.calendar_text_medium = global::Jaktloggen.Droid.Resource.Dimension.calendar_text_medium;
-			global::XLabs.Forms.Resource.Dimension.calendar_text_small = global::Jaktloggen.Droid.Resource.Dimension.calendar_text_small;
-			global::XLabs.Forms.Resource.Dimension.cardview_compat_inset_shadow = global::Jaktloggen.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::XLabs.Forms.Resource.Dimension.cardview_default_elevation = global::Jaktloggen.Droid.Resource.Dimension.cardview_default_elevation;
-			global::XLabs.Forms.Resource.Dimension.cardview_default_radius = global::Jaktloggen.Droid.Resource.Dimension.cardview_default_radius;
-			global::XLabs.Forms.Resource.Dimension.design_appbar_elevation = global::Jaktloggen.Droid.Resource.Dimension.design_appbar_elevation;
-			global::XLabs.Forms.Resource.Dimension.design_fab_border_width = global::Jaktloggen.Droid.Resource.Dimension.design_fab_border_width;
-			global::XLabs.Forms.Resource.Dimension.design_fab_elevation = global::Jaktloggen.Droid.Resource.Dimension.design_fab_elevation;
-			global::XLabs.Forms.Resource.Dimension.design_fab_size_mini = global::Jaktloggen.Droid.Resource.Dimension.design_fab_size_mini;
-			global::XLabs.Forms.Resource.Dimension.design_fab_size_normal = global::Jaktloggen.Droid.Resource.Dimension.design_fab_size_normal;
-			global::XLabs.Forms.Resource.Dimension.design_fab_translation_z_pressed = global::Jaktloggen.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::XLabs.Forms.Resource.Dimension.design_navigation_elevation = global::Jaktloggen.Droid.Resource.Dimension.design_navigation_elevation;
-			global::XLabs.Forms.Resource.Dimension.design_navigation_icon_padding = global::Jaktloggen.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::XLabs.Forms.Resource.Dimension.design_navigation_icon_size = global::Jaktloggen.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::XLabs.Forms.Resource.Dimension.design_navigation_max_width = global::Jaktloggen.Droid.Resource.Dimension.design_navigation_max_width;
-			global::XLabs.Forms.Resource.Dimension.design_navigation_padding_bottom = global::Jaktloggen.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::XLabs.Forms.Resource.Dimension.design_navigation_separator_vertical_padding = global::Jaktloggen.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::XLabs.Forms.Resource.Dimension.design_snackbar_action_inline_max_width = global::Jaktloggen.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::XLabs.Forms.Resource.Dimension.design_snackbar_background_corner_radius = global::Jaktloggen.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::XLabs.Forms.Resource.Dimension.design_snackbar_elevation = global::Jaktloggen.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::XLabs.Forms.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Jaktloggen.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::XLabs.Forms.Resource.Dimension.design_snackbar_max_width = global::Jaktloggen.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::XLabs.Forms.Resource.Dimension.design_snackbar_min_width = global::Jaktloggen.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::XLabs.Forms.Resource.Dimension.design_snackbar_padding_horizontal = global::Jaktloggen.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::XLabs.Forms.Resource.Dimension.design_snackbar_padding_vertical = global::Jaktloggen.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::XLabs.Forms.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Jaktloggen.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::XLabs.Forms.Resource.Dimension.design_snackbar_text_size = global::Jaktloggen.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::XLabs.Forms.Resource.Dimension.design_tab_max_width = global::Jaktloggen.Droid.Resource.Dimension.design_tab_max_width;
-			global::XLabs.Forms.Resource.Dimension.disabled_alpha_material_dark = global::Jaktloggen.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::XLabs.Forms.Resource.Dimension.disabled_alpha_material_light = global::Jaktloggen.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::XLabs.Forms.Resource.Dimension.highlight_alpha_material_colored = global::Jaktloggen.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::XLabs.Forms.Resource.Dimension.highlight_alpha_material_dark = global::Jaktloggen.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::XLabs.Forms.Resource.Dimension.highlight_alpha_material_light = global::Jaktloggen.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::XLabs.Forms.Resource.Dimension.notification_large_icon_height = global::Jaktloggen.Droid.Resource.Dimension.notification_large_icon_height;
-			global::XLabs.Forms.Resource.Dimension.notification_large_icon_width = global::Jaktloggen.Droid.Resource.Dimension.notification_large_icon_width;
-			global::XLabs.Forms.Resource.Dimension.notification_subtext_size = global::Jaktloggen.Droid.Resource.Dimension.notification_subtext_size;
-			global::XLabs.Forms.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_action_bar_item_background_material = global::Jaktloggen.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::XLabs.Forms.Resource.Drawable.abc_btn_borderless_material = global::Jaktloggen.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::XLabs.Forms.Resource.Drawable.abc_btn_check_material = global::Jaktloggen.Droid.Resource.Drawable.abc_btn_check_material;
-			global::XLabs.Forms.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Jaktloggen.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::XLabs.Forms.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Jaktloggen.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::XLabs.Forms.Resource.Drawable.abc_btn_colored_material = global::Jaktloggen.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::XLabs.Forms.Resource.Drawable.abc_btn_default_mtrl_shape = global::Jaktloggen.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::XLabs.Forms.Resource.Drawable.abc_btn_radio_material = global::Jaktloggen.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::XLabs.Forms.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Jaktloggen.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::XLabs.Forms.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Jaktloggen.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::XLabs.Forms.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Jaktloggen.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::XLabs.Forms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Jaktloggen.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::XLabs.Forms.Resource.Drawable.abc_cab_background_internal_bg = global::Jaktloggen.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::XLabs.Forms.Resource.Drawable.abc_cab_background_top_material = global::Jaktloggen.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::XLabs.Forms.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_control_background_material = global::Jaktloggen.Droid.Resource.Drawable.abc_control_background_material;
-			global::XLabs.Forms.Resource.Drawable.abc_dialog_material_background_dark = global::Jaktloggen.Droid.Resource.Drawable.abc_dialog_material_background_dark;
-			global::XLabs.Forms.Resource.Drawable.abc_dialog_material_background_light = global::Jaktloggen.Droid.Resource.Drawable.abc_dialog_material_background_light;
-			global::XLabs.Forms.Resource.Drawable.abc_edit_text_material = global::Jaktloggen.Droid.Resource.Drawable.abc_edit_text_material;
-			global::XLabs.Forms.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_item_background_holo_dark = global::Jaktloggen.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::XLabs.Forms.Resource.Drawable.abc_item_background_holo_light = global::Jaktloggen.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::XLabs.Forms.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_list_focused_holo = global::Jaktloggen.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::XLabs.Forms.Resource.Drawable.abc_list_longpressed_holo = global::Jaktloggen.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::XLabs.Forms.Resource.Drawable.abc_list_pressed_holo_dark = global::Jaktloggen.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::XLabs.Forms.Resource.Drawable.abc_list_pressed_holo_light = global::Jaktloggen.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::XLabs.Forms.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Jaktloggen.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::XLabs.Forms.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Jaktloggen.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::XLabs.Forms.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Jaktloggen.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::XLabs.Forms.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Jaktloggen.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::XLabs.Forms.Resource.Drawable.abc_list_selector_holo_dark = global::Jaktloggen.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::XLabs.Forms.Resource.Drawable.abc_list_selector_holo_light = global::Jaktloggen.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::XLabs.Forms.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Jaktloggen.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::XLabs.Forms.Resource.Drawable.abc_popup_background_mtrl_mult = global::Jaktloggen.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::XLabs.Forms.Resource.Drawable.abc_ratingbar_full_material = global::Jaktloggen.Droid.Resource.Drawable.abc_ratingbar_full_material;
-			global::XLabs.Forms.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_spinner_textfield_background_material = global::Jaktloggen.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::XLabs.Forms.Resource.Drawable.abc_switch_thumb_material = global::Jaktloggen.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::XLabs.Forms.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_tab_indicator_material = global::Jaktloggen.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::XLabs.Forms.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_text_cursor_material = global::Jaktloggen.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::XLabs.Forms.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Jaktloggen.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::XLabs.Forms.Resource.Drawable.abc_textfield_search_material = global::Jaktloggen.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::XLabs.Forms.Resource.Drawable.ad16 = global::Jaktloggen.Droid.Resource.Drawable.ad16;
-			global::XLabs.Forms.Resource.Drawable.calendar_bg_selector = global::Jaktloggen.Droid.Resource.Drawable.calendar_bg_selector;
-			global::XLabs.Forms.Resource.Drawable.design_fab_background = global::Jaktloggen.Droid.Resource.Drawable.design_fab_background;
-			global::XLabs.Forms.Resource.Drawable.design_snackbar_background = global::Jaktloggen.Droid.Resource.Drawable.design_snackbar_background;
-			global::XLabs.Forms.Resource.Drawable.ic_cast_dark = global::Jaktloggen.Droid.Resource.Drawable.ic_cast_dark;
-			global::XLabs.Forms.Resource.Drawable.ic_cast_disabled_light = global::Jaktloggen.Droid.Resource.Drawable.ic_cast_disabled_light;
-			global::XLabs.Forms.Resource.Drawable.ic_cast_light = global::Jaktloggen.Droid.Resource.Drawable.ic_cast_light;
-			global::XLabs.Forms.Resource.Drawable.ic_cast_off_light = global::Jaktloggen.Droid.Resource.Drawable.ic_cast_off_light;
-			global::XLabs.Forms.Resource.Drawable.ic_cast_on_0_light = global::Jaktloggen.Droid.Resource.Drawable.ic_cast_on_0_light;
-			global::XLabs.Forms.Resource.Drawable.ic_cast_on_1_light = global::Jaktloggen.Droid.Resource.Drawable.ic_cast_on_1_light;
-			global::XLabs.Forms.Resource.Drawable.ic_cast_on_2_light = global::Jaktloggen.Droid.Resource.Drawable.ic_cast_on_2_light;
-			global::XLabs.Forms.Resource.Drawable.ic_cast_on_light = global::Jaktloggen.Droid.Resource.Drawable.ic_cast_on_light;
-			global::XLabs.Forms.Resource.Drawable.ic_media_pause = global::Jaktloggen.Droid.Resource.Drawable.ic_media_pause;
-			global::XLabs.Forms.Resource.Drawable.ic_media_play = global::Jaktloggen.Droid.Resource.Drawable.ic_media_play;
-			global::XLabs.Forms.Resource.Drawable.ic_media_route_disabled_mono_dark = global::Jaktloggen.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark;
-			global::XLabs.Forms.Resource.Drawable.ic_media_route_off_mono_dark = global::Jaktloggen.Droid.Resource.Drawable.ic_media_route_off_mono_dark;
-			global::XLabs.Forms.Resource.Drawable.ic_media_route_on_0_mono_dark = global::Jaktloggen.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark;
-			global::XLabs.Forms.Resource.Drawable.ic_media_route_on_1_mono_dark = global::Jaktloggen.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark;
-			global::XLabs.Forms.Resource.Drawable.ic_media_route_on_2_mono_dark = global::Jaktloggen.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark;
-			global::XLabs.Forms.Resource.Drawable.ic_media_route_on_mono_dark = global::Jaktloggen.Droid.Resource.Drawable.ic_media_route_on_mono_dark;
-			global::XLabs.Forms.Resource.Drawable.ic_pause_dark = global::Jaktloggen.Droid.Resource.Drawable.ic_pause_dark;
-			global::XLabs.Forms.Resource.Drawable.ic_pause_light = global::Jaktloggen.Droid.Resource.Drawable.ic_pause_light;
-			global::XLabs.Forms.Resource.Drawable.ic_play_dark = global::Jaktloggen.Droid.Resource.Drawable.ic_play_dark;
-			global::XLabs.Forms.Resource.Drawable.ic_play_light = global::Jaktloggen.Droid.Resource.Drawable.ic_play_light;
-			global::XLabs.Forms.Resource.Drawable.mr_ic_cast_dark = global::Jaktloggen.Droid.Resource.Drawable.mr_ic_cast_dark;
-			global::XLabs.Forms.Resource.Drawable.mr_ic_cast_light = global::Jaktloggen.Droid.Resource.Drawable.mr_ic_cast_light;
-			global::XLabs.Forms.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::Jaktloggen.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
-			global::XLabs.Forms.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::Jaktloggen.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
-			global::XLabs.Forms.Resource.Drawable.mr_ic_media_route_mono_dark = global::Jaktloggen.Droid.Resource.Drawable.mr_ic_media_route_mono_dark;
-			global::XLabs.Forms.Resource.Drawable.mr_ic_media_route_mono_light = global::Jaktloggen.Droid.Resource.Drawable.mr_ic_media_route_mono_light;
-			global::XLabs.Forms.Resource.Drawable.mr_ic_pause_dark = global::Jaktloggen.Droid.Resource.Drawable.mr_ic_pause_dark;
-			global::XLabs.Forms.Resource.Drawable.mr_ic_pause_light = global::Jaktloggen.Droid.Resource.Drawable.mr_ic_pause_light;
-			global::XLabs.Forms.Resource.Drawable.mr_ic_play_dark = global::Jaktloggen.Droid.Resource.Drawable.mr_ic_play_dark;
-			global::XLabs.Forms.Resource.Drawable.mr_ic_play_light = global::Jaktloggen.Droid.Resource.Drawable.mr_ic_play_light;
-			global::XLabs.Forms.Resource.Drawable.notification_template_icon_bg = global::Jaktloggen.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::XLabs.Forms.Resource.Id.action0 = global::Jaktloggen.Droid.Resource.Id.action0;
-			global::XLabs.Forms.Resource.Id.action_bar = global::Jaktloggen.Droid.Resource.Id.action_bar;
-			global::XLabs.Forms.Resource.Id.action_bar_activity_content = global::Jaktloggen.Droid.Resource.Id.action_bar_activity_content;
-			global::XLabs.Forms.Resource.Id.action_bar_container = global::Jaktloggen.Droid.Resource.Id.action_bar_container;
-			global::XLabs.Forms.Resource.Id.action_bar_root = global::Jaktloggen.Droid.Resource.Id.action_bar_root;
-			global::XLabs.Forms.Resource.Id.action_bar_spinner = global::Jaktloggen.Droid.Resource.Id.action_bar_spinner;
-			global::XLabs.Forms.Resource.Id.action_bar_subtitle = global::Jaktloggen.Droid.Resource.Id.action_bar_subtitle;
-			global::XLabs.Forms.Resource.Id.action_bar_title = global::Jaktloggen.Droid.Resource.Id.action_bar_title;
-			global::XLabs.Forms.Resource.Id.action_context_bar = global::Jaktloggen.Droid.Resource.Id.action_context_bar;
-			global::XLabs.Forms.Resource.Id.action_divider = global::Jaktloggen.Droid.Resource.Id.action_divider;
-			global::XLabs.Forms.Resource.Id.action_menu_divider = global::Jaktloggen.Droid.Resource.Id.action_menu_divider;
-			global::XLabs.Forms.Resource.Id.action_menu_presenter = global::Jaktloggen.Droid.Resource.Id.action_menu_presenter;
-			global::XLabs.Forms.Resource.Id.action_mode_bar = global::Jaktloggen.Droid.Resource.Id.action_mode_bar;
-			global::XLabs.Forms.Resource.Id.action_mode_bar_stub = global::Jaktloggen.Droid.Resource.Id.action_mode_bar_stub;
-			global::XLabs.Forms.Resource.Id.action_mode_close_button = global::Jaktloggen.Droid.Resource.Id.action_mode_close_button;
-			global::XLabs.Forms.Resource.Id.activity_chooser_view_content = global::Jaktloggen.Droid.Resource.Id.activity_chooser_view_content;
-			global::XLabs.Forms.Resource.Id.alertTitle = global::Jaktloggen.Droid.Resource.Id.alertTitle;
-			global::XLabs.Forms.Resource.Id.always = global::Jaktloggen.Droid.Resource.Id.always;
-			global::XLabs.Forms.Resource.Id.beginning = global::Jaktloggen.Droid.Resource.Id.beginning;
-			global::XLabs.Forms.Resource.Id.bottom = global::Jaktloggen.Droid.Resource.Id.bottom;
-			global::XLabs.Forms.Resource.Id.buttonPanel = global::Jaktloggen.Droid.Resource.Id.buttonPanel;
-			global::XLabs.Forms.Resource.Id.calendar_grid = global::Jaktloggen.Droid.Resource.Id.calendar_grid;
-			global::XLabs.Forms.Resource.Id.calendar_view = global::Jaktloggen.Droid.Resource.Id.calendar_view;
-			global::XLabs.Forms.Resource.Id.cancel_action = global::Jaktloggen.Droid.Resource.Id.cancel_action;
-			global::XLabs.Forms.Resource.Id.center = global::Jaktloggen.Droid.Resource.Id.center;
-			global::XLabs.Forms.Resource.Id.center_horizontal = global::Jaktloggen.Droid.Resource.Id.center_horizontal;
-			global::XLabs.Forms.Resource.Id.center_vertical = global::Jaktloggen.Droid.Resource.Id.center_vertical;
-			global::XLabs.Forms.Resource.Id.checkbox = global::Jaktloggen.Droid.Resource.Id.checkbox;
-			global::XLabs.Forms.Resource.Id.chronometer = global::Jaktloggen.Droid.Resource.Id.chronometer;
-			global::XLabs.Forms.Resource.Id.clip_horizontal = global::Jaktloggen.Droid.Resource.Id.clip_horizontal;
-			global::XLabs.Forms.Resource.Id.clip_vertical = global::Jaktloggen.Droid.Resource.Id.clip_vertical;
-			global::XLabs.Forms.Resource.Id.collapseActionView = global::Jaktloggen.Droid.Resource.Id.collapseActionView;
-			global::XLabs.Forms.Resource.Id.contentPanel = global::Jaktloggen.Droid.Resource.Id.contentPanel;
-			global::XLabs.Forms.Resource.Id.custom = global::Jaktloggen.Droid.Resource.Id.custom;
-			global::XLabs.Forms.Resource.Id.customPanel = global::Jaktloggen.Droid.Resource.Id.customPanel;
-			global::XLabs.Forms.Resource.Id.decor_content_parent = global::Jaktloggen.Droid.Resource.Id.decor_content_parent;
-			global::XLabs.Forms.Resource.Id.default_activity_button = global::Jaktloggen.Droid.Resource.Id.default_activity_button;
-			global::XLabs.Forms.Resource.Id.disableHome = global::Jaktloggen.Droid.Resource.Id.disableHome;
-			global::XLabs.Forms.Resource.Id.edit_query = global::Jaktloggen.Droid.Resource.Id.edit_query;
-			global::XLabs.Forms.Resource.Id.end = global::Jaktloggen.Droid.Resource.Id.end;
-			global::XLabs.Forms.Resource.Id.end_padder = global::Jaktloggen.Droid.Resource.Id.end_padder;
-			global::XLabs.Forms.Resource.Id.enterAlways = global::Jaktloggen.Droid.Resource.Id.enterAlways;
-			global::XLabs.Forms.Resource.Id.enterAlwaysCollapsed = global::Jaktloggen.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::XLabs.Forms.Resource.Id.exitUntilCollapsed = global::Jaktloggen.Droid.Resource.Id.exitUntilCollapsed;
-			global::XLabs.Forms.Resource.Id.expand_activities_button = global::Jaktloggen.Droid.Resource.Id.expand_activities_button;
-			global::XLabs.Forms.Resource.Id.expanded_menu = global::Jaktloggen.Droid.Resource.Id.expanded_menu;
-			global::XLabs.Forms.Resource.Id.fill = global::Jaktloggen.Droid.Resource.Id.fill;
-			global::XLabs.Forms.Resource.Id.fill_horizontal = global::Jaktloggen.Droid.Resource.Id.fill_horizontal;
-			global::XLabs.Forms.Resource.Id.fill_vertical = global::Jaktloggen.Droid.Resource.Id.fill_vertical;
-			global::XLabs.Forms.Resource.Id.@fixed = global::Jaktloggen.Droid.Resource.Id.@fixed;
-			global::XLabs.Forms.Resource.Id.home = global::Jaktloggen.Droid.Resource.Id.home;
-			global::XLabs.Forms.Resource.Id.homeAsUp = global::Jaktloggen.Droid.Resource.Id.homeAsUp;
-			global::XLabs.Forms.Resource.Id.icon = global::Jaktloggen.Droid.Resource.Id.icon;
-			global::XLabs.Forms.Resource.Id.ifRoom = global::Jaktloggen.Droid.Resource.Id.ifRoom;
-			global::XLabs.Forms.Resource.Id.image = global::Jaktloggen.Droid.Resource.Id.image;
-			global::XLabs.Forms.Resource.Id.info = global::Jaktloggen.Droid.Resource.Id.info;
-			global::XLabs.Forms.Resource.Id.left = global::Jaktloggen.Droid.Resource.Id.left;
-			global::XLabs.Forms.Resource.Id.left_arrow = global::Jaktloggen.Droid.Resource.Id.left_arrow;
-			global::XLabs.Forms.Resource.Id.line1 = global::Jaktloggen.Droid.Resource.Id.line1;
-			global::XLabs.Forms.Resource.Id.line3 = global::Jaktloggen.Droid.Resource.Id.line3;
-			global::XLabs.Forms.Resource.Id.listMode = global::Jaktloggen.Droid.Resource.Id.listMode;
-			global::XLabs.Forms.Resource.Id.list_item = global::Jaktloggen.Droid.Resource.Id.list_item;
-			global::XLabs.Forms.Resource.Id.media_actions = global::Jaktloggen.Droid.Resource.Id.media_actions;
-			global::XLabs.Forms.Resource.Id.middle = global::Jaktloggen.Droid.Resource.Id.middle;
-			global::XLabs.Forms.Resource.Id.mini = global::Jaktloggen.Droid.Resource.Id.mini;
-			global::XLabs.Forms.Resource.Id.multiply = global::Jaktloggen.Droid.Resource.Id.multiply;
-			global::XLabs.Forms.Resource.Id.never = global::Jaktloggen.Droid.Resource.Id.never;
-			global::XLabs.Forms.Resource.Id.none = global::Jaktloggen.Droid.Resource.Id.none;
-			global::XLabs.Forms.Resource.Id.normal = global::Jaktloggen.Droid.Resource.Id.normal;
-			global::XLabs.Forms.Resource.Id.parallax = global::Jaktloggen.Droid.Resource.Id.parallax;
-			global::XLabs.Forms.Resource.Id.parentPanel = global::Jaktloggen.Droid.Resource.Id.parentPanel;
-			global::XLabs.Forms.Resource.Id.pin = global::Jaktloggen.Droid.Resource.Id.pin;
-			global::XLabs.Forms.Resource.Id.progress_circular = global::Jaktloggen.Droid.Resource.Id.progress_circular;
-			global::XLabs.Forms.Resource.Id.progress_horizontal = global::Jaktloggen.Droid.Resource.Id.progress_horizontal;
-			global::XLabs.Forms.Resource.Id.radio = global::Jaktloggen.Droid.Resource.Id.radio;
-			global::XLabs.Forms.Resource.Id.right = global::Jaktloggen.Droid.Resource.Id.right;
-			global::XLabs.Forms.Resource.Id.right_arrow = global::Jaktloggen.Droid.Resource.Id.right_arrow;
-			global::XLabs.Forms.Resource.Id.screen = global::Jaktloggen.Droid.Resource.Id.screen;
-			global::XLabs.Forms.Resource.Id.scroll = global::Jaktloggen.Droid.Resource.Id.scroll;
-			global::XLabs.Forms.Resource.Id.scrollView = global::Jaktloggen.Droid.Resource.Id.scrollView;
-			global::XLabs.Forms.Resource.Id.scrollable = global::Jaktloggen.Droid.Resource.Id.scrollable;
-			global::XLabs.Forms.Resource.Id.search_badge = global::Jaktloggen.Droid.Resource.Id.search_badge;
-			global::XLabs.Forms.Resource.Id.search_bar = global::Jaktloggen.Droid.Resource.Id.search_bar;
-			global::XLabs.Forms.Resource.Id.search_button = global::Jaktloggen.Droid.Resource.Id.search_button;
-			global::XLabs.Forms.Resource.Id.search_close_btn = global::Jaktloggen.Droid.Resource.Id.search_close_btn;
-			global::XLabs.Forms.Resource.Id.search_edit_frame = global::Jaktloggen.Droid.Resource.Id.search_edit_frame;
-			global::XLabs.Forms.Resource.Id.search_go_btn = global::Jaktloggen.Droid.Resource.Id.search_go_btn;
-			global::XLabs.Forms.Resource.Id.search_mag_icon = global::Jaktloggen.Droid.Resource.Id.search_mag_icon;
-			global::XLabs.Forms.Resource.Id.search_plate = global::Jaktloggen.Droid.Resource.Id.search_plate;
-			global::XLabs.Forms.Resource.Id.search_src_text = global::Jaktloggen.Droid.Resource.Id.search_src_text;
-			global::XLabs.Forms.Resource.Id.search_voice_btn = global::Jaktloggen.Droid.Resource.Id.search_voice_btn;
-			global::XLabs.Forms.Resource.Id.select_dialog_listview = global::Jaktloggen.Droid.Resource.Id.select_dialog_listview;
-			global::XLabs.Forms.Resource.Id.shortcut = global::Jaktloggen.Droid.Resource.Id.shortcut;
-			global::XLabs.Forms.Resource.Id.showCustom = global::Jaktloggen.Droid.Resource.Id.showCustom;
-			global::XLabs.Forms.Resource.Id.showHome = global::Jaktloggen.Droid.Resource.Id.showHome;
-			global::XLabs.Forms.Resource.Id.showTitle = global::Jaktloggen.Droid.Resource.Id.showTitle;
-			global::XLabs.Forms.Resource.Id.snackbar_action = global::Jaktloggen.Droid.Resource.Id.snackbar_action;
-			global::XLabs.Forms.Resource.Id.snackbar_text = global::Jaktloggen.Droid.Resource.Id.snackbar_text;
-			global::XLabs.Forms.Resource.Id.split_action_bar = global::Jaktloggen.Droid.Resource.Id.split_action_bar;
-			global::XLabs.Forms.Resource.Id.src_atop = global::Jaktloggen.Droid.Resource.Id.src_atop;
-			global::XLabs.Forms.Resource.Id.src_in = global::Jaktloggen.Droid.Resource.Id.src_in;
-			global::XLabs.Forms.Resource.Id.src_over = global::Jaktloggen.Droid.Resource.Id.src_over;
-			global::XLabs.Forms.Resource.Id.start = global::Jaktloggen.Droid.Resource.Id.start;
-			global::XLabs.Forms.Resource.Id.status_bar_latest_event_content = global::Jaktloggen.Droid.Resource.Id.status_bar_latest_event_content;
-			global::XLabs.Forms.Resource.Id.submit_area = global::Jaktloggen.Droid.Resource.Id.submit_area;
-			global::XLabs.Forms.Resource.Id.tabMode = global::Jaktloggen.Droid.Resource.Id.tabMode;
-			global::XLabs.Forms.Resource.Id.text = global::Jaktloggen.Droid.Resource.Id.text;
-			global::XLabs.Forms.Resource.Id.text2 = global::Jaktloggen.Droid.Resource.Id.text2;
-			global::XLabs.Forms.Resource.Id.textSpacerNoButtons = global::Jaktloggen.Droid.Resource.Id.textSpacerNoButtons;
-			global::XLabs.Forms.Resource.Id.time = global::Jaktloggen.Droid.Resource.Id.time;
-			global::XLabs.Forms.Resource.Id.title = global::Jaktloggen.Droid.Resource.Id.title;
-			global::XLabs.Forms.Resource.Id.title_template = global::Jaktloggen.Droid.Resource.Id.title_template;
-			global::XLabs.Forms.Resource.Id.top = global::Jaktloggen.Droid.Resource.Id.top;
-			global::XLabs.Forms.Resource.Id.topPanel = global::Jaktloggen.Droid.Resource.Id.topPanel;
-			global::XLabs.Forms.Resource.Id.up = global::Jaktloggen.Droid.Resource.Id.up;
-			global::XLabs.Forms.Resource.Id.useLogo = global::Jaktloggen.Droid.Resource.Id.useLogo;
-			global::XLabs.Forms.Resource.Id.view_offset_helper = global::Jaktloggen.Droid.Resource.Id.view_offset_helper;
-			global::XLabs.Forms.Resource.Id.withText = global::Jaktloggen.Droid.Resource.Id.withText;
-			global::XLabs.Forms.Resource.Id.wrap_content = global::Jaktloggen.Droid.Resource.Id.wrap_content;
-			global::XLabs.Forms.Resource.Integer.abc_config_activityDefaultDur = global::Jaktloggen.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::XLabs.Forms.Resource.Integer.abc_config_activityShortDur = global::Jaktloggen.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::XLabs.Forms.Resource.Integer.abc_max_action_buttons = global::Jaktloggen.Droid.Resource.Integer.abc_max_action_buttons;
-			global::XLabs.Forms.Resource.Integer.cancel_button_image_alpha = global::Jaktloggen.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::XLabs.Forms.Resource.Integer.design_snackbar_text_max_lines = global::Jaktloggen.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::XLabs.Forms.Resource.Integer.status_bar_notification_info_maxnum = global::Jaktloggen.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::XLabs.Forms.Resource.Layout.abc_action_bar_title_item = global::Jaktloggen.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::XLabs.Forms.Resource.Layout.abc_action_bar_up_container = global::Jaktloggen.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::XLabs.Forms.Resource.Layout.abc_action_bar_view_list_nav_layout = global::Jaktloggen.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
-			global::XLabs.Forms.Resource.Layout.abc_action_menu_item_layout = global::Jaktloggen.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::XLabs.Forms.Resource.Layout.abc_action_menu_layout = global::Jaktloggen.Droid.Resource.Layout.abc_action_menu_layout;
-			global::XLabs.Forms.Resource.Layout.abc_action_mode_bar = global::Jaktloggen.Droid.Resource.Layout.abc_action_mode_bar;
-			global::XLabs.Forms.Resource.Layout.abc_action_mode_close_item_material = global::Jaktloggen.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::XLabs.Forms.Resource.Layout.abc_activity_chooser_view = global::Jaktloggen.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::XLabs.Forms.Resource.Layout.abc_activity_chooser_view_list_item = global::Jaktloggen.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::XLabs.Forms.Resource.Layout.abc_alert_dialog_material = global::Jaktloggen.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::XLabs.Forms.Resource.Layout.abc_dialog_title_material = global::Jaktloggen.Droid.Resource.Layout.abc_dialog_title_material;
-			global::XLabs.Forms.Resource.Layout.abc_expanded_menu_layout = global::Jaktloggen.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::XLabs.Forms.Resource.Layout.abc_list_menu_item_checkbox = global::Jaktloggen.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::XLabs.Forms.Resource.Layout.abc_list_menu_item_icon = global::Jaktloggen.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::XLabs.Forms.Resource.Layout.abc_list_menu_item_layout = global::Jaktloggen.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::XLabs.Forms.Resource.Layout.abc_list_menu_item_radio = global::Jaktloggen.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::XLabs.Forms.Resource.Layout.abc_popup_menu_item_layout = global::Jaktloggen.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::XLabs.Forms.Resource.Layout.abc_screen_content_include = global::Jaktloggen.Droid.Resource.Layout.abc_screen_content_include;
-			global::XLabs.Forms.Resource.Layout.abc_screen_simple = global::Jaktloggen.Droid.Resource.Layout.abc_screen_simple;
-			global::XLabs.Forms.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Jaktloggen.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::XLabs.Forms.Resource.Layout.abc_screen_toolbar = global::Jaktloggen.Droid.Resource.Layout.abc_screen_toolbar;
-			global::XLabs.Forms.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Jaktloggen.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::XLabs.Forms.Resource.Layout.abc_search_view = global::Jaktloggen.Droid.Resource.Layout.abc_search_view;
-			global::XLabs.Forms.Resource.Layout.abc_select_dialog_material = global::Jaktloggen.Droid.Resource.Layout.abc_select_dialog_material;
-			global::XLabs.Forms.Resource.Layout.calendar_pager_layout = global::Jaktloggen.Droid.Resource.Layout.calendar_pager_layout;
-			global::XLabs.Forms.Resource.Layout.calendar_picker = global::Jaktloggen.Droid.Resource.Layout.calendar_picker;
-			global::XLabs.Forms.Resource.Layout.design_layout_snackbar = global::Jaktloggen.Droid.Resource.Layout.design_layout_snackbar;
-			global::XLabs.Forms.Resource.Layout.design_layout_snackbar_include = global::Jaktloggen.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::XLabs.Forms.Resource.Layout.design_layout_tab_icon = global::Jaktloggen.Droid.Resource.Layout.design_layout_tab_icon;
-			global::XLabs.Forms.Resource.Layout.design_layout_tab_text = global::Jaktloggen.Droid.Resource.Layout.design_layout_tab_text;
-			global::XLabs.Forms.Resource.Layout.design_navigation_item = global::Jaktloggen.Droid.Resource.Layout.design_navigation_item;
-			global::XLabs.Forms.Resource.Layout.design_navigation_item_header = global::Jaktloggen.Droid.Resource.Layout.design_navigation_item_header;
-			global::XLabs.Forms.Resource.Layout.design_navigation_item_separator = global::Jaktloggen.Droid.Resource.Layout.design_navigation_item_separator;
-			global::XLabs.Forms.Resource.Layout.design_navigation_item_subheader = global::Jaktloggen.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::XLabs.Forms.Resource.Layout.design_navigation_menu = global::Jaktloggen.Droid.Resource.Layout.design_navigation_menu;
-			global::XLabs.Forms.Resource.Layout.dialog = global::Jaktloggen.Droid.Resource.Layout.dialog;
-			global::XLabs.Forms.Resource.Layout.month = global::Jaktloggen.Droid.Resource.Layout.month;
-			global::XLabs.Forms.Resource.Layout.notification_media_action = global::Jaktloggen.Droid.Resource.Layout.notification_media_action;
-			global::XLabs.Forms.Resource.Layout.notification_media_cancel_action = global::Jaktloggen.Droid.Resource.Layout.notification_media_cancel_action;
-			global::XLabs.Forms.Resource.Layout.notification_template_big_media = global::Jaktloggen.Droid.Resource.Layout.notification_template_big_media;
-			global::XLabs.Forms.Resource.Layout.notification_template_big_media_narrow = global::Jaktloggen.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::XLabs.Forms.Resource.Layout.notification_template_lines = global::Jaktloggen.Droid.Resource.Layout.notification_template_lines;
-			global::XLabs.Forms.Resource.Layout.notification_template_media = global::Jaktloggen.Droid.Resource.Layout.notification_template_media;
-			global::XLabs.Forms.Resource.Layout.notification_template_part_chronometer = global::Jaktloggen.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::XLabs.Forms.Resource.Layout.notification_template_part_time = global::Jaktloggen.Droid.Resource.Layout.notification_template_part_time;
-			global::XLabs.Forms.Resource.Layout.select_dialog_item_material = global::Jaktloggen.Droid.Resource.Layout.select_dialog_item_material;
-			global::XLabs.Forms.Resource.Layout.select_dialog_multichoice_material = global::Jaktloggen.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::XLabs.Forms.Resource.Layout.select_dialog_singlechoice_material = global::Jaktloggen.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::XLabs.Forms.Resource.Layout.support_simple_spinner_dropdown_item = global::Jaktloggen.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::XLabs.Forms.Resource.Layout.week = global::Jaktloggen.Droid.Resource.Layout.week;
-			global::XLabs.Forms.Resource.String.ApplicationName = global::Jaktloggen.Droid.Resource.String.ApplicationName;
-			global::XLabs.Forms.Resource.String.Hello = global::Jaktloggen.Droid.Resource.String.Hello;
-			global::XLabs.Forms.Resource.String.abc_action_bar_home_description = global::Jaktloggen.Droid.Resource.String.abc_action_bar_home_description;
-			global::XLabs.Forms.Resource.String.abc_action_bar_home_description_format = global::Jaktloggen.Droid.Resource.String.abc_action_bar_home_description_format;
-			global::XLabs.Forms.Resource.String.abc_action_bar_home_subtitle_description_format = global::Jaktloggen.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
-			global::XLabs.Forms.Resource.String.abc_action_bar_up_description = global::Jaktloggen.Droid.Resource.String.abc_action_bar_up_description;
-			global::XLabs.Forms.Resource.String.abc_action_menu_overflow_description = global::Jaktloggen.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::XLabs.Forms.Resource.String.abc_action_mode_done = global::Jaktloggen.Droid.Resource.String.abc_action_mode_done;
-			global::XLabs.Forms.Resource.String.abc_activity_chooser_view_see_all = global::Jaktloggen.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::XLabs.Forms.Resource.String.abc_activitychooserview_choose_application = global::Jaktloggen.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::XLabs.Forms.Resource.String.abc_search_hint = global::Jaktloggen.Droid.Resource.String.abc_search_hint;
-			global::XLabs.Forms.Resource.String.abc_searchview_description_clear = global::Jaktloggen.Droid.Resource.String.abc_searchview_description_clear;
-			global::XLabs.Forms.Resource.String.abc_searchview_description_query = global::Jaktloggen.Droid.Resource.String.abc_searchview_description_query;
-			global::XLabs.Forms.Resource.String.abc_searchview_description_search = global::Jaktloggen.Droid.Resource.String.abc_searchview_description_search;
-			global::XLabs.Forms.Resource.String.abc_searchview_description_submit = global::Jaktloggen.Droid.Resource.String.abc_searchview_description_submit;
-			global::XLabs.Forms.Resource.String.abc_searchview_description_voice = global::Jaktloggen.Droid.Resource.String.abc_searchview_description_voice;
-			global::XLabs.Forms.Resource.String.abc_shareactionprovider_share_with = global::Jaktloggen.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::XLabs.Forms.Resource.String.abc_shareactionprovider_share_with_application = global::Jaktloggen.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::XLabs.Forms.Resource.String.abc_toolbar_collapse_description = global::Jaktloggen.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::XLabs.Forms.Resource.String.appbar_scrolling_view_behavior = global::Jaktloggen.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::XLabs.Forms.Resource.String.day_name_format = global::Jaktloggen.Droid.Resource.String.day_name_format;
-			global::XLabs.Forms.Resource.String.full_date_format = global::Jaktloggen.Droid.Resource.String.full_date_format;
-			global::XLabs.Forms.Resource.String.invalid_date = global::Jaktloggen.Droid.Resource.String.invalid_date;
-			global::XLabs.Forms.Resource.String.library_name = global::Jaktloggen.Droid.Resource.String.library_name;
-			global::XLabs.Forms.Resource.String.month_name_format = global::Jaktloggen.Droid.Resource.String.month_name_format;
-			global::XLabs.Forms.Resource.String.mr_system_route_name = global::Jaktloggen.Droid.Resource.String.mr_system_route_name;
-			global::XLabs.Forms.Resource.String.mr_user_route_category_name = global::Jaktloggen.Droid.Resource.String.mr_user_route_category_name;
-			global::XLabs.Forms.Resource.String.status_bar_notification_info_overflow = global::Jaktloggen.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::XLabs.Forms.Resource.Style.AlertDialog_AppCompat = global::Jaktloggen.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::XLabs.Forms.Resource.Style.AlertDialog_AppCompat_Light = global::Jaktloggen.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::XLabs.Forms.Resource.Style.Animation_AppCompat_Dialog = global::Jaktloggen.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::XLabs.Forms.Resource.Style.Animation_AppCompat_DropDownUp = global::Jaktloggen.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::XLabs.Forms.Resource.Style.Base_AlertDialog_AppCompat = global::Jaktloggen.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::XLabs.Forms.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Jaktloggen.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::XLabs.Forms.Resource.Style.Base_Animation_AppCompat_Dialog = global::Jaktloggen.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::XLabs.Forms.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Jaktloggen.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::XLabs.Forms.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Jaktloggen.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::XLabs.Forms.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Jaktloggen.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::XLabs.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Jaktloggen.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::XLabs.Forms.Resource.Style.Base_Theme_AppCompat = global::Jaktloggen.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::XLabs.Forms.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Jaktloggen.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::XLabs.Forms.Resource.Style.Base_Theme_AppCompat_Dialog = global::Jaktloggen.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::XLabs.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Jaktloggen.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::XLabs.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Jaktloggen.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::XLabs.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Jaktloggen.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::XLabs.Forms.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Jaktloggen.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::XLabs.Forms.Resource.Style.Base_Theme_AppCompat_Light = global::Jaktloggen.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::XLabs.Forms.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Jaktloggen.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::XLabs.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Jaktloggen.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::XLabs.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Jaktloggen.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::XLabs.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Jaktloggen.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::XLabs.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Jaktloggen.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::XLabs.Forms.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Jaktloggen.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::XLabs.Forms.Resource.Style.Base_ThemeOverlay_AppCompat = global::Jaktloggen.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::XLabs.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Jaktloggen.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::XLabs.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Jaktloggen.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::XLabs.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Jaktloggen.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::XLabs.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Jaktloggen.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::XLabs.Forms.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::Jaktloggen.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::XLabs.Forms.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::Jaktloggen.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::XLabs.Forms.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::Jaktloggen.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::XLabs.Forms.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::Jaktloggen.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::XLabs.Forms.Resource.Style.Base_V21_Theme_AppCompat = global::Jaktloggen.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::XLabs.Forms.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Jaktloggen.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::XLabs.Forms.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Jaktloggen.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::XLabs.Forms.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Jaktloggen.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::XLabs.Forms.Resource.Style.Base_V22_Theme_AppCompat = global::Jaktloggen.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::XLabs.Forms.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Jaktloggen.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::XLabs.Forms.Resource.Style.Base_V23_Theme_AppCompat = global::Jaktloggen.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::XLabs.Forms.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Jaktloggen.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::XLabs.Forms.Resource.Style.Base_V7_Theme_AppCompat = global::Jaktloggen.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::XLabs.Forms.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Jaktloggen.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::XLabs.Forms.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Jaktloggen.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::XLabs.Forms.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Jaktloggen.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::XLabs.Forms.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Jaktloggen.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::XLabs.Forms.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Jaktloggen.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Button = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_EditText = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ListView = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_SearchView = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Spinner = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::XLabs.Forms.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Jaktloggen.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::XLabs.Forms.Resource.Style.Base_Widget_Design_TabLayout = global::Jaktloggen.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::XLabs.Forms.Resource.Style.CalendarCell = global::Jaktloggen.Droid.Resource.Style.CalendarCell;
-			global::XLabs.Forms.Resource.Style.CalendarCell_CalendarDate = global::Jaktloggen.Droid.Resource.Style.CalendarCell_CalendarDate;
-			global::XLabs.Forms.Resource.Style.CalendarCell_DayHeader = global::Jaktloggen.Droid.Resource.Style.CalendarCell_DayHeader;
-			global::XLabs.Forms.Resource.Style.CalendarTitle = global::Jaktloggen.Droid.Resource.Style.CalendarTitle;
-			global::XLabs.Forms.Resource.Style.CardView = global::Jaktloggen.Droid.Resource.Style.CardView;
-			global::XLabs.Forms.Resource.Style.CardView_Dark = global::Jaktloggen.Droid.Resource.Style.CardView_Dark;
-			global::XLabs.Forms.Resource.Style.CardView_Light = global::Jaktloggen.Droid.Resource.Style.CardView_Light;
-			global::XLabs.Forms.Resource.Style.Platform_AppCompat = global::Jaktloggen.Droid.Resource.Style.Platform_AppCompat;
-			global::XLabs.Forms.Resource.Style.Platform_AppCompat_Light = global::Jaktloggen.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::XLabs.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Jaktloggen.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::XLabs.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Jaktloggen.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::XLabs.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Jaktloggen.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::XLabs.Forms.Resource.Style.Platform_V11_AppCompat = global::Jaktloggen.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::XLabs.Forms.Resource.Style.Platform_V11_AppCompat_Light = global::Jaktloggen.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::XLabs.Forms.Resource.Style.Platform_V14_AppCompat = global::Jaktloggen.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::XLabs.Forms.Resource.Style.Platform_V14_AppCompat_Light = global::Jaktloggen.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::XLabs.Forms.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Jaktloggen.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::XLabs.Forms.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Jaktloggen.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::XLabs.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Jaktloggen.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::XLabs.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Jaktloggen.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::XLabs.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Jaktloggen.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::XLabs.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Jaktloggen.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::XLabs.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Jaktloggen.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::XLabs.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Jaktloggen.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::XLabs.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Jaktloggen.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::XLabs.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Jaktloggen.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::XLabs.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Jaktloggen.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::XLabs.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Jaktloggen.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::XLabs.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Jaktloggen.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Body1 = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Body2 = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Button = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Caption = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Display1 = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Display2 = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Display3 = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Display4 = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Headline = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Inverse = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Large = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Medium = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Menu = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Small = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Subhead = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Title = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::XLabs.Forms.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Jaktloggen.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::XLabs.Forms.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Jaktloggen.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::XLabs.Forms.Resource.Style.TextAppearance_Design_Error = global::Jaktloggen.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::XLabs.Forms.Resource.Style.TextAppearance_Design_Hint = global::Jaktloggen.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::XLabs.Forms.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Jaktloggen.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::XLabs.Forms.Resource.Style.TextAppearance_Design_Tab = global::Jaktloggen.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::XLabs.Forms.Resource.Style.TextAppearance_StatusBar_EventContent = global::Jaktloggen.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
-			global::XLabs.Forms.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::Jaktloggen.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
-			global::XLabs.Forms.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::Jaktloggen.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
-			global::XLabs.Forms.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::Jaktloggen.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
-			global::XLabs.Forms.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::Jaktloggen.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
-			global::XLabs.Forms.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Jaktloggen.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::XLabs.Forms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Jaktloggen.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::XLabs.Forms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Jaktloggen.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::XLabs.Forms.Resource.Style.Theme_AppCompat = global::Jaktloggen.Droid.Resource.Style.Theme_AppCompat;
-			global::XLabs.Forms.Resource.Style.Theme_AppCompat_CompactMenu = global::Jaktloggen.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::XLabs.Forms.Resource.Style.Theme_AppCompat_Dialog = global::Jaktloggen.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::XLabs.Forms.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Jaktloggen.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::XLabs.Forms.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Jaktloggen.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::XLabs.Forms.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Jaktloggen.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::XLabs.Forms.Resource.Style.Theme_AppCompat_Light = global::Jaktloggen.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::XLabs.Forms.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Jaktloggen.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::XLabs.Forms.Resource.Style.Theme_AppCompat_Light_Dialog = global::Jaktloggen.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::XLabs.Forms.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Jaktloggen.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::XLabs.Forms.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Jaktloggen.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::XLabs.Forms.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Jaktloggen.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::XLabs.Forms.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Jaktloggen.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::XLabs.Forms.Resource.Style.Theme_AppCompat_NoActionBar = global::Jaktloggen.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::XLabs.Forms.Resource.Style.Theme_MediaRouter = global::Jaktloggen.Droid.Resource.Style.Theme_MediaRouter;
-			global::XLabs.Forms.Resource.Style.Theme_MediaRouter_Light = global::Jaktloggen.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::XLabs.Forms.Resource.Style.ThemeOverlay_AppCompat = global::Jaktloggen.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::XLabs.Forms.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Jaktloggen.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::XLabs.Forms.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Jaktloggen.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::XLabs.Forms.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Jaktloggen.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::XLabs.Forms.Resource.Style.ThemeOverlay_AppCompat_Light = global::Jaktloggen.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ActionBar = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ActionButton = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ActionMode = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Button = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Button_Borderless = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Button_Colored = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Button_Small = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ButtonBar = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_EditText = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_SearchView = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ListView = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ListView_Menu = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_PopupMenu = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_PopupWindow = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ProgressBar = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_RatingBar = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_SearchView = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Spinner = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Toolbar = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::XLabs.Forms.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Jaktloggen.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::XLabs.Forms.Resource.Style.Widget_Design_AppBarLayout = global::Jaktloggen.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::XLabs.Forms.Resource.Style.Widget_Design_CollapsingToolbar = global::Jaktloggen.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::XLabs.Forms.Resource.Style.Widget_Design_CoordinatorLayout = global::Jaktloggen.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::XLabs.Forms.Resource.Style.Widget_Design_FloatingActionButton = global::Jaktloggen.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::XLabs.Forms.Resource.Style.Widget_Design_NavigationView = global::Jaktloggen.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::XLabs.Forms.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Jaktloggen.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::XLabs.Forms.Resource.Style.Widget_Design_Snackbar = global::Jaktloggen.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::XLabs.Forms.Resource.Style.Widget_Design_TabLayout = global::Jaktloggen.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::XLabs.Forms.Resource.Style.Widget_Design_TextInputLayout = global::Jaktloggen.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::XLabs.Forms.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::Jaktloggen.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::XLabs.Forms.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::Jaktloggen.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::XLabs.Forms.Resource.Styleable.ActionBar = global::Jaktloggen.Droid.Resource.Styleable.ActionBar;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_background = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_background;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_backgroundSplit = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_backgroundStacked = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_contentInsetEnd = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_contentInsetLeft = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_contentInsetRight = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_contentInsetStart = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_customNavigationLayout = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_displayOptions = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_divider = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_divider;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_elevation = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_elevation;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_height = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_height;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_hideOnContentScroll = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_homeLayout = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_icon = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_icon;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_itemPadding = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_logo = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_logo;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_navigationMode = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_popupTheme = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_progressBarPadding = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_progressBarStyle = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_subtitle = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_subtitleTextStyle = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_title = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_title;
-			global::XLabs.Forms.Resource.Styleable.ActionBar_titleTextStyle = global::Jaktloggen.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::XLabs.Forms.Resource.Styleable.ActionBarLayout = global::Jaktloggen.Droid.Resource.Styleable.ActionBarLayout;
-			global::XLabs.Forms.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Jaktloggen.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::XLabs.Forms.Resource.Styleable.ActionMenuItemView = global::Jaktloggen.Droid.Resource.Styleable.ActionMenuItemView;
-			global::XLabs.Forms.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Jaktloggen.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::XLabs.Forms.Resource.Styleable.ActionMenuView = global::Jaktloggen.Droid.Resource.Styleable.ActionMenuView;
-			global::XLabs.Forms.Resource.Styleable.ActionMode = global::Jaktloggen.Droid.Resource.Styleable.ActionMode;
-			global::XLabs.Forms.Resource.Styleable.ActionMode_background = global::Jaktloggen.Droid.Resource.Styleable.ActionMode_background;
-			global::XLabs.Forms.Resource.Styleable.ActionMode_backgroundSplit = global::Jaktloggen.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::XLabs.Forms.Resource.Styleable.ActionMode_closeItemLayout = global::Jaktloggen.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::XLabs.Forms.Resource.Styleable.ActionMode_height = global::Jaktloggen.Droid.Resource.Styleable.ActionMode_height;
-			global::XLabs.Forms.Resource.Styleable.ActionMode_subtitleTextStyle = global::Jaktloggen.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::XLabs.Forms.Resource.Styleable.ActionMode_titleTextStyle = global::Jaktloggen.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::XLabs.Forms.Resource.Styleable.ActivityChooserView = global::Jaktloggen.Droid.Resource.Styleable.ActivityChooserView;
-			global::XLabs.Forms.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Jaktloggen.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::XLabs.Forms.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Jaktloggen.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::XLabs.Forms.Resource.Styleable.AlertDialog = global::Jaktloggen.Droid.Resource.Styleable.AlertDialog;
-			global::XLabs.Forms.Resource.Styleable.AlertDialog_android_layout = global::Jaktloggen.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::XLabs.Forms.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Jaktloggen.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::XLabs.Forms.Resource.Styleable.AlertDialog_listItemLayout = global::Jaktloggen.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::XLabs.Forms.Resource.Styleable.AlertDialog_listLayout = global::Jaktloggen.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::XLabs.Forms.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Jaktloggen.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::XLabs.Forms.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Jaktloggen.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::XLabs.Forms.Resource.Styleable.AppBarLayout = global::Jaktloggen.Droid.Resource.Styleable.AppBarLayout;
-			global::XLabs.Forms.Resource.Styleable.AppBarLayout_android_background = global::Jaktloggen.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::XLabs.Forms.Resource.Styleable.AppBarLayout_elevation = global::Jaktloggen.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::XLabs.Forms.Resource.Styleable.AppBarLayout_expanded = global::Jaktloggen.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::XLabs.Forms.Resource.Styleable.AppBarLayout_LayoutParams = global::Jaktloggen.Droid.Resource.Styleable.AppBarLayout_LayoutParams;
-			global::XLabs.Forms.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::Jaktloggen.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
-			global::XLabs.Forms.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::Jaktloggen.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
-			global::XLabs.Forms.Resource.Styleable.AppCompatTextView = global::Jaktloggen.Droid.Resource.Styleable.AppCompatTextView;
-			global::XLabs.Forms.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Jaktloggen.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::XLabs.Forms.Resource.Styleable.AppCompatTextView_textAllCaps = global::Jaktloggen.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::XLabs.Forms.Resource.Styleable.CardView = global::Jaktloggen.Droid.Resource.Styleable.CardView;
-			global::XLabs.Forms.Resource.Styleable.CardView_cardBackgroundColor = global::Jaktloggen.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::XLabs.Forms.Resource.Styleable.CardView_cardCornerRadius = global::Jaktloggen.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::XLabs.Forms.Resource.Styleable.CardView_cardElevation = global::Jaktloggen.Droid.Resource.Styleable.CardView_cardElevation;
-			global::XLabs.Forms.Resource.Styleable.CardView_cardMaxElevation = global::Jaktloggen.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::XLabs.Forms.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Jaktloggen.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::XLabs.Forms.Resource.Styleable.CardView_cardUseCompatPadding = global::Jaktloggen.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::XLabs.Forms.Resource.Styleable.CardView_contentPadding = global::Jaktloggen.Droid.Resource.Styleable.CardView_contentPadding;
-			global::XLabs.Forms.Resource.Styleable.CardView_contentPaddingBottom = global::Jaktloggen.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::XLabs.Forms.Resource.Styleable.CardView_contentPaddingLeft = global::Jaktloggen.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::XLabs.Forms.Resource.Styleable.CardView_contentPaddingRight = global::Jaktloggen.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::XLabs.Forms.Resource.Styleable.CardView_contentPaddingTop = global::Jaktloggen.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::XLabs.Forms.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::Jaktloggen.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
-			global::XLabs.Forms.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::Jaktloggen.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
-			global::XLabs.Forms.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::Jaktloggen.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
-			global::XLabs.Forms.Resource.Styleable.CollapsingToolbarLayout = global::Jaktloggen.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::XLabs.Forms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Jaktloggen.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::XLabs.Forms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Jaktloggen.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::XLabs.Forms.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Jaktloggen.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::XLabs.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Jaktloggen.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::XLabs.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Jaktloggen.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::XLabs.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Jaktloggen.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::XLabs.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Jaktloggen.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::XLabs.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Jaktloggen.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::XLabs.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Jaktloggen.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::XLabs.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Jaktloggen.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::XLabs.Forms.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Jaktloggen.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::XLabs.Forms.Resource.Styleable.CollapsingToolbarLayout_title = global::Jaktloggen.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::XLabs.Forms.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Jaktloggen.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::XLabs.Forms.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Jaktloggen.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::XLabs.Forms.Resource.Styleable.CompoundButton = global::Jaktloggen.Droid.Resource.Styleable.CompoundButton;
-			global::XLabs.Forms.Resource.Styleable.CompoundButton_android_button = global::Jaktloggen.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::XLabs.Forms.Resource.Styleable.CompoundButton_buttonTint = global::Jaktloggen.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::XLabs.Forms.Resource.Styleable.CompoundButton_buttonTintMode = global::Jaktloggen.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::XLabs.Forms.Resource.Styleable.CoordinatorLayout = global::Jaktloggen.Droid.Resource.Styleable.CoordinatorLayout;
-			global::XLabs.Forms.Resource.Styleable.CoordinatorLayout_keylines = global::Jaktloggen.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::XLabs.Forms.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Jaktloggen.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::XLabs.Forms.Resource.Styleable.CoordinatorLayout_LayoutParams = global::Jaktloggen.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams;
-			global::XLabs.Forms.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::Jaktloggen.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
-			global::XLabs.Forms.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::Jaktloggen.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
-			global::XLabs.Forms.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::Jaktloggen.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
-			global::XLabs.Forms.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::Jaktloggen.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
-			global::XLabs.Forms.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::Jaktloggen.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
-			global::XLabs.Forms.Resource.Styleable.DrawerArrowToggle = global::Jaktloggen.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::XLabs.Forms.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Jaktloggen.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::XLabs.Forms.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Jaktloggen.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::XLabs.Forms.Resource.Styleable.DrawerArrowToggle_barLength = global::Jaktloggen.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::XLabs.Forms.Resource.Styleable.DrawerArrowToggle_color = global::Jaktloggen.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::XLabs.Forms.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Jaktloggen.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::XLabs.Forms.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Jaktloggen.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::XLabs.Forms.Resource.Styleable.DrawerArrowToggle_spinBars = global::Jaktloggen.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::XLabs.Forms.Resource.Styleable.DrawerArrowToggle_thickness = global::Jaktloggen.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::XLabs.Forms.Resource.Styleable.FloatingActionButton = global::Jaktloggen.Droid.Resource.Styleable.FloatingActionButton;
-			global::XLabs.Forms.Resource.Styleable.FloatingActionButton_backgroundTint = global::Jaktloggen.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::XLabs.Forms.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Jaktloggen.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::XLabs.Forms.Resource.Styleable.FloatingActionButton_borderWidth = global::Jaktloggen.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::XLabs.Forms.Resource.Styleable.FloatingActionButton_elevation = global::Jaktloggen.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::XLabs.Forms.Resource.Styleable.FloatingActionButton_fabSize = global::Jaktloggen.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::XLabs.Forms.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Jaktloggen.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::XLabs.Forms.Resource.Styleable.FloatingActionButton_rippleColor = global::Jaktloggen.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::XLabs.Forms.Resource.Styleable.LinearLayoutCompat = global::Jaktloggen.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::XLabs.Forms.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Jaktloggen.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::XLabs.Forms.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Jaktloggen.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::XLabs.Forms.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Jaktloggen.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::XLabs.Forms.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Jaktloggen.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::XLabs.Forms.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Jaktloggen.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::XLabs.Forms.Resource.Styleable.LinearLayoutCompat_divider = global::Jaktloggen.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::XLabs.Forms.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Jaktloggen.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::XLabs.Forms.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Jaktloggen.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::XLabs.Forms.Resource.Styleable.LinearLayoutCompat_showDividers = global::Jaktloggen.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::XLabs.Forms.Resource.Styleable.LinearLayoutCompat_Layout = global::Jaktloggen.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::XLabs.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Jaktloggen.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::XLabs.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Jaktloggen.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::XLabs.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Jaktloggen.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::XLabs.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Jaktloggen.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::XLabs.Forms.Resource.Styleable.ListPopupWindow = global::Jaktloggen.Droid.Resource.Styleable.ListPopupWindow;
-			global::XLabs.Forms.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Jaktloggen.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::XLabs.Forms.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Jaktloggen.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::XLabs.Forms.Resource.Styleable.MediaRouteButton = global::Jaktloggen.Droid.Resource.Styleable.MediaRouteButton;
-			global::XLabs.Forms.Resource.Styleable.MediaRouteButton_android_minHeight = global::Jaktloggen.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::XLabs.Forms.Resource.Styleable.MediaRouteButton_android_minWidth = global::Jaktloggen.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::XLabs.Forms.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::Jaktloggen.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::XLabs.Forms.Resource.Styleable.MenuGroup = global::Jaktloggen.Droid.Resource.Styleable.MenuGroup;
-			global::XLabs.Forms.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Jaktloggen.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::XLabs.Forms.Resource.Styleable.MenuGroup_android_enabled = global::Jaktloggen.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::XLabs.Forms.Resource.Styleable.MenuGroup_android_id = global::Jaktloggen.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::XLabs.Forms.Resource.Styleable.MenuGroup_android_menuCategory = global::Jaktloggen.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::XLabs.Forms.Resource.Styleable.MenuGroup_android_orderInCategory = global::Jaktloggen.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::XLabs.Forms.Resource.Styleable.MenuGroup_android_visible = global::Jaktloggen.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::XLabs.Forms.Resource.Styleable.MenuItem = global::Jaktloggen.Droid.Resource.Styleable.MenuItem;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_actionLayout = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_actionProviderClass = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_actionViewClass = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_android_checkable = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_android_checked = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_android_enabled = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_android_icon = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_android_id = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_android_id;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_android_menuCategory = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_android_numericShortcut = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_android_onClick = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_android_orderInCategory = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_android_title = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_android_title;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_android_titleCondensed = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_android_visible = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::XLabs.Forms.Resource.Styleable.MenuItem_showAsAction = global::Jaktloggen.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::XLabs.Forms.Resource.Styleable.MenuView = global::Jaktloggen.Droid.Resource.Styleable.MenuView;
-			global::XLabs.Forms.Resource.Styleable.MenuView_android_headerBackground = global::Jaktloggen.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::XLabs.Forms.Resource.Styleable.MenuView_android_horizontalDivider = global::Jaktloggen.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::XLabs.Forms.Resource.Styleable.MenuView_android_itemBackground = global::Jaktloggen.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::XLabs.Forms.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Jaktloggen.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::XLabs.Forms.Resource.Styleable.MenuView_android_itemTextAppearance = global::Jaktloggen.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::XLabs.Forms.Resource.Styleable.MenuView_android_verticalDivider = global::Jaktloggen.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::XLabs.Forms.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Jaktloggen.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::XLabs.Forms.Resource.Styleable.MenuView_preserveIconSpacing = global::Jaktloggen.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::XLabs.Forms.Resource.Styleable.NavigationView = global::Jaktloggen.Droid.Resource.Styleable.NavigationView;
-			global::XLabs.Forms.Resource.Styleable.NavigationView_android_background = global::Jaktloggen.Droid.Resource.Styleable.NavigationView_android_background;
-			global::XLabs.Forms.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Jaktloggen.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::XLabs.Forms.Resource.Styleable.NavigationView_android_maxWidth = global::Jaktloggen.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::XLabs.Forms.Resource.Styleable.NavigationView_elevation = global::Jaktloggen.Droid.Resource.Styleable.NavigationView_elevation;
-			global::XLabs.Forms.Resource.Styleable.NavigationView_headerLayout = global::Jaktloggen.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::XLabs.Forms.Resource.Styleable.NavigationView_itemBackground = global::Jaktloggen.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::XLabs.Forms.Resource.Styleable.NavigationView_itemIconTint = global::Jaktloggen.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::XLabs.Forms.Resource.Styleable.NavigationView_itemTextAppearance = global::Jaktloggen.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::XLabs.Forms.Resource.Styleable.NavigationView_itemTextColor = global::Jaktloggen.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::XLabs.Forms.Resource.Styleable.NavigationView_menu = global::Jaktloggen.Droid.Resource.Styleable.NavigationView_menu;
-			global::XLabs.Forms.Resource.Styleable.PopupWindow = global::Jaktloggen.Droid.Resource.Styleable.PopupWindow;
-			global::XLabs.Forms.Resource.Styleable.PopupWindow_android_popupBackground = global::Jaktloggen.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::XLabs.Forms.Resource.Styleable.PopupWindow_overlapAnchor = global::Jaktloggen.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::XLabs.Forms.Resource.Styleable.PopupWindowBackgroundState = global::Jaktloggen.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::XLabs.Forms.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Jaktloggen.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::XLabs.Forms.Resource.Styleable.ScrimInsetsFrameLayout = global::Jaktloggen.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::XLabs.Forms.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Jaktloggen.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::XLabs.Forms.Resource.Styleable.ScrollingViewBehavior_Params = global::Jaktloggen.Droid.Resource.Styleable.ScrollingViewBehavior_Params;
-			global::XLabs.Forms.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::Jaktloggen.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
-			global::XLabs.Forms.Resource.Styleable.SearchView = global::Jaktloggen.Droid.Resource.Styleable.SearchView;
-			global::XLabs.Forms.Resource.Styleable.SearchView_android_focusable = global::Jaktloggen.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::XLabs.Forms.Resource.Styleable.SearchView_android_imeOptions = global::Jaktloggen.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::XLabs.Forms.Resource.Styleable.SearchView_android_inputType = global::Jaktloggen.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::XLabs.Forms.Resource.Styleable.SearchView_android_maxWidth = global::Jaktloggen.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::XLabs.Forms.Resource.Styleable.SearchView_closeIcon = global::Jaktloggen.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::XLabs.Forms.Resource.Styleable.SearchView_commitIcon = global::Jaktloggen.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::XLabs.Forms.Resource.Styleable.SearchView_defaultQueryHint = global::Jaktloggen.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::XLabs.Forms.Resource.Styleable.SearchView_goIcon = global::Jaktloggen.Droid.Resource.Styleable.SearchView_goIcon;
-			global::XLabs.Forms.Resource.Styleable.SearchView_iconifiedByDefault = global::Jaktloggen.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::XLabs.Forms.Resource.Styleable.SearchView_layout = global::Jaktloggen.Droid.Resource.Styleable.SearchView_layout;
-			global::XLabs.Forms.Resource.Styleable.SearchView_queryBackground = global::Jaktloggen.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::XLabs.Forms.Resource.Styleable.SearchView_queryHint = global::Jaktloggen.Droid.Resource.Styleable.SearchView_queryHint;
-			global::XLabs.Forms.Resource.Styleable.SearchView_searchHintIcon = global::Jaktloggen.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::XLabs.Forms.Resource.Styleable.SearchView_searchIcon = global::Jaktloggen.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::XLabs.Forms.Resource.Styleable.SearchView_submitBackground = global::Jaktloggen.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::XLabs.Forms.Resource.Styleable.SearchView_suggestionRowLayout = global::Jaktloggen.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::XLabs.Forms.Resource.Styleable.SearchView_voiceIcon = global::Jaktloggen.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::XLabs.Forms.Resource.Styleable.SnackbarLayout = global::Jaktloggen.Droid.Resource.Styleable.SnackbarLayout;
-			global::XLabs.Forms.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Jaktloggen.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::XLabs.Forms.Resource.Styleable.SnackbarLayout_elevation = global::Jaktloggen.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::XLabs.Forms.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Jaktloggen.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::XLabs.Forms.Resource.Styleable.Spinner = global::Jaktloggen.Droid.Resource.Styleable.Spinner;
-			global::XLabs.Forms.Resource.Styleable.Spinner_android_dropDownWidth = global::Jaktloggen.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::XLabs.Forms.Resource.Styleable.Spinner_android_popupBackground = global::Jaktloggen.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::XLabs.Forms.Resource.Styleable.Spinner_android_prompt = global::Jaktloggen.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::XLabs.Forms.Resource.Styleable.Spinner_popupTheme = global::Jaktloggen.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::XLabs.Forms.Resource.Styleable.SwitchCompat = global::Jaktloggen.Droid.Resource.Styleable.SwitchCompat;
-			global::XLabs.Forms.Resource.Styleable.SwitchCompat_android_textOff = global::Jaktloggen.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::XLabs.Forms.Resource.Styleable.SwitchCompat_android_textOn = global::Jaktloggen.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::XLabs.Forms.Resource.Styleable.SwitchCompat_android_thumb = global::Jaktloggen.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::XLabs.Forms.Resource.Styleable.SwitchCompat_showText = global::Jaktloggen.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::XLabs.Forms.Resource.Styleable.SwitchCompat_splitTrack = global::Jaktloggen.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::XLabs.Forms.Resource.Styleable.SwitchCompat_switchMinWidth = global::Jaktloggen.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::XLabs.Forms.Resource.Styleable.SwitchCompat_switchPadding = global::Jaktloggen.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::XLabs.Forms.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Jaktloggen.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::XLabs.Forms.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Jaktloggen.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::XLabs.Forms.Resource.Styleable.SwitchCompat_track = global::Jaktloggen.Droid.Resource.Styleable.SwitchCompat_track;
-			global::XLabs.Forms.Resource.Styleable.TabLayout = global::Jaktloggen.Droid.Resource.Styleable.TabLayout;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabBackground = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabContentStart = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabGravity = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabIndicatorColor = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabMaxWidth = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabMinWidth = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabMode = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabPadding = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabPaddingBottom = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabPaddingEnd = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabPaddingStart = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabPaddingTop = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabTextAppearance = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::XLabs.Forms.Resource.Styleable.TabLayout_tabTextColor = global::Jaktloggen.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::XLabs.Forms.Resource.Styleable.TextAppearance = global::Jaktloggen.Droid.Resource.Styleable.TextAppearance;
-			global::XLabs.Forms.Resource.Styleable.TextAppearance_android_textColor = global::Jaktloggen.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::XLabs.Forms.Resource.Styleable.TextAppearance_android_textSize = global::Jaktloggen.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::XLabs.Forms.Resource.Styleable.TextAppearance_android_textStyle = global::Jaktloggen.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::XLabs.Forms.Resource.Styleable.TextAppearance_android_typeface = global::Jaktloggen.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::XLabs.Forms.Resource.Styleable.TextAppearance_textAllCaps = global::Jaktloggen.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::XLabs.Forms.Resource.Styleable.TextInputLayout = global::Jaktloggen.Droid.Resource.Styleable.TextInputLayout;
-			global::XLabs.Forms.Resource.Styleable.TextInputLayout_android_hint = global::Jaktloggen.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::XLabs.Forms.Resource.Styleable.TextInputLayout_android_textColorHint = global::Jaktloggen.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::XLabs.Forms.Resource.Styleable.TextInputLayout_errorEnabled = global::Jaktloggen.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::XLabs.Forms.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Jaktloggen.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::XLabs.Forms.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Jaktloggen.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::XLabs.Forms.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Jaktloggen.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::XLabs.Forms.Resource.Styleable.Toolbar = global::Jaktloggen.Droid.Resource.Styleable.Toolbar;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_android_gravity = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_android_minHeight = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_collapseContentDescription = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_collapseIcon = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_contentInsetEnd = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_contentInsetLeft = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_contentInsetRight = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_contentInsetStart = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_logo = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_logo;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_logoDescription = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_maxButtonHeight = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_navigationContentDescription = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_navigationIcon = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_popupTheme = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_subtitle = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_subtitleTextColor = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_title = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_title;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_titleMarginBottom = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_titleMarginEnd = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_titleMarginStart = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_titleMarginTop = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_titleMargins = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_titleTextAppearance = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::XLabs.Forms.Resource.Styleable.Toolbar_titleTextColor = global::Jaktloggen.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::XLabs.Forms.Resource.Styleable.View = global::Jaktloggen.Droid.Resource.Styleable.View;
-			global::XLabs.Forms.Resource.Styleable.View_android_focusable = global::Jaktloggen.Droid.Resource.Styleable.View_android_focusable;
-			global::XLabs.Forms.Resource.Styleable.View_android_theme = global::Jaktloggen.Droid.Resource.Styleable.View_android_theme;
-			global::XLabs.Forms.Resource.Styleable.View_paddingEnd = global::Jaktloggen.Droid.Resource.Styleable.View_paddingEnd;
-			global::XLabs.Forms.Resource.Styleable.View_paddingStart = global::Jaktloggen.Droid.Resource.Styleable.View_paddingStart;
-			global::XLabs.Forms.Resource.Styleable.View_theme = global::Jaktloggen.Droid.Resource.Styleable.View_theme;
-			global::XLabs.Forms.Resource.Styleable.ViewBackgroundHelper = global::Jaktloggen.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::XLabs.Forms.Resource.Styleable.ViewBackgroundHelper_android_background = global::Jaktloggen.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::XLabs.Forms.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Jaktloggen.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::XLabs.Forms.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Jaktloggen.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::XLabs.Forms.Resource.Styleable.ViewStubCompat = global::Jaktloggen.Droid.Resource.Styleable.ViewStubCompat;
-			global::XLabs.Forms.Resource.Styleable.ViewStubCompat_android_id = global::Jaktloggen.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::XLabs.Forms.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Jaktloggen.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::XLabs.Forms.Resource.Styleable.ViewStubCompat_android_layout = global::Jaktloggen.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::XLabs.Platform.Resource.String.ApplicationName = global::Jaktloggen.Droid.Resource.String.ApplicationName;
-			global::XLabs.Platform.Resource.String.Hello = global::Jaktloggen.Droid.Resource.String.Hello;
 		}
 		
 		public partial class Animation
@@ -2586,32 +1160,32 @@ namespace Jaktloggen.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f080064
-			public const int abc_background_cache_hint_selector_material_dark = 2131230820;
+			// aapt resource value: 0x7f080059
+			public const int abc_background_cache_hint_selector_material_dark = 2131230809;
 			
-			// aapt resource value: 0x7f080065
-			public const int abc_background_cache_hint_selector_material_light = 2131230821;
+			// aapt resource value: 0x7f08005a
+			public const int abc_background_cache_hint_selector_material_light = 2131230810;
 			
-			// aapt resource value: 0x7f080066
-			public const int abc_color_highlight_material = 2131230822;
+			// aapt resource value: 0x7f08005b
+			public const int abc_color_highlight_material = 2131230811;
 			
 			// aapt resource value: 0x7f080015
 			public const int abc_input_method_navigation_guard = 2131230741;
 			
-			// aapt resource value: 0x7f080067
-			public const int abc_primary_text_disable_only_material_dark = 2131230823;
+			// aapt resource value: 0x7f08005c
+			public const int abc_primary_text_disable_only_material_dark = 2131230812;
 			
-			// aapt resource value: 0x7f080068
-			public const int abc_primary_text_disable_only_material_light = 2131230824;
+			// aapt resource value: 0x7f08005d
+			public const int abc_primary_text_disable_only_material_light = 2131230813;
 			
-			// aapt resource value: 0x7f080069
-			public const int abc_primary_text_material_dark = 2131230825;
+			// aapt resource value: 0x7f08005e
+			public const int abc_primary_text_material_dark = 2131230814;
 			
-			// aapt resource value: 0x7f08006a
-			public const int abc_primary_text_material_light = 2131230826;
+			// aapt resource value: 0x7f08005f
+			public const int abc_primary_text_material_light = 2131230815;
 			
-			// aapt resource value: 0x7f08006b
-			public const int abc_search_url_text = 2131230827;
+			// aapt resource value: 0x7f080060
+			public const int abc_search_url_text = 2131230816;
 			
 			// aapt resource value: 0x7f080016
 			public const int abc_search_url_text_normal = 2131230742;
@@ -2622,11 +1196,11 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f080018
 			public const int abc_search_url_text_selected = 2131230744;
 			
-			// aapt resource value: 0x7f08006c
-			public const int abc_secondary_text_material_dark = 2131230828;
+			// aapt resource value: 0x7f080061
+			public const int abc_secondary_text_material_dark = 2131230817;
 			
-			// aapt resource value: 0x7f08006d
-			public const int abc_secondary_text_material_light = 2131230829;
+			// aapt resource value: 0x7f080062
+			public const int abc_secondary_text_material_light = 2131230818;
 			
 			// aapt resource value: 0x7f080019
 			public const int accent_material_dark = 2131230745;
@@ -2670,42 +1244,6 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f080026
 			public const int button_material_light = 2131230758;
 			
-			// aapt resource value: 0x7f080059
-			public const int calendar_active_month_bg = 2131230809;
-			
-			// aapt resource value: 0x7f08005a
-			public const int calendar_bg = 2131230810;
-			
-			// aapt resource value: 0x7f08005b
-			public const int calendar_divider = 2131230811;
-			
-			// aapt resource value: 0x7f08005e
-			public const int calendar_highlighted_day_bg = 2131230814;
-			
-			// aapt resource value: 0x7f08005c
-			public const int calendar_inactive_month_bg = 2131230812;
-			
-			// aapt resource value: 0x7f08005d
-			public const int calendar_selected_day_bg = 2131230813;
-			
-			// aapt resource value: 0x7f08005f
-			public const int calendar_selected_range_bg = 2131230815;
-			
-			// aapt resource value: 0x7f080061
-			public const int calendar_text_active = 2131230817;
-			
-			// aapt resource value: 0x7f080060
-			public const int calendar_text_inactive = 2131230816;
-			
-			// aapt resource value: 0x7f080062
-			public const int calendar_text_selected = 2131230818;
-			
-			// aapt resource value: 0x7f08006e
-			public const int calendar_text_selector = 2131230830;
-			
-			// aapt resource value: 0x7f080063
-			public const int calendar_text_unselectable = 2131230819;
-			
 			// aapt resource value: 0x7f080011
 			public const int cardview_dark_background = 2131230737;
 			
@@ -2721,8 +1259,8 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f080008
 			public const int common_action_bar_splitter = 2131230728;
 			
-			// aapt resource value: 0x7f08006f
-			public const int common_google_signin_btn_text_dark = 2131230831;
+			// aapt resource value: 0x7f080063
+			public const int common_google_signin_btn_text_dark = 2131230819;
 			
 			// aapt resource value: 0x7f080009
 			public const int common_google_signin_btn_text_dark_default = 2131230729;
@@ -2736,8 +1274,8 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f08000a
 			public const int common_google_signin_btn_text_dark_pressed = 2131230730;
 			
-			// aapt resource value: 0x7f080070
-			public const int common_google_signin_btn_text_light = 2131230832;
+			// aapt resource value: 0x7f080064
+			public const int common_google_signin_btn_text_light = 2131230820;
 			
 			// aapt resource value: 0x7f08000d
 			public const int common_google_signin_btn_text_light_default = 2131230733;
@@ -2751,8 +1289,8 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f08000e
 			public const int common_google_signin_btn_text_light_pressed = 2131230734;
 			
-			// aapt resource value: 0x7f080071
-			public const int common_plus_signin_btn_text_dark = 2131230833;
+			// aapt resource value: 0x7f080065
+			public const int common_plus_signin_btn_text_dark = 2131230821;
 			
 			// aapt resource value: 0x7f080000
 			public const int common_plus_signin_btn_text_dark_default = 2131230720;
@@ -2766,8 +1304,8 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f080001
 			public const int common_plus_signin_btn_text_dark_pressed = 2131230721;
 			
-			// aapt resource value: 0x7f080072
-			public const int common_plus_signin_btn_text_light = 2131230834;
+			// aapt resource value: 0x7f080066
+			public const int common_plus_signin_btn_text_light = 2131230822;
 			
 			// aapt resource value: 0x7f080004
 			public const int common_plus_signin_btn_text_light_default = 2131230724;
@@ -2925,11 +1463,11 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f08004c
 			public const int switch_thumb_disabled_material_light = 2131230796;
 			
-			// aapt resource value: 0x7f080073
-			public const int switch_thumb_material_dark = 2131230835;
+			// aapt resource value: 0x7f080067
+			public const int switch_thumb_material_dark = 2131230823;
 			
-			// aapt resource value: 0x7f080074
-			public const int switch_thumb_material_light = 2131230836;
+			// aapt resource value: 0x7f080068
+			public const int switch_thumb_material_light = 2131230824;
 			
 			// aapt resource value: 0x7f08004d
 			public const int switch_thumb_normal_material_dark = 2131230797;
@@ -3150,21 +1688,6 @@ namespace Jaktloggen.Droid
 			
 			// aapt resource value: 0x7f090010
 			public const int abc_text_size_title_material_toolbar = 2131296272;
-			
-			// aapt resource value: 0x7f090074
-			public const int calendar_day_headers_paddingbottom = 2131296372;
-			
-			// aapt resource value: 0x7f090076
-			public const int calendar_month_title_bottommargin = 2131296374;
-			
-			// aapt resource value: 0x7f090075
-			public const int calendar_month_topmargin = 2131296373;
-			
-			// aapt resource value: 0x7f090077
-			public const int calendar_text_medium = 2131296375;
-			
-			// aapt resource value: 0x7f090078
-			public const int calendar_text_small = 2131296376;
 			
 			// aapt resource value: 0x7f090009
 			public const int cardview_compat_inset_shadow = 2131296265;
@@ -3552,427 +2075,421 @@ namespace Jaktloggen.Droid
 			public const int abc_textfield_search_material = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int ad16 = 2130837579;
+			public const int add = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int add = 2130837580;
+			public const int common_full_open_on_phone = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int calendar_bg_selector = 2130837581;
+			public const int common_google_signin_btn_icon_dark = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int common_full_open_on_phone = 2130837582;
+			public const int common_google_signin_btn_icon_dark_disabled = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int common_google_signin_btn_icon_dark = 2130837583;
+			public const int common_google_signin_btn_icon_dark_focused = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int common_google_signin_btn_icon_dark_disabled = 2130837584;
+			public const int common_google_signin_btn_icon_dark_normal = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int common_google_signin_btn_icon_dark_focused = 2130837585;
+			public const int common_google_signin_btn_icon_dark_pressed = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int common_google_signin_btn_icon_dark_normal = 2130837586;
+			public const int common_google_signin_btn_icon_light = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int common_google_signin_btn_icon_dark_pressed = 2130837587;
+			public const int common_google_signin_btn_icon_light_disabled = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int common_google_signin_btn_icon_light = 2130837588;
+			public const int common_google_signin_btn_icon_light_focused = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int common_google_signin_btn_icon_light_disabled = 2130837589;
+			public const int common_google_signin_btn_icon_light_normal = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int common_google_signin_btn_icon_light_focused = 2130837590;
+			public const int common_google_signin_btn_icon_light_pressed = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int common_google_signin_btn_icon_light_normal = 2130837591;
+			public const int common_google_signin_btn_text_dark = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int common_google_signin_btn_icon_light_pressed = 2130837592;
+			public const int common_google_signin_btn_text_dark_disabled = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int common_google_signin_btn_text_dark = 2130837593;
+			public const int common_google_signin_btn_text_dark_focused = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int common_google_signin_btn_text_dark_disabled = 2130837594;
+			public const int common_google_signin_btn_text_dark_normal = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int common_google_signin_btn_text_dark_focused = 2130837595;
+			public const int common_google_signin_btn_text_dark_pressed = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int common_google_signin_btn_text_dark_normal = 2130837596;
+			public const int common_google_signin_btn_text_light = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int common_google_signin_btn_text_dark_pressed = 2130837597;
+			public const int common_google_signin_btn_text_light_disabled = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int common_google_signin_btn_text_light = 2130837598;
+			public const int common_google_signin_btn_text_light_focused = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int common_google_signin_btn_text_light_disabled = 2130837599;
+			public const int common_google_signin_btn_text_light_normal = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int common_google_signin_btn_text_light_focused = 2130837600;
+			public const int common_google_signin_btn_text_light_pressed = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int common_google_signin_btn_text_light_normal = 2130837601;
+			public const int common_ic_googleplayservices = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int common_google_signin_btn_text_light_pressed = 2130837602;
+			public const int common_plus_signin_btn_icon_dark = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int common_ic_googleplayservices = 2130837603;
+			public const int common_plus_signin_btn_icon_dark_disabled = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int common_plus_signin_btn_icon_dark = 2130837604;
+			public const int common_plus_signin_btn_icon_dark_focused = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int common_plus_signin_btn_icon_dark_disabled = 2130837605;
+			public const int common_plus_signin_btn_icon_dark_normal = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int common_plus_signin_btn_icon_dark_focused = 2130837606;
+			public const int common_plus_signin_btn_icon_dark_pressed = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int common_plus_signin_btn_icon_dark_normal = 2130837607;
+			public const int common_plus_signin_btn_icon_light = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int common_plus_signin_btn_icon_dark_pressed = 2130837608;
+			public const int common_plus_signin_btn_icon_light_disabled = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int common_plus_signin_btn_icon_light = 2130837609;
+			public const int common_plus_signin_btn_icon_light_focused = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int common_plus_signin_btn_icon_light_disabled = 2130837610;
+			public const int common_plus_signin_btn_icon_light_normal = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int common_plus_signin_btn_icon_light_focused = 2130837611;
+			public const int common_plus_signin_btn_icon_light_pressed = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int common_plus_signin_btn_icon_light_normal = 2130837612;
+			public const int common_plus_signin_btn_text_dark = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int common_plus_signin_btn_icon_light_pressed = 2130837613;
+			public const int common_plus_signin_btn_text_dark_disabled = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int common_plus_signin_btn_text_dark = 2130837614;
+			public const int common_plus_signin_btn_text_dark_focused = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int common_plus_signin_btn_text_dark_disabled = 2130837615;
+			public const int common_plus_signin_btn_text_dark_normal = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int common_plus_signin_btn_text_dark_focused = 2130837616;
+			public const int common_plus_signin_btn_text_dark_pressed = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int common_plus_signin_btn_text_dark_normal = 2130837617;
+			public const int common_plus_signin_btn_text_light = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int common_plus_signin_btn_text_dark_pressed = 2130837618;
+			public const int common_plus_signin_btn_text_light_disabled = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int common_plus_signin_btn_text_light = 2130837619;
+			public const int common_plus_signin_btn_text_light_focused = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int common_plus_signin_btn_text_light_disabled = 2130837620;
+			public const int common_plus_signin_btn_text_light_normal = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int common_plus_signin_btn_text_light_focused = 2130837621;
+			public const int common_plus_signin_btn_text_light_pressed = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int common_plus_signin_btn_text_light_normal = 2130837622;
+			public const int design_fab_background = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int common_plus_signin_btn_text_light_pressed = 2130837623;
+			public const int design_snackbar_background = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int design_fab_background = 2130837624;
+			public const int ic_audiotrack = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int design_snackbar_background = 2130837625;
+			public const int ic_audiotrack_light = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_audiotrack = 2130837626;
+			public const int ic_bluetooth_grey = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_audiotrack_light = 2130837627;
+			public const int ic_bluetooth_white = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_bluetooth_grey = 2130837628;
+			public const int ic_cast_dark = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_bluetooth_white = 2130837629;
+			public const int ic_cast_disabled_light = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_cast_dark = 2130837630;
+			public const int ic_cast_grey = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_cast_disabled_light = 2130837631;
+			public const int ic_cast_light = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_cast_grey = 2130837632;
+			public const int ic_cast_off_light = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_cast_light = 2130837633;
+			public const int ic_cast_on_0_light = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_cast_off_light = 2130837634;
+			public const int ic_cast_on_1_light = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_cast_on_0_light = 2130837635;
+			public const int ic_cast_on_2_light = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_cast_on_1_light = 2130837636;
+			public const int ic_cast_on_light = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_cast_on_2_light = 2130837637;
+			public const int ic_cast_white = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_cast_on_light = 2130837638;
+			public const int ic_close_dark = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_cast_white = 2130837639;
+			public const int ic_close_light = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_close_dark = 2130837640;
+			public const int ic_collapse = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_close_light = 2130837641;
+			public const int ic_collapse_00000 = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_collapse = 2130837642;
+			public const int ic_collapse_00001 = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_collapse_00000 = 2130837643;
+			public const int ic_collapse_00002 = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_collapse_00001 = 2130837644;
+			public const int ic_collapse_00003 = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_collapse_00002 = 2130837645;
+			public const int ic_collapse_00004 = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_collapse_00003 = 2130837646;
+			public const int ic_collapse_00005 = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_collapse_00004 = 2130837647;
+			public const int ic_collapse_00006 = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_collapse_00005 = 2130837648;
+			public const int ic_collapse_00007 = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_collapse_00006 = 2130837649;
+			public const int ic_collapse_00008 = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_collapse_00007 = 2130837650;
+			public const int ic_collapse_00009 = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_collapse_00008 = 2130837651;
+			public const int ic_collapse_00010 = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_collapse_00009 = 2130837652;
+			public const int ic_collapse_00011 = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_collapse_00010 = 2130837653;
+			public const int ic_collapse_00012 = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_collapse_00011 = 2130837654;
+			public const int ic_collapse_00013 = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_collapse_00012 = 2130837655;
+			public const int ic_collapse_00014 = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_collapse_00013 = 2130837656;
+			public const int ic_collapse_00015 = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_collapse_00014 = 2130837657;
+			public const int ic_expand = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_collapse_00015 = 2130837658;
+			public const int ic_expand_00000 = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_expand = 2130837659;
+			public const int ic_expand_00001 = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_expand_00000 = 2130837660;
+			public const int ic_expand_00002 = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_expand_00001 = 2130837661;
+			public const int ic_expand_00003 = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_expand_00002 = 2130837662;
+			public const int ic_expand_00004 = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_expand_00003 = 2130837663;
+			public const int ic_expand_00005 = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_expand_00004 = 2130837664;
+			public const int ic_expand_00006 = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_expand_00005 = 2130837665;
+			public const int ic_expand_00007 = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_expand_00006 = 2130837666;
+			public const int ic_expand_00008 = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_expand_00007 = 2130837667;
+			public const int ic_expand_00009 = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_expand_00008 = 2130837668;
+			public const int ic_expand_00010 = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_expand_00009 = 2130837669;
+			public const int ic_expand_00011 = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_expand_00010 = 2130837670;
+			public const int ic_expand_00012 = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_expand_00011 = 2130837671;
+			public const int ic_expand_00013 = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_expand_00012 = 2130837672;
+			public const int ic_expand_00014 = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_expand_00013 = 2130837673;
+			public const int ic_expand_00015 = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_expand_00014 = 2130837674;
+			public const int ic_media_pause = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_expand_00015 = 2130837675;
+			public const int ic_media_play = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_media_pause = 2130837676;
+			public const int ic_media_route_disabled_mono_dark = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_media_play = 2130837677;
+			public const int ic_media_route_off_mono_dark = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_media_route_disabled_mono_dark = 2130837678;
+			public const int ic_media_route_on_0_mono_dark = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_media_route_off_mono_dark = 2130837679;
+			public const int ic_media_route_on_1_mono_dark = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_media_route_on_0_mono_dark = 2130837680;
+			public const int ic_media_route_on_2_mono_dark = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_media_route_on_1_mono_dark = 2130837681;
+			public const int ic_media_route_on_mono_dark = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_media_route_on_2_mono_dark = 2130837682;
+			public const int ic_pause_dark = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_media_route_on_mono_dark = 2130837683;
+			public const int ic_pause_light = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_pause_dark = 2130837684;
+			public const int ic_play_dark = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_pause_light = 2130837685;
+			public const int ic_play_light = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_play_dark = 2130837686;
+			public const int ic_speaker_dark = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_play_light = 2130837687;
+			public const int ic_speaker_group_dark = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_speaker_dark = 2130837688;
+			public const int ic_speaker_group_light = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_speaker_group_dark = 2130837689;
+			public const int ic_speaker_light = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_speaker_group_light = 2130837690;
+			public const int ic_tv_dark = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_speaker_light = 2130837691;
+			public const int ic_tv_light = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_tv_dark = 2130837692;
+			public const int icon = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_tv_light = 2130837693;
+			public const int linechart = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int icon = 2130837694;
+			public const int more = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int linechart = 2130837695;
+			public const int mr_dialog_material_background_dark = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int more = 2130837696;
+			public const int mr_dialog_material_background_light = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int mr_dialog_material_background_dark = 2130837697;
+			public const int mr_ic_audiotrack_light = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int mr_dialog_material_background_light = 2130837698;
+			public const int mr_ic_cast_dark = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int mr_ic_audiotrack_light = 2130837699;
+			public const int mr_ic_cast_light = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int mr_ic_cast_dark = 2130837700;
+			public const int mr_ic_close_dark = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int mr_ic_cast_light = 2130837701;
+			public const int mr_ic_close_light = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int mr_ic_close_dark = 2130837702;
+			public const int mr_ic_media_route_connecting_mono_dark = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int mr_ic_close_light = 2130837703;
+			public const int mr_ic_media_route_connecting_mono_light = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int mr_ic_media_route_connecting_mono_dark = 2130837704;
+			public const int mr_ic_media_route_mono_dark = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int mr_ic_media_route_connecting_mono_light = 2130837705;
+			public const int mr_ic_media_route_mono_light = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int mr_ic_media_route_mono_dark = 2130837706;
+			public const int mr_ic_pause_dark = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int mr_ic_media_route_mono_light = 2130837707;
+			public const int mr_ic_pause_light = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int mr_ic_pause_dark = 2130837708;
+			public const int mr_ic_play_dark = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int mr_ic_pause_light = 2130837709;
-			
-			// aapt resource value: 0x7f0200ce
-			public const int mr_ic_play_dark = 2130837710;
-			
-			// aapt resource value: 0x7f0200cf
-			public const int mr_ic_play_light = 2130837711;
-			
-			// aapt resource value: 0x7f0200d7
-			public const int notification_template_icon_bg = 2130837719;
-			
-			// aapt resource value: 0x7f0200d0
-			public const int placeholder_art = 2130837712;
-			
-			// aapt resource value: 0x7f0200d1
-			public const int placeholder_dog = 2130837713;
-			
-			// aapt resource value: 0x7f0200d2
-			public const int placeholder_hunt = 2130837714;
-			
-			// aapt resource value: 0x7f0200d3
-			public const int placeholder_hunter = 2130837715;
-			
-			// aapt resource value: 0x7f0200d4
-			public const int placeholder_log = 2130837716;
+			public const int mr_ic_play_light = 2130837709;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int starred = 2130837717;
+			public const int notification_template_icon_bg = 2130837717;
 			
-			// aapt resource value: 0x7f0200d6
-			public const int starred_not = 2130837718;
+			// aapt resource value: 0x7f0200ce
+			public const int placeholder_art = 2130837710;
+			
+			// aapt resource value: 0x7f0200cf
+			public const int placeholder_dog = 2130837711;
+			
+			// aapt resource value: 0x7f0200d0
+			public const int placeholder_hunt = 2130837712;
+			
+			// aapt resource value: 0x7f0200d1
+			public const int placeholder_hunter = 2130837713;
+			
+			// aapt resource value: 0x7f0200d2
+			public const int placeholder_log = 2130837714;
+			
+			// aapt resource value: 0x7f0200d3
+			public const int starred = 2130837715;
+			
+			// aapt resource value: 0x7f0200d4
+			public const int starred_not = 2130837716;
 			
 			static Drawable()
 			{
@@ -3987,8 +2504,8 @@ namespace Jaktloggen.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a009a
-			public const int action0 = 2131361946;
+			// aapt resource value: 0x7f0a0096
+			public const int action0 = 2131361942;
 			
 			// aapt resource value: 0x7f0a0065
 			public const int action_bar = 2131361893;
@@ -4014,8 +2531,8 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f0a0066
 			public const int action_context_bar = 2131361894;
 			
-			// aapt resource value: 0x7f0a009e
-			public const int action_divider = 2131361950;
+			// aapt resource value: 0x7f0a009a
+			public const int action_divider = 2131361946;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -4059,14 +2576,8 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f0a004f
 			public const int buttonPanel = 2131361871;
 			
-			// aapt resource value: 0x7f0a0080
-			public const int calendar_grid = 2131361920;
-			
-			// aapt resource value: 0x7f0a0074
-			public const int calendar_view = 2131361908;
-			
-			// aapt resource value: 0x7f0a009b
-			public const int cancel_action = 2131361947;
+			// aapt resource value: 0x7f0a0097
+			public const int cancel_action = 2131361943;
 			
 			// aapt resource value: 0x7f0a0036
 			public const int center = 2131361846;
@@ -4080,8 +2591,8 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f0a005d
 			public const int checkbox = 2131361885;
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int chronometer = 2131361953;
+			// aapt resource value: 0x7f0a009d
+			public const int chronometer = 2131361949;
 			
 			// aapt resource value: 0x7f0a003e
 			public const int clip_horizontal = 2131361854;
@@ -4110,20 +2621,20 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f0a004b
 			public const int default_activity_button = 2131361867;
 			
-			// aapt resource value: 0x7f0a0078
-			public const int design_bottom_sheet = 2131361912;
-			
-			// aapt resource value: 0x7f0a007f
-			public const int design_menu_item_action_area = 2131361919;
-			
-			// aapt resource value: 0x7f0a007e
-			public const int design_menu_item_action_area_stub = 2131361918;
-			
-			// aapt resource value: 0x7f0a007d
-			public const int design_menu_item_text = 2131361917;
+			// aapt resource value: 0x7f0a0075
+			public const int design_bottom_sheet = 2131361909;
 			
 			// aapt resource value: 0x7f0a007c
-			public const int design_navigation_view = 2131361916;
+			public const int design_menu_item_action_area = 2131361916;
+			
+			// aapt resource value: 0x7f0a007b
+			public const int design_menu_item_action_area_stub = 2131361915;
+			
+			// aapt resource value: 0x7f0a007a
+			public const int design_menu_item_text = 2131361914;
+			
+			// aapt resource value: 0x7f0a0079
+			public const int design_navigation_view = 2131361913;
 			
 			// aapt resource value: 0x7f0a001a
 			public const int disableHome = 2131361818;
@@ -4134,8 +2645,8 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f0a0027
 			public const int end = 2131361831;
 			
-			// aapt resource value: 0x7f0a00a6
-			public const int end_padder = 2131361958;
+			// aapt resource value: 0x7f0a00a2
+			public const int end_padder = 2131361954;
 			
 			// aapt resource value: 0x7f0a002e
 			public const int enterAlways = 2131361838;
@@ -4185,8 +2696,8 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f0a004a
 			public const int image = 2131361866;
 			
-			// aapt resource value: 0x7f0a00a5
-			public const int info = 2131361957;
+			// aapt resource value: 0x7f0a00a1
+			public const int info = 2131361953;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int item_touch_helper_previous_elevation = 2131361792;
@@ -4194,17 +2705,14 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f0a003a
 			public const int left = 2131361850;
 			
-			// aapt resource value: 0x7f0a0076
-			public const int left_arrow = 2131361910;
-			
 			// aapt resource value: 0x7f0a0017
 			public const int light = 2131361815;
 			
-			// aapt resource value: 0x7f0a009f
-			public const int line1 = 2131361951;
+			// aapt resource value: 0x7f0a009b
+			public const int line1 = 2131361947;
 			
-			// aapt resource value: 0x7f0a00a3
-			public const int line3 = 2131361955;
+			// aapt resource value: 0x7f0a009f
+			public const int line3 = 2131361951;
 			
 			// aapt resource value: 0x7f0a0018
 			public const int listMode = 2131361816;
@@ -4212,8 +2720,8 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f0a004c
 			public const int list_item = 2131361868;
 			
-			// aapt resource value: 0x7f0a009d
-			public const int media_actions = 2131361949;
+			// aapt resource value: 0x7f0a0099
+			public const int media_actions = 2131361945;
 			
 			// aapt resource value: 0x7f0a0028
 			public const int middle = 2131361832;
@@ -4221,83 +2729,83 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f0a0042
 			public const int mini = 2131361858;
 			
-			// aapt resource value: 0x7f0a008c
-			public const int mr_art = 2131361932;
+			// aapt resource value: 0x7f0a0088
+			public const int mr_art = 2131361928;
 			
-			// aapt resource value: 0x7f0a0081
-			public const int mr_chooser_list = 2131361921;
+			// aapt resource value: 0x7f0a007d
+			public const int mr_chooser_list = 2131361917;
 			
-			// aapt resource value: 0x7f0a0084
-			public const int mr_chooser_route_desc = 2131361924;
+			// aapt resource value: 0x7f0a0080
+			public const int mr_chooser_route_desc = 2131361920;
 			
-			// aapt resource value: 0x7f0a0082
-			public const int mr_chooser_route_icon = 2131361922;
+			// aapt resource value: 0x7f0a007e
+			public const int mr_chooser_route_icon = 2131361918;
 			
-			// aapt resource value: 0x7f0a0083
-			public const int mr_chooser_route_name = 2131361923;
-			
-			// aapt resource value: 0x7f0a0089
-			public const int mr_close = 2131361929;
-			
-			// aapt resource value: 0x7f0a008f
-			public const int mr_control_divider = 2131361935;
-			
-			// aapt resource value: 0x7f0a0095
-			public const int mr_control_play_pause = 2131361941;
-			
-			// aapt resource value: 0x7f0a0098
-			public const int mr_control_subtitle = 2131361944;
-			
-			// aapt resource value: 0x7f0a0097
-			public const int mr_control_title = 2131361943;
-			
-			// aapt resource value: 0x7f0a0096
-			public const int mr_control_title_container = 2131361942;
-			
-			// aapt resource value: 0x7f0a008a
-			public const int mr_custom_control = 2131361930;
-			
-			// aapt resource value: 0x7f0a008b
-			public const int mr_default_control = 2131361931;
-			
-			// aapt resource value: 0x7f0a0086
-			public const int mr_dialog_area = 2131361926;
+			// aapt resource value: 0x7f0a007f
+			public const int mr_chooser_route_name = 2131361919;
 			
 			// aapt resource value: 0x7f0a0085
-			public const int mr_expandable_area = 2131361925;
+			public const int mr_close = 2131361925;
 			
-			// aapt resource value: 0x7f0a0099
-			public const int mr_group_expand_collapse = 2131361945;
-			
-			// aapt resource value: 0x7f0a008d
-			public const int mr_media_main_control = 2131361933;
-			
-			// aapt resource value: 0x7f0a0088
-			public const int mr_name = 2131361928;
-			
-			// aapt resource value: 0x7f0a008e
-			public const int mr_playback_control = 2131361934;
-			
-			// aapt resource value: 0x7f0a0087
-			public const int mr_title_bar = 2131361927;
-			
-			// aapt resource value: 0x7f0a0090
-			public const int mr_volume_control = 2131361936;
+			// aapt resource value: 0x7f0a008b
+			public const int mr_control_divider = 2131361931;
 			
 			// aapt resource value: 0x7f0a0091
-			public const int mr_volume_group_list = 2131361937;
-			
-			// aapt resource value: 0x7f0a0093
-			public const int mr_volume_item_icon = 2131361939;
+			public const int mr_control_play_pause = 2131361937;
 			
 			// aapt resource value: 0x7f0a0094
-			public const int mr_volume_slider = 2131361940;
+			public const int mr_control_subtitle = 2131361940;
+			
+			// aapt resource value: 0x7f0a0093
+			public const int mr_control_title = 2131361939;
+			
+			// aapt resource value: 0x7f0a0092
+			public const int mr_control_title_container = 2131361938;
+			
+			// aapt resource value: 0x7f0a0086
+			public const int mr_custom_control = 2131361926;
+			
+			// aapt resource value: 0x7f0a0087
+			public const int mr_default_control = 2131361927;
+			
+			// aapt resource value: 0x7f0a0082
+			public const int mr_dialog_area = 2131361922;
+			
+			// aapt resource value: 0x7f0a0081
+			public const int mr_expandable_area = 2131361921;
+			
+			// aapt resource value: 0x7f0a0095
+			public const int mr_group_expand_collapse = 2131361941;
+			
+			// aapt resource value: 0x7f0a0089
+			public const int mr_media_main_control = 2131361929;
+			
+			// aapt resource value: 0x7f0a0084
+			public const int mr_name = 2131361924;
+			
+			// aapt resource value: 0x7f0a008a
+			public const int mr_playback_control = 2131361930;
+			
+			// aapt resource value: 0x7f0a0083
+			public const int mr_title_bar = 2131361923;
+			
+			// aapt resource value: 0x7f0a008c
+			public const int mr_volume_control = 2131361932;
+			
+			// aapt resource value: 0x7f0a008d
+			public const int mr_volume_group_list = 2131361933;
+			
+			// aapt resource value: 0x7f0a008f
+			public const int mr_volume_item_icon = 2131361935;
+			
+			// aapt resource value: 0x7f0a0090
+			public const int mr_volume_slider = 2131361936;
 			
 			// aapt resource value: 0x7f0a0021
 			public const int multiply = 2131361825;
 			
-			// aapt resource value: 0x7f0a007b
-			public const int navigation_header_container = 2131361915;
+			// aapt resource value: 0x7f0a0078
+			public const int navigation_header_container = 2131361912;
 			
 			// aapt resource value: 0x7f0a002c
 			public const int never = 2131361836;
@@ -4328,9 +2836,6 @@ namespace Jaktloggen.Droid
 			
 			// aapt resource value: 0x7f0a003b
 			public const int right = 2131361851;
-			
-			// aapt resource value: 0x7f0a0075
-			public const int right_arrow = 2131361909;
 			
 			// aapt resource value: 0x7f0a000e
 			public const int satellite = 2131361806;
@@ -4398,11 +2903,11 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f0a001e
 			public const int showTitle = 2131361822;
 			
-			// aapt resource value: 0x7f0a007a
-			public const int snackbar_action = 2131361914;
+			// aapt resource value: 0x7f0a0077
+			public const int snackbar_action = 2131361911;
 			
-			// aapt resource value: 0x7f0a0079
-			public const int snackbar_text = 2131361913;
+			// aapt resource value: 0x7f0a0076
+			public const int snackbar_text = 2131361910;
 			
 			// aapt resource value: 0x7f0a0032
 			public const int snap = 2131361842;
@@ -4428,8 +2933,8 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f0a003c
 			public const int start = 2131361852;
 			
-			// aapt resource value: 0x7f0a009c
-			public const int status_bar_latest_event_content = 2131361948;
+			// aapt resource value: 0x7f0a0098
+			public const int status_bar_latest_event_content = 2131361944;
 			
 			// aapt resource value: 0x7f0a0070
 			public const int submit_area = 2131361904;
@@ -4440,17 +2945,17 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f0a000f
 			public const int terrain = 2131361807;
 			
-			// aapt resource value: 0x7f0a00a4
-			public const int text = 2131361956;
+			// aapt resource value: 0x7f0a00a0
+			public const int text = 2131361952;
 			
-			// aapt resource value: 0x7f0a00a2
-			public const int text2 = 2131361954;
+			// aapt resource value: 0x7f0a009e
+			public const int text2 = 2131361950;
 			
 			// aapt resource value: 0x7f0a0058
 			public const int textSpacerNoButtons = 2131361880;
 			
-			// aapt resource value: 0x7f0a00a0
-			public const int time = 2131361952;
+			// aapt resource value: 0x7f0a009c
+			public const int time = 2131361948;
 			
 			// aapt resource value: 0x7f0a004e
 			public const int title = 2131361870;
@@ -4464,8 +2969,8 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f0a0052
 			public const int topPanel = 2131361874;
 			
-			// aapt resource value: 0x7f0a0077
-			public const int touch_outside = 2131361911;
+			// aapt resource value: 0x7f0a0074
+			public const int touch_outside = 2131361908;
 			
 			// aapt resource value: 0x7f0a0009
 			public const int up = 2131361801;
@@ -4476,8 +2981,8 @@ namespace Jaktloggen.Droid
 			// aapt resource value: 0x7f0a000a
 			public const int view_offset_helper = 2131361802;
 			
-			// aapt resource value: 0x7f0a0092
-			public const int volume_item_container = 2131361938;
+			// aapt resource value: 0x7f0a008e
+			public const int volume_item_container = 2131361934;
 			
 			// aapt resource value: 0x7f0a0014
 			public const int wide = 2131361812;
@@ -4642,109 +3147,94 @@ namespace Jaktloggen.Droid
 			public const int abc_select_dialog_material = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int calendar_pager_layout = 2130903065;
+			public const int design_bottom_sheet_dialog = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int calendar_picker = 2130903066;
+			public const int design_layout_snackbar = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int design_bottom_sheet_dialog = 2130903067;
+			public const int design_layout_snackbar_include = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int design_layout_snackbar = 2130903068;
+			public const int design_layout_tab_icon = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int design_layout_snackbar_include = 2130903069;
+			public const int design_layout_tab_text = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int design_layout_tab_icon = 2130903070;
+			public const int design_menu_item_action_area = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int design_layout_tab_text = 2130903071;
+			public const int design_navigation_item = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int design_menu_item_action_area = 2130903072;
+			public const int design_navigation_item_header = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int design_navigation_item = 2130903073;
+			public const int design_navigation_item_separator = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int design_navigation_item_header = 2130903074;
+			public const int design_navigation_item_subheader = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int design_navigation_item_separator = 2130903075;
+			public const int design_navigation_menu = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int design_navigation_item_subheader = 2130903076;
+			public const int design_navigation_menu_item = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int design_navigation_menu = 2130903077;
+			public const int mr_chooser_dialog = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int design_navigation_menu_item = 2130903078;
+			public const int mr_chooser_list_item = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int dialog = 2130903079;
+			public const int mr_controller_material_dialog_b = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int month = 2130903080;
+			public const int mr_controller_volume_item = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int mr_chooser_dialog = 2130903081;
+			public const int mr_playback_control = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int mr_chooser_list_item = 2130903082;
+			public const int mr_volume_control = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int mr_controller_material_dialog_b = 2130903083;
+			public const int notification_media_action = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int mr_controller_volume_item = 2130903084;
+			public const int notification_media_cancel_action = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int mr_playback_control = 2130903085;
+			public const int notification_template_big_media = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int mr_volume_control = 2130903086;
+			public const int notification_template_big_media_narrow = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int notification_media_action = 2130903087;
+			public const int notification_template_lines = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int notification_media_cancel_action = 2130903088;
+			public const int notification_template_media = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int notification_template_big_media = 2130903089;
+			public const int notification_template_part_chronometer = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_template_big_media_narrow = 2130903090;
+			public const int notification_template_part_time = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_template_lines = 2130903091;
+			public const int select_dialog_item_material = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_template_media = 2130903092;
+			public const int select_dialog_multichoice_material = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_template_part_chronometer = 2130903093;
+			public const int select_dialog_singlechoice_material = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_part_time = 2130903094;
-			
-			// aapt resource value: 0x7f030037
-			public const int select_dialog_item_material = 2130903095;
-			
-			// aapt resource value: 0x7f030038
-			public const int select_dialog_multichoice_material = 2130903096;
-			
-			// aapt resource value: 0x7f030039
-			public const int select_dialog_singlechoice_material = 2130903097;
-			
-			// aapt resource value: 0x7f03003a
-			public const int support_simple_spinner_dropdown_item = 2130903098;
-			
-			// aapt resource value: 0x7f03003b
-			public const int week = 2130903099;
+			public const int support_simple_spinner_dropdown_item = 2130903094;
 			
 			static Layout()
 			{
@@ -4758,12 +3248,6 @@ namespace Jaktloggen.Droid
 		
 		public partial class String
 		{
-			
-			// aapt resource value: 0x7f060046
-			public const int ApplicationName = 2131099718;
-			
-			// aapt resource value: 0x7f060045
-			public const int Hello = 2131099717;
 			
 			// aapt resource value: 0x7f06002e
 			public const int abc_action_bar_home_description = 2131099694;
@@ -4923,21 +3407,6 @@ namespace Jaktloggen.Droid
 			
 			// aapt resource value: 0x7f06001e
 			public const int common_signin_button_text_long = 2131099678;
-			
-			// aapt resource value: 0x7f060048
-			public const int day_name_format = 2131099720;
-			
-			// aapt resource value: 0x7f06004b
-			public const int full_date_format = 2131099723;
-			
-			// aapt resource value: 0x7f060049
-			public const int invalid_date = 2131099721;
-			
-			// aapt resource value: 0x7f060047
-			public const int library_name = 2131099719;
-			
-			// aapt resource value: 0x7f06004a
-			public const int month_name_format = 2131099722;
 			
 			// aapt resource value: 0x7f06001f
 			public const int mr_button_content_description = 2131099679;
@@ -5446,18 +3915,6 @@ namespace Jaktloggen.Droid
 			
 			// aapt resource value: 0x7f0b015b
 			public const int Base_Widget_Design_TabLayout = 2131427675;
-			
-			// aapt resource value: 0x7f0b0173
-			public const int CalendarCell = 2131427699;
-			
-			// aapt resource value: 0x7f0b0175
-			public const int CalendarCell_CalendarDate = 2131427701;
-			
-			// aapt resource value: 0x7f0b0174
-			public const int CalendarCell_DayHeader = 2131427700;
-			
-			// aapt resource value: 0x7f0b0172
-			public const int CalendarTitle = 2131427698;
 			
 			// aapt resource value: 0x7f0b0017
 			public const int CardView = 2131427351;

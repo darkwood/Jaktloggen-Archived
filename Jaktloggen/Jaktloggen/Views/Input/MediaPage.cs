@@ -1,16 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-using ImageCircle.Forms.Plugin.Abstractions;
 
 using Jaktloggen.Helpers;
-using Jaktloggen.Views.Extended;
 
 using Xamarin.Forms;
-
-using XLabs.Forms.Behaviors;
 
 namespace Jaktloggen.Views.Input
 {

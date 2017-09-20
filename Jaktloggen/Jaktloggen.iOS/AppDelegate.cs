@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Foundation;
 
-using Foundation;
-using ImageCircle.Forms.Plugin.iOS;
 using UIKit;
 using Xamarin;
-using XLabs.Forms;
-using XLabs.Ioc;
-using XLabs.Platform.Device;
-using XLabs.Platform.Services.Geolocation;
 
 namespace Jaktloggen.iOS
 {
@@ -17,7 +9,7 @@ namespace Jaktloggen.iOS
     // User Interface of the application, as well as listening (and optionally responding) to 
     // application events from iOS.
     [Register("AppDelegate")]
-    public partial class AppDelegate : XFormsApplicationDelegate
+    public partial class AppDelegate : Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
     {
         //
         // This method is invoked when the application has loaded and is ready to run. In this 
@@ -29,19 +21,8 @@ namespace Jaktloggen.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-
-            // New Xlabs
-            var container = new SimpleContainer();
-            container.Register<IDevice>(t => AppleDevice.CurrentDevice);
-            container.Register<IGeolocator, Geolocator>();
-            Resolver.SetResolver(container.GetResolver()); // Resolving the services
-            // End new Xlabs
-
             FormsMaps.Init();
-            ImageCircleRenderer.Init();
-
             LoadApplication(new App());
-
 
             return base.FinishedLaunching(app, options);
         }

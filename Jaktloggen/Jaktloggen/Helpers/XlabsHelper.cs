@@ -1,17 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading;
 using System.Threading.Tasks;
-using Xamarin.Forms;
+
 using Xamarin.Forms.Maps;
-using XLabs.Ioc;
-using XLabs.Platform.Device;
-using XLabs.Platform.Services.Geolocation;
-using XLabs.Platform.Services.Media;
-using Position = XLabs.Platform.Services.Geolocation.Position;
 
 namespace Jaktloggen.Helpers
 {
@@ -19,42 +11,44 @@ namespace Jaktloggen.Helpers
     {
         public static async Task<MediaFile> SelectPicture()
         {
-            var device = Resolver.Resolve<IDevice>();
-            var oMediaPicker = device.MediaPicker;
-            //ImageSource imageSource = null;
-            MediaFile mediaFile = null;
-            try
-            {
-                mediaFile = await oMediaPicker.SelectPhotoAsync(new CameraMediaStorageOptions
-                {
-                    DefaultCamera = CameraDevice.Front,
-                    MaxPixelDimension = 400
-                });
-                //imageSource = ImageSource.FromStream(() => mediaFile.Source);
-                //return imageSource;
-            }
-            catch (Exception ex)
-            {
+            throw new NotImplementedException();
+            //var device = Resolver.Resolve<IDevice>();
+            //var oMediaPicker = device.MediaPicker;
+            ////ImageSource imageSource = null;
+            //MediaFile mediaFile = null;
+            //try
+            //{
+            //    mediaFile = await oMediaPicker.SelectPhotoAsync(new CameraMediaStorageOptions
+            //    {
+            //        DefaultCamera = CameraDevice.Front,
+            //        MaxPixelDimension = 400
+            //    });
+            //    //imageSource = ImageSource.FromStream(() => mediaFile.Source);
+            //    //return imageSource;
+            //}
+            //catch (Exception ex)
+            //{
 
-            }
-            return mediaFile;
+            //}
+            //return mediaFile;
         }
 
         public static async Task<Position> GetPosition(double desiredAccuracy = 50)
         {
-            var geolocator = Resolver.Resolve<IGeolocator>();
+            throw new NotImplementedException();
+            //var geolocator = Resolver.Resolve<IGeolocator>();
 
-            Position position = null;
-            if (geolocator.IsGeolocationEnabled)
-            {
-                geolocator.DesiredAccuracy = desiredAccuracy;
-                if (!geolocator.IsListening)
-                    geolocator.StartListening(1000, 200);
+            //Position position = null;
+            //if (geolocator.IsGeolocationEnabled)
+            //{
+            //    geolocator.DesiredAccuracy = desiredAccuracy;
+            //    if (!geolocator.IsListening)
+            //        geolocator.StartListening(1000, 200);
 
-                position = await geolocator.GetPositionAsync(4000);
-                geolocator.StopListening();
-            }
-            return position;
+            //    position = await geolocator.GetPositionAsync(4000);
+            //    geolocator.StopListening();
+            //}
+            //return position;
         }
 
 
@@ -85,5 +79,10 @@ namespace Jaktloggen.Helpers
             }
             return sted;
         }
+    }
+
+    public class MediaFile
+    {
+        public string Path { get; set; }
     }
 }
