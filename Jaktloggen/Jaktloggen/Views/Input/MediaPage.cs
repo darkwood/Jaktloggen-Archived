@@ -1,6 +1,7 @@
 ﻿using System;
 
 using Jaktloggen.Helpers;
+using Jaktloggen.Views.Extended;
 
 using Xamarin.Forms;
 

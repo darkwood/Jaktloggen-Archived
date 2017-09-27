@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace Jaktloggen.Views
+namespace Jaktloggen.Views.Extended
 {
     public class CircleImage : Image
     {

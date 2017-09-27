@@ -4,6 +4,7 @@ using System.Linq;
 using Jaktloggen.Models;
 using Jaktloggen.ViewModels;
 using Jaktloggen.Views.Cells;
+using Jaktloggen.Views.Extended;
 
 using Xamarin.Forms;
 

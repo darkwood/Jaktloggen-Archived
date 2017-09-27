@@ -1,5 +1,7 @@
 ﻿using System;
 
+using Jaktloggen.Views.Extended;
+
 using Xamarin.Forms;
 
 namespace Jaktloggen.Views.Cells
