@@ -35,7 +35,7 @@ namespace Jaktloggen.Views.Input
                     ImageView.Source = ImageSource.FromStream(() => new MemoryStream(bytes));
                     var filePath = LocalFileStorage.SaveImage(FileName, bytes);
                     ImagePath = filePath;
-                    SaveEntryAndExit();
+                    
                 });
             });
         }
