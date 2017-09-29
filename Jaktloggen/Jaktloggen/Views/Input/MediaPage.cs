@@ -1,6 +1,8 @@
 ﻿using System;
+using System.IO;
 
 using Jaktloggen.Helpers;
+using Jaktloggen.IO;
 using Jaktloggen.Views.Extended;
 
 using Xamarin.Forms;
@@ -11,9 +13,11 @@ namespace Jaktloggen.Views.Input
     {
         public Action<MediaPage> Callback;
 
+        public string FileName { get; set; }
         public string ImageSource { get; set; }
-        public MediaPage(string imageSource, Action<MediaPage> callback)
+        public MediaPage(string filename, string imageSource, Action<MediaPage> callback)
         {
+            FileName = filename;
             ImageSource = imageSource;
             Callback = callback;
             ToolbarItems.Add(new ToolbarItem("Ferdig", null, SaveEntryAndExit));
@@ -30,7 +34,11 @@ namespace Jaktloggen.Views.Input
                     BorderColor = Color.White,
                     Aspect = Aspect.AspectFill
                 };
-            imgView.Source = Xamarin.Forms.ImageSource.FromFile(ImageSource);
+
+            if (!string.IsNullOrWhiteSpace(ImageSource))
+            {
+                imgView.Source = Xamarin.Forms.ImageSource.FromFile(ImageSource);
+            }
 
             var toolbar = new Grid();
 
@@ -57,9 +65,27 @@ namespace Jaktloggen.Views.Input
 
         private async void BtnLibraryOnClicked(object sender, EventArgs eventArgs)
         {
-            var mediaFile = await XLabsHelper.SelectPicture();
-            ImageSource = mediaFile.Path;
+            var stream = await XLabsHelper.SelectPicture();
+
+            var byteStream = ReadFully(stream);
+
+            var filePath = LocalFileStorage.SaveImage(FileName, byteStream);
+            ImageSource = filePath;
             Init();
+        }
+
+        public static byte[] ReadFully(Stream input)
+        {
+            byte[] buffer = new byte[16 * 1024];
+            using (MemoryStream ms = new MemoryStream())
+            {
+                int read;
+                while ((read = input.Read(buffer, 0, buffer.Length)) > 0)
+                {
+                    ms.Write(buffer, 0, read);
+                }
+                return ms.ToArray();
+            }
         }
 
         protected override void OnAppearing()

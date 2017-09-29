@@ -99,5 +99,10 @@ namespace Jaktloggen.IO
                 DependencyService.Get<IFileUtility>().Save(file, reader.ReadToEnd());
             }
         }
+
+        public static string SaveImage(string filename, byte[] imageData)
+        {
+            return DependencyService.Get<IFileUtility>().SaveImage(filename, imageData);
+        }
     }
 }

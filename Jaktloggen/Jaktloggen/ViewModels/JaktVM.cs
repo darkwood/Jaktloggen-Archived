@@ -67,7 +67,7 @@ namespace Jaktloggen.ViewModels
             var mediaFile = await XLabsHelper.SelectPicture();
             if (mediaFile != null)
             {
-                CurrentJakt.ImagePath = mediaFile.Path;
+                //CurrentJakt.ImagePath = mediaFile;
                 Save();
             }
         }

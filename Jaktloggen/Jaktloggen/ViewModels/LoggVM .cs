@@ -62,14 +62,5 @@ namespace Jaktloggen.ViewModels
         {
             App.Database.DeleteLog(CurrentLogg);
         }
-        public async Task SelectPicture()
-        {
-            var mediaFile = await XLabsHelper.SelectPicture();
-            if (mediaFile != null)
-            {
-                CurrentLogg.ImagePath = mediaFile.Path;
-                Save();
-            }
-        }
     }
 }

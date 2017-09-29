@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
+
 using Android.OS;
 using Jaktloggen.Droid.IO;
 using Jaktloggen.Interfaces;
@@ -18,7 +20,14 @@ namespace Jaktloggen.Droid.IO
             string filePath = GetFilePath(filename);
             File.WriteAllText(filePath, text);
         }
-        
+
+        public string SaveImage(string filename, byte[] imageData)
+        {
+            string filePath = GetFilePath(filename);
+            File.WriteAllBytes(filePath, imageData);
+            return filePath;
+        }
+
         public string Load(string filename)
         {
             string filePath = GetFilePath(filename);

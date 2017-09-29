@@ -17,7 +17,14 @@ namespace Jaktloggen.iOS.IO
             string filePath = GetFilePath(filename);
             File.WriteAllText(filePath, text);
         }
-        
+
+        public string SaveImage(string filename, byte[] imageData)
+        {
+            string filePath = GetFilePath(filename);
+            File.WriteAllBytes(filePath, imageData);
+            return filePath;
+        }
+
         public string Load(string filename)
         {
             string filePath = GetFilePath(filename);

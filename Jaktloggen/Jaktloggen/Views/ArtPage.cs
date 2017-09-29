@@ -46,19 +46,12 @@ namespace Jaktloggen.Views
         }
         private async void ImageCell_OnTapped(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(VM.CurrentArt.ImagePath))
+            await Navigation.PushAsync(new MediaPage($"art_{VM.CurrentArt.ID}.jpg", VM.CurrentArt.ImagePath, delegate (MediaPage mediaPage)
             {
-                await VM.SelectPicture();
-            }
-            else
-            {
-                await Navigation.PushAsync(new MediaPage(VM.CurrentArt.ImagePath, delegate (MediaPage mediaPage)
-                {
-                    VM.CurrentArt.ImagePath = mediaPage.ImageSource;
-                    VM.Save();
-                    Init();
-                }), true);
-            }
+                VM.CurrentArt.ImagePath = mediaPage.ImageSource;
+                VM.Save();
+                Init();
+            }), true);
         }
         
         private async void ButtonDelete_OnClicked(object sender, EventArgs e)

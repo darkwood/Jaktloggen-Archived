@@ -38,14 +38,5 @@ namespace Jaktloggen.ViewModels
         {
             App.Database.DeleteArt(CurrentArt);
         }
-
-        public async Task SelectPicture()
-        {
-            var mediaFile = await XLabsHelper.SelectPicture();
-            if(mediaFile != null) { 
-                CurrentArt.ImagePath = mediaFile.Path;
-                Save();
-            }
-        }
     }
 }

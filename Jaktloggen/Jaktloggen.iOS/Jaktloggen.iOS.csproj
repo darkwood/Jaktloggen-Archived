@@ -91,6 +91,7 @@
     <Compile Include="Extended\ExtendedMapRenderer.cs" />
     <Compile Include="Extended\JEntryRenderer.cs" />
     <Compile Include="IO\IosFile.cs" />
+    <Compile Include="IO\PicturePickerImplementation.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="app.config" />

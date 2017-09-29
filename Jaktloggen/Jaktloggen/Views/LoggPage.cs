@@ -237,8 +237,12 @@ namespace Jaktloggen.Views
         }
         private async void ImageCell_OnTapped(object sender, EventArgs e)
         {
-            await VM.SelectPicture();
-            Init();
+            await Navigation.PushAsync(new MediaPage($"jakt_{VM.CurrentLogg.ID}.jpg", VM.CurrentLogg.ImagePath, delegate (MediaPage mediaPage)
+            {
+                VM.CurrentLogg.ImagePath = mediaPage.ImageSource;
+                VM.Save();
+                Init();
+            }), true);
         }
     }
 }
