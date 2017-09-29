@@ -7,6 +7,8 @@ using Jaktloggen.Models;
 using Jaktloggen.ViewModels;
 using Jaktloggen.Views.Base;
 using Jaktloggen.Views.Cells;
+using Jaktloggen.Views.Input;
+
 using Xamarin.Forms;
 
 namespace Jaktloggen.Views
@@ -58,8 +60,12 @@ namespace Jaktloggen.Views
         }
         private async void ImageCell_OnTapped(object sender, EventArgs e)
         {
-            await VM.SelectPicture();
-            Init();
+            await Navigation.PushAsync(new MediaPage($"dog_{VM.CurrentJeger.ID}.jpg", VM.CurrentJeger.ImagePath, delegate (MediaPage mediaPage)
+            {
+                VM.CurrentJeger.ImagePath = mediaPage.ImagePath;
+                VM.Save();
+                Init();
+            }), true);
         }
         private async void ButtonDelete_OnClicked(object sender, EventArgs e)
         {

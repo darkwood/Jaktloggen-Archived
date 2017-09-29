@@ -115,7 +115,7 @@ namespace Jaktloggen.Views
         {
             await Navigation.PushAsync(new MediaPage($"jakt_{VM.CurrentJakt.ID}.jpg", VM.CurrentJakt.ImagePath, delegate (MediaPage mediaPage)
             {
-                VM.CurrentJakt.ImagePath = mediaPage.ImageSource;
+                VM.CurrentJakt.ImagePath = mediaPage.ImagePath;
                 VM.Save();
                 Init();
             }), true);

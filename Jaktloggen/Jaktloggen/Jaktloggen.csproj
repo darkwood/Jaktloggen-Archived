@@ -43,7 +43,7 @@
     <Compile Include="Helpers\XlabsHelper.cs" />
     <Compile Include="Interfaces\IDataRepository.cs" />
     <Compile Include="Interfaces\IFileUtility.cs" />
-    <Compile Include="Interfaces\IPicturePicker.cs" />
+    <Compile Include="Interfaces\ICamera.cs" />
     <Compile Include="IO\LocalFileStorage.cs" />
     <Compile Include="MainPage.cs" />
     <Compile Include="Models\EntityBase.cs" />

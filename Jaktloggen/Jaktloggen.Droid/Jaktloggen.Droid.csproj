@@ -184,7 +184,7 @@
   <ItemGroup>
     <Compile Include="Extended\ExtendedMapRenderer.cs" />
     <Compile Include="Extended\JEntryRenderer.cs" />
-    <Compile Include="Extended\PicturePickerImplementation.cs" />
+    <Compile Include="IO\CameraDroid.cs" />
     <Compile Include="ImprovedTextCellRenderer.cs" />
     <Compile Include="IO\DroidFile.cs" />
     <Compile Include="MainActivity.cs" />

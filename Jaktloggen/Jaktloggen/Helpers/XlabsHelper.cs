@@ -14,17 +14,6 @@ namespace Jaktloggen.Helpers
 {
     public static class XLabsHelper
     {
-        public static async Task<Stream> SelectPicture()
-        {
-            Stream stream = await DependencyService.Get<IPicturePicker>().GetImageStreamAsync();
-
-            if (stream != null)
-            {
-                return stream;
-            }
-            return null;
-        }
-
         public static async Task<Position> GetPosition(double desiredAccuracy = 50)
         {
             return await Task.FromResult(new Position(0,0));

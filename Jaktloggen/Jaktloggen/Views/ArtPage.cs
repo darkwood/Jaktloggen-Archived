@@ -48,7 +48,7 @@ namespace Jaktloggen.Views
         {
             await Navigation.PushAsync(new MediaPage($"art_{VM.CurrentArt.ID}.jpg", VM.CurrentArt.ImagePath, delegate (MediaPage mediaPage)
             {
-                VM.CurrentArt.ImagePath = mediaPage.ImageSource;
+                VM.CurrentArt.ImagePath = mediaPage.ImagePath;
                 VM.Save();
                 Init();
             }), true);

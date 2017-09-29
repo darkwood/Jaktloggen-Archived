@@ -40,14 +40,5 @@ namespace Jaktloggen.ViewModels
         {
             App.Database.DeleteDog(CurrentDog);
         }
-        public async Task SelectPicture()
-        {
-            var mediaFile = await XLabsHelper.SelectPicture();
-            if (mediaFile != null)
-            {
-                //CurrentDog.ImagePath = mediaFile.Path;
-                Save();
-            }
-        }
     }
 }

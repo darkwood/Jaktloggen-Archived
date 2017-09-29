@@ -39,15 +39,5 @@ namespace Jaktloggen.ViewModels
         {
             App.Database.DeleteJeger(CurrentJeger);
         }
-        
-        public async Task SelectPicture()
-        {
-            var mediaFile = await XLabsHelper.SelectPicture();
-            if (mediaFile != null)
-            {
-                //CurrentJeger.ImagePath = mediaFile.Path;
-                Save();
-            }
-        }
     }
 }
